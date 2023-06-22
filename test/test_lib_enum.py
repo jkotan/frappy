@@ -25,7 +25,7 @@
 # no fixtures needed
 import pytest
 
-from frappy.lib.enum import Enum, EnumMember
+from secop.lib.enum import Enum, EnumMember
 
 
 def test_EnumMember():
@@ -49,7 +49,7 @@ def test_EnumMember():
         a += 2
 
     # this shall work
-    assert 2 == (a + 1)
+    assert 2 == (a + 1)  # pylint: disable=C0122
     assert (a - 1) == 0
     assert a
     assert a + a
@@ -64,7 +64,6 @@ def test_EnumMember():
     assert a != 3
     assert a == 1
 
-
 def test_Enum():
     e1 = Enum('e1')
     e2 = Enum('e2', e1, a=1, b=3)
@@ -76,19 +75,3 @@ def test_Enum():
     assert e2.b > e3.a
     assert e3.c >= e2.a
     assert e3.b <= e2.b
-    assert Enum({'self': 0, 'other': 1})('self') == 0
-
-
-def test_Enum_bool():
-    e = Enum('OffOn', off=0, on=1)
-    assert bool(e(0)) is False
-    assert bool(e(1)) is True
-
-
-def test_Enum_duplicate():
-    e = Enum('x', a=1, b=2)
-    Enum(e, b=2, c=3)  # matching duplicate
-    with pytest.raises(TypeError):
-        Enum(e, b=3, c=4)  # duplicate name with value mismatch
-    with pytest.raises(TypeError):
-        Enum(e, c=1)  # duplicate value with name mismatch

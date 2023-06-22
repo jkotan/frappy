@@ -25,10 +25,10 @@
 # no fixtures needed
 import pytest
 
-from frappy.datatypes import BoolType, FloatRange, IntRange
-from frappy.errors import ProgrammingError
-from frappy.modules import HasAccessibles
-from frappy.params import Command, Parameter
+from secop.datatypes import BoolType, FloatRange, IntRange
+from secop.errors import ProgrammingError
+from secop.modules import HasAccessibles
+from secop.params import Command, Parameter
 
 
 def test_Command():
@@ -93,37 +93,13 @@ def test_Override():
     assert id(Mod.p3) == id(Base.p3)
     assert repr(Mod.p2) == repr(Base.p2)  # must be a clone
     assert repr(Mod.p3) == repr(Base.p3)  # must be a clone
-    assert Mod.p1.default is True
+    assert Mod.p1.default == True
     # manipulating default makes Base.p1 and Mod.p1 match
     Mod.p1.default = False
     assert repr(Mod.p1) == repr(Base.p1)
-
-    for cls in locals().values():
-        if hasattr(cls, 'accessibles'):
-            for p in cls.accessibles.values():
-                assert isinstance(p.ownProperties, dict)
-                assert p.copy().ownProperties == {}
 
 
 def test_Export():
     class Mod(HasAccessibles):
         param = Parameter('description1', datatype=BoolType, default=False)
     assert Mod.param.export == '_param'
-
-
-@pytest.mark.parametrize('arg, value', [
-    ('always', 0),
-    (0, 0),
-    ('never', 999999999),
-    (999999999, 999999999),
-    (1, 1),
-])
-def test_update_unchanged_ok(arg, value):
-    par = Parameter('', datatype=FloatRange(), default=0, update_unchanged=arg)
-    assert par.update_unchanged == value
-
-
-@pytest.mark.parametrize('arg', ['alws', '', -2, -0.1, None])
-def test_update_unchanged_fail(arg):
-    with pytest.raises(ProgrammingError):
-        Parameter('', datatype=FloatRange(), default=0, update_unchanged=arg)

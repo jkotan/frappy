@@ -1,0 +1,14 @@
+16:24:26,563 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/sim_uniax.cfg ...
+16:24:27,285 : INFO    : secop_test_log.x: registering module 'drv'
+16:24:27,285 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop.properties.SimBase_drv object at 0x106d56610> as drv (export=True)
+16:24:27,285 : DEBUG   : secop_test_log.x.drv: empty SimBase_drv.earlyInit()
+16:24:27,285 : INFO    : secop_test_log.x: registering module 'force'
+16:24:27,285 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.simdpm.DPM3 object at 0x106aa7c90> as force (export=True)
+16:24:27,286 : DEBUG   : secop_test_log.x.force: empty DPM3.earlyInit()
+16:24:27,286 : INFO    : secop_test_log.x: registering module 'res'
+16:24:27,286 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop.properties.SimBase_res object at 0x1070a1a90> as res (export=True)
+16:24:27,286 : DEBUG   : secop_test_log.x.res: empty SimBase_res.earlyInit()
+16:24:27,286 : INFO    : secop_test_log.x: registering module 'T'
+16:24:27,287 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.softcal.Sensor object at 0x1070a1d50> as T (export=True)
+16:24:27,287 : DEBUG   : secop_test_log.x.T: empty Sensor.earlyInit()
+16:24:27,287 : DEBUG   : secop_test_log.x.force: empty DPM3.initModule()

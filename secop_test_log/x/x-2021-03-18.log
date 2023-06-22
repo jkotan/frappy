@@ -1,0 +1,858 @@
+10:57:13,904 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+10:57:13,939 : INFO    : secop_test_log.x: registering module 'tt'
+10:57:13,939 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Temp object at 0x1048e2810> as tt (export=True)
+10:57:13,939 : DEBUG   : secop_test_log.x.tt: empty Temp.earlyInit()
+10:57:13,939 : INFO    : secop_test_log.x: registering module 'mf'
+10:57:13,939 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Field object at 0x10493ab10> as mf (export=True)
+10:57:13,939 : DEBUG   : secop_test_log.x.mf: empty Field.earlyInit()
+10:57:13,940 : INFO    : secop_test_log.x: registering module 'pos'
+10:57:13,940 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Position object at 0x104949150> as pos (export=True)
+10:57:13,940 : DEBUG   : secop_test_log.x.pos: empty Position.earlyInit()
+10:57:13,940 : INFO    : secop_test_log.x: registering module 'lev'
+10:57:13,940 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Level object at 0x104949650> as lev (export=True)
+10:57:13,940 : DEBUG   : secop_test_log.x.lev: empty Level.earlyInit()
+10:57:13,940 : INFO    : secop_test_log.x: registering module 'chamber'
+10:57:13,940 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Chamber object at 0x104387d10> as chamber (export=True)
+10:57:13,940 : DEBUG   : secop_test_log.x.chamber: empty Chamber.earlyInit()
+10:57:13,940 : INFO    : secop_test_log.x: registering module 'r1'
+10:57:13,940 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x104949d50> as r1 (export=True)
+10:57:13,941 : DEBUG   : secop_test_log.x.r1: empty BridgeChannel.earlyInit()
+10:57:13,941 : INFO    : secop_test_log.x: registering module 'r2'
+10:57:13,941 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x104949990> as r2 (export=True)
+10:57:13,941 : DEBUG   : secop_test_log.x.r2: empty BridgeChannel.earlyInit()
+10:57:13,941 : INFO    : secop_test_log.x: registering module 'r3'
+10:57:13,941 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x1048c5d10> as r3 (export=True)
+10:57:13,941 : DEBUG   : secop_test_log.x.r3: empty BridgeChannel.earlyInit()
+10:57:13,941 : INFO    : secop_test_log.x: registering module 'r4'
+10:57:13,941 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x104954390> as r4 (export=True)
+10:57:13,941 : DEBUG   : secop_test_log.x.r4: empty BridgeChannel.earlyInit()
+10:57:13,942 : INFO    : secop_test_log.x: registering module 'i1'
+10:57:13,942 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x104954b90> as i1 (export=True)
+10:57:13,942 : DEBUG   : secop_test_log.x.i1: empty Channel.earlyInit()
+10:57:13,942 : INFO    : secop_test_log.x: registering module 'i2'
+10:57:13,942 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x104954410> as i2 (export=True)
+10:57:13,942 : DEBUG   : secop_test_log.x.i2: empty Channel.earlyInit()
+10:57:13,942 : INFO    : secop_test_log.x: registering module 'i3'
+10:57:13,942 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x1049643d0> as i3 (export=True)
+10:57:13,942 : DEBUG   : secop_test_log.x.i3: empty Channel.earlyInit()
+10:57:13,943 : INFO    : secop_test_log.x: registering module 'i4'
+10:57:13,943 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x104964790> as i4 (export=True)
+10:57:13,943 : DEBUG   : secop_test_log.x.i4: empty Channel.earlyInit()
+10:57:13,943 : INFO    : secop_test_log.x: registering module 'v1'
+10:57:13,943 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x104964b10> as v1 (export=True)
+10:57:13,943 : DEBUG   : secop_test_log.x.v1: empty DriverChannel.earlyInit()
+10:57:13,943 : INFO    : secop_test_log.x: registering module 'v2'
+10:57:13,943 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x10496e090> as v2 (export=True)
+10:57:13,943 : DEBUG   : secop_test_log.x.v2: empty DriverChannel.earlyInit()
+10:57:13,943 : INFO    : secop_test_log.x: registering module 'tv'
+10:57:13,943 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x10493aa90> as tv (export=True)
+10:57:13,943 : DEBUG   : secop_test_log.x.tv: empty UserChannel.earlyInit()
+10:57:13,944 : INFO    : secop_test_log.x: registering module 'ts'
+10:57:13,944 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x10496e050> as ts (export=True)
+10:57:13,944 : DEBUG   : secop_test_log.x.ts: empty UserChannel.earlyInit()
+10:57:13,944 : INFO    : secop_test_log.x: registering module 'ppms'
+10:57:13,944 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Main object at 0x10496ed90> as ppms (export=True)
+10:57:13,944 : DEBUG   : secop_test_log.x.ppms: empty Main.initModule()
+10:57:37,687 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('tt')
+10:57:37,688 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module tt -> OrderedDict([('value', {'datainfo': {'unit': 'K', 'type': 'double'}, 'description': 'current value of the module', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'BUSY': 300, 'RAMPING': 370, 'STABILIZING': 380, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('target', {'datainfo': {'max': 402.0, 'min': 1.7, 'unit': 'K', 'type': 'double'}, 'description': 'target value of the module', 'readonly': False}), ('stop', {'datainfo': {'type': 'command'}, 'description': 'cease driving, go to IDLE state'}), ('setpoint', {'datainfo': {'max': 402.0, 'min': 1.7, 'unit': 'K', 'type': 'double'}, 'description': 'intermediate set point', 'readonly': True}), ('ramp', {'datainfo': {'max': 20.0, 'min': 0.0, 'unit': 'K/min', 'type': 'double'}, 'description': 'ramping speed', 'readonly': False}), ('_workingramp', {'datainfo': {'max': 20.0, 'min': 0.0, 'unit': 'K/min', 'type': 'double'}, 'description': 'intermediate ramp value', 'readonly': True}), ('_approachmode', {'datainfo': {'type': 'enum', 'members': {'fast_settle': 0, 'no_overshoot': 1}}, 'description': 'how to approach target!', 'readonly': False}), ('_timeout', {'datainfo': {'min': 0.0, 'unit': 'sec', 'type': 'double'}, 'description': 'drive timeout, in addition to ramp time', 'readonly': False})])
+10:57:37,688 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('mf')
+10:57:37,688 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module mf -> OrderedDict([('value', {'datainfo': {'unit': 'T', 'type': 'double'}, 'description': 'current value of the module', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'PREPARED': 150, 'WARN': 200, 'UNSTABLE': 270, 'BUSY': 300, 'PREPARING': 340, 'RAMPING': 370, 'STABILIZING': 380, 'FINALIZING': 390, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('target', {'datainfo': {'max': 9.0, 'min': -9.0, 'unit': 'T', 'type': 'double'}, 'description': 'target value of the module', 'readonly': False}), ('stop', {'datainfo': {'type': 'command'}, 'description': 'cease driving, go to IDLE state'}), ('ramp', {'datainfo': {'max': 1.19, 'min': 0.064, 'unit': 'T/min', 'type': 'double'}, 'description': 'ramping speed', 'readonly': False}), ('_approachmode', {'datainfo': {'type': 'enum', 'members': {'linear': 0, 'no_overshoot': 1, 'oscillate': 2}}, 'description': 'how to approach target', 'readonly': False}), ('_persistentmode', {'datainfo': {'type': 'enum', 'members': {'persistent': 0, 'driven': 1}}, 'description': 'what to do after changing field', 'readonly': False})])
+10:57:37,688 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('pos')
+10:57:37,689 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module pos -> OrderedDict([('value', {'datainfo': {'unit': 'deg', 'type': 'double'}, 'description': 'current value of the module', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('target', {'datainfo': {'max': 720.0, 'min': -720.0, 'unit': 'deg', 'type': 'double'}, 'description': 'target value of the module', 'readonly': False}), ('stop', {'datainfo': {'type': 'command'}, 'description': 'cease driving, go to IDLE state'}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False}), ('_speed', {'datainfo': {'max': 12.0, 'min': 0.8, 'unit': 'deg/sec', 'type': 'double'}, 'description': 'motor speed', 'readonly': False})])
+10:57:37,689 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('lev')
+10:57:37,689 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module lev -> OrderedDict([('value', {'datainfo': {'unit': '%', 'type': 'double'}, 'description': 'current value of the module', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True})])
+10:57:37,689 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('chamber')
+10:57:37,689 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module chamber -> OrderedDict([('value', {'datainfo': {'type': 'enum', 'members': {'unknown': 0, 'purged_and_sealed': 1, 'vented_and_sealed': 2, 'sealed_unknown': 3, 'purge_and_seal': 4, 'vent_and_seal': 5, 'pumping_down': 6, 'at_hi_vacuum': 7, 'pumping_continuously': 8, 'venting_continuously': 9, 'general_failure': 15}}, 'description': 'chamber state', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('target', {'datainfo': {'type': 'enum', 'members': {'seal_immediately': 0, 'purge_and_seal': 1, 'vent_and_seal': 2, 'pump_continuously': 3, 'vent_continuously': 4, 'hi_vacuum': 5, 'noop': 10}}, 'description': 'chamber command', 'readonly': False}), ('stop', {'datainfo': {'type': 'command'}, 'description': 'cease driving, go to IDLE state'})])
+10:57:37,690 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('r1')
+10:57:37,690 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module r1 -> OrderedDict([('value', {'datainfo': {'unit': 'Ohm', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False}), ('_excitation', {'datainfo': {'max': 5000.0, 'min': 0.01, 'unit': 'uA', 'type': 'double'}, 'description': 'excitation current', 'readonly': False}), ('_powerlimit', {'datainfo': {'max': 1000.0, 'min': 0.001, 'unit': 'uW', 'type': 'double'}, 'description': 'power limit', 'readonly': False}), ('_dcflag', {'datainfo': {'type': 'bool'}, 'description': 'True when excitation is DC (else AC)', 'readonly': False}), ('_readingmode', {'datainfo': {'type': 'enum', 'members': {'standard': 0, 'fast': 1, 'highres': 2}}, 'description': 'reading mode', 'readonly': False}), ('_voltagelimit', {'datainfo': {'max': 100.0, 'min': 0.0001, 'unit': 'mV', 'type': 'double'}, 'description': 'voltage limit', 'readonly': False})])
+10:57:37,690 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('r2')
+10:57:37,690 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module r2 -> OrderedDict([('value', {'datainfo': {'unit': 'Ohm', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False}), ('_excitation', {'datainfo': {'max': 5000.0, 'min': 0.01, 'unit': 'uA', 'type': 'double'}, 'description': 'excitation current', 'readonly': False}), ('_powerlimit', {'datainfo': {'max': 1000.0, 'min': 0.001, 'unit': 'uW', 'type': 'double'}, 'description': 'power limit', 'readonly': False}), ('_dcflag', {'datainfo': {'type': 'bool'}, 'description': 'True when excitation is DC (else AC)', 'readonly': False}), ('_readingmode', {'datainfo': {'type': 'enum', 'members': {'standard': 0, 'fast': 1, 'highres': 2}}, 'description': 'reading mode', 'readonly': False}), ('_voltagelimit', {'datainfo': {'max': 100.0, 'min': 0.0001, 'unit': 'mV', 'type': 'double'}, 'description': 'voltage limit', 'readonly': False})])
+10:57:37,690 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('r3')
+10:57:37,691 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module r3 -> OrderedDict([('value', {'datainfo': {'unit': 'Ohm', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False}), ('_excitation', {'datainfo': {'max': 5000.0, 'min': 0.01, 'unit': 'uA', 'type': 'double'}, 'description': 'excitation current', 'readonly': False}), ('_powerlimit', {'datainfo': {'max': 1000.0, 'min': 0.001, 'unit': 'uW', 'type': 'double'}, 'description': 'power limit', 'readonly': False}), ('_dcflag', {'datainfo': {'type': 'bool'}, 'description': 'True when excitation is DC (else AC)', 'readonly': False}), ('_readingmode', {'datainfo': {'type': 'enum', 'members': {'standard': 0, 'fast': 1, 'highres': 2}}, 'description': 'reading mode', 'readonly': False}), ('_voltagelimit', {'datainfo': {'max': 100.0, 'min': 0.0001, 'unit': 'mV', 'type': 'double'}, 'description': 'voltage limit', 'readonly': False})])
+10:57:37,691 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('r4')
+10:57:37,691 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module r4 -> OrderedDict([('value', {'datainfo': {'unit': 'Ohm', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False}), ('_excitation', {'datainfo': {'max': 5000.0, 'min': 0.01, 'unit': 'uA', 'type': 'double'}, 'description': 'excitation current', 'readonly': False}), ('_powerlimit', {'datainfo': {'max': 1000.0, 'min': 0.001, 'unit': 'uW', 'type': 'double'}, 'description': 'power limit', 'readonly': False}), ('_dcflag', {'datainfo': {'type': 'bool'}, 'description': 'True when excitation is DC (else AC)', 'readonly': False}), ('_readingmode', {'datainfo': {'type': 'enum', 'members': {'standard': 0, 'fast': 1, 'highres': 2}}, 'description': 'reading mode', 'readonly': False}), ('_voltagelimit', {'datainfo': {'max': 100.0, 'min': 0.0001, 'unit': 'mV', 'type': 'double'}, 'description': 'voltage limit', 'readonly': False})])
+10:57:37,691 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('i1')
+10:57:37,691 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module i1 -> OrderedDict([('value', {'datainfo': {'unit': 'uA', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False})])
+10:57:37,691 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('i2')
+10:57:37,691 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module i2 -> OrderedDict([('value', {'datainfo': {'unit': 'uA', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False})])
+10:57:37,691 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('i3')
+10:57:37,692 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module i3 -> OrderedDict([('value', {'datainfo': {'unit': 'uA', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False})])
+10:57:37,692 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('i4')
+10:57:37,692 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module i4 -> OrderedDict([('value', {'datainfo': {'unit': 'uA', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False})])
+10:57:37,692 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('v1')
+10:57:37,692 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module v1 -> OrderedDict([('value', {'datainfo': {'unit': 'V', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False}), ('_current', {'datainfo': {'max': 5000.0, 'min': 0.0, 'unit': 'uA', 'type': 'double'}, 'description': 'driver current', 'readonly': False}), ('_powerlimit', {'datainfo': {'max': 1000.0, 'min': 0.0, 'unit': 'uW', 'type': 'double'}, 'description': 'power limit', 'readonly': False})])
+10:57:37,692 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('v2')
+10:57:37,692 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module v2 -> OrderedDict([('value', {'datainfo': {'unit': 'V', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False}), ('_current', {'datainfo': {'max': 5000.0, 'min': 0.0, 'unit': 'uA', 'type': 'double'}, 'description': 'driver current', 'readonly': False}), ('_powerlimit', {'datainfo': {'max': 1000.0, 'min': 0.0, 'unit': 'uW', 'type': 'double'}, 'description': 'power limit', 'readonly': False})])
+10:57:37,692 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('tv')
+10:57:37,692 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module tv -> OrderedDict([('value', {'datainfo': {'unit': 'K', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False})])
+10:57:37,692 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('ts')
+10:57:37,693 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module ts -> OrderedDict([('value', {'datainfo': {'unit': 'K', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False})])
+10:57:37,693 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('ppms')
+10:57:37,693 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module ppms -> OrderedDict([('communicate', {'datainfo': {'type': 'command', 'argument': {'type': 'string'}, 'result': {'type': 'string'}}, 'description': 'communicate command\n\n:param command: the command to be sent\n:return: the reply'}), ('pollinterval', {'datainfo': {'type': 'double'}, 'description': 'poll interval', 'readonly': False}), ('_data', {'datainfo': {'type': 'string'}, 'description': 'internal', 'readonly': True})])
+10:57:42,471 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('tt')
+10:57:42,472 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module tt -> OrderedDict([('value', {'datainfo': {'unit': 'K', 'type': 'double'}, 'description': 'current value of the module', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'BUSY': 300, 'RAMPING': 370, 'STABILIZING': 380, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('target', {'datainfo': {'max': 402.0, 'min': 1.7, 'unit': 'K', 'type': 'double'}, 'description': 'target value of the module', 'readonly': False}), ('stop', {'datainfo': {'type': 'command'}, 'description': 'cease driving, go to IDLE state'}), ('setpoint', {'datainfo': {'max': 402.0, 'min': 1.7, 'unit': 'K', 'type': 'double'}, 'description': 'intermediate set point', 'readonly': True}), ('ramp', {'datainfo': {'max': 20.0, 'min': 0.0, 'unit': 'K/min', 'type': 'double'}, 'description': 'ramping speed', 'readonly': False}), ('_workingramp', {'datainfo': {'max': 20.0, 'min': 0.0, 'unit': 'K/min', 'type': 'double'}, 'description': 'intermediate ramp value', 'readonly': True}), ('_approachmode', {'datainfo': {'type': 'enum', 'members': {'fast_settle': 0, 'no_overshoot': 1}}, 'description': 'how to approach target!', 'readonly': False}), ('_timeout', {'datainfo': {'min': 0.0, 'unit': 'sec', 'type': 'double'}, 'description': 'drive timeout, in addition to ramp time', 'readonly': False})])
+10:57:42,472 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('mf')
+10:57:42,472 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module mf -> OrderedDict([('value', {'datainfo': {'unit': 'T', 'type': 'double'}, 'description': 'current value of the module', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'PREPARED': 150, 'WARN': 200, 'UNSTABLE': 270, 'BUSY': 300, 'PREPARING': 340, 'RAMPING': 370, 'STABILIZING': 380, 'FINALIZING': 390, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('target', {'datainfo': {'max': 9.0, 'min': -9.0, 'unit': 'T', 'type': 'double'}, 'description': 'target value of the module', 'readonly': False}), ('stop', {'datainfo': {'type': 'command'}, 'description': 'cease driving, go to IDLE state'}), ('ramp', {'datainfo': {'max': 1.19, 'min': 0.064, 'unit': 'T/min', 'type': 'double'}, 'description': 'ramping speed', 'readonly': False}), ('_approachmode', {'datainfo': {'type': 'enum', 'members': {'linear': 0, 'no_overshoot': 1, 'oscillate': 2}}, 'description': 'how to approach target', 'readonly': False}), ('_persistentmode', {'datainfo': {'type': 'enum', 'members': {'persistent': 0, 'driven': 1}}, 'description': 'what to do after changing field', 'readonly': False})])
+10:57:42,472 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('pos')
+10:57:42,473 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module pos -> OrderedDict([('value', {'datainfo': {'unit': 'deg', 'type': 'double'}, 'description': 'current value of the module', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('target', {'datainfo': {'max': 720.0, 'min': -720.0, 'unit': 'deg', 'type': 'double'}, 'description': 'target value of the module', 'readonly': False}), ('stop', {'datainfo': {'type': 'command'}, 'description': 'cease driving, go to IDLE state'}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False}), ('_speed', {'datainfo': {'max': 12.0, 'min': 0.8, 'unit': 'deg/sec', 'type': 'double'}, 'description': 'motor speed', 'readonly': False})])
+10:57:42,473 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('lev')
+10:57:42,473 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module lev -> OrderedDict([('value', {'datainfo': {'unit': '%', 'type': 'double'}, 'description': 'current value of the module', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True})])
+10:57:42,473 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('chamber')
+10:57:42,473 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module chamber -> OrderedDict([('value', {'datainfo': {'type': 'enum', 'members': {'unknown': 0, 'purged_and_sealed': 1, 'vented_and_sealed': 2, 'sealed_unknown': 3, 'purge_and_seal': 4, 'vent_and_seal': 5, 'pumping_down': 6, 'at_hi_vacuum': 7, 'pumping_continuously': 8, 'venting_continuously': 9, 'general_failure': 15}}, 'description': 'chamber state', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('target', {'datainfo': {'type': 'enum', 'members': {'seal_immediately': 0, 'purge_and_seal': 1, 'vent_and_seal': 2, 'pump_continuously': 3, 'vent_continuously': 4, 'hi_vacuum': 5, 'noop': 10}}, 'description': 'chamber command', 'readonly': False}), ('stop', {'datainfo': {'type': 'command'}, 'description': 'cease driving, go to IDLE state'})])
+10:57:42,473 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('r1')
+10:57:42,474 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module r1 -> OrderedDict([('value', {'datainfo': {'unit': 'Ohm', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False}), ('_excitation', {'datainfo': {'max': 5000.0, 'min': 0.01, 'unit': 'uA', 'type': 'double'}, 'description': 'excitation current', 'readonly': False}), ('_powerlimit', {'datainfo': {'max': 1000.0, 'min': 0.001, 'unit': 'uW', 'type': 'double'}, 'description': 'power limit', 'readonly': False}), ('_dcflag', {'datainfo': {'type': 'bool'}, 'description': 'True when excitation is DC (else AC)', 'readonly': False}), ('_readingmode', {'datainfo': {'type': 'enum', 'members': {'standard': 0, 'fast': 1, 'highres': 2}}, 'description': 'reading mode', 'readonly': False}), ('_voltagelimit', {'datainfo': {'max': 100.0, 'min': 0.0001, 'unit': 'mV', 'type': 'double'}, 'description': 'voltage limit', 'readonly': False})])
+10:57:42,474 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('r2')
+10:57:42,474 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module r2 -> OrderedDict([('value', {'datainfo': {'unit': 'Ohm', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False}), ('_excitation', {'datainfo': {'max': 5000.0, 'min': 0.01, 'unit': 'uA', 'type': 'double'}, 'description': 'excitation current', 'readonly': False}), ('_powerlimit', {'datainfo': {'max': 1000.0, 'min': 0.001, 'unit': 'uW', 'type': 'double'}, 'description': 'power limit', 'readonly': False}), ('_dcflag', {'datainfo': {'type': 'bool'}, 'description': 'True when excitation is DC (else AC)', 'readonly': False}), ('_readingmode', {'datainfo': {'type': 'enum', 'members': {'standard': 0, 'fast': 1, 'highres': 2}}, 'description': 'reading mode', 'readonly': False}), ('_voltagelimit', {'datainfo': {'max': 100.0, 'min': 0.0001, 'unit': 'mV', 'type': 'double'}, 'description': 'voltage limit', 'readonly': False})])
+10:57:42,474 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('r3')
+10:57:42,475 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module r3 -> OrderedDict([('value', {'datainfo': {'unit': 'Ohm', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False}), ('_excitation', {'datainfo': {'max': 5000.0, 'min': 0.01, 'unit': 'uA', 'type': 'double'}, 'description': 'excitation current', 'readonly': False}), ('_powerlimit', {'datainfo': {'max': 1000.0, 'min': 0.001, 'unit': 'uW', 'type': 'double'}, 'description': 'power limit', 'readonly': False}), ('_dcflag', {'datainfo': {'type': 'bool'}, 'description': 'True when excitation is DC (else AC)', 'readonly': False}), ('_readingmode', {'datainfo': {'type': 'enum', 'members': {'standard': 0, 'fast': 1, 'highres': 2}}, 'description': 'reading mode', 'readonly': False}), ('_voltagelimit', {'datainfo': {'max': 100.0, 'min': 0.0001, 'unit': 'mV', 'type': 'double'}, 'description': 'voltage limit', 'readonly': False})])
+10:57:42,475 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('r4')
+10:57:42,475 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module r4 -> OrderedDict([('value', {'datainfo': {'unit': 'Ohm', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False}), ('_excitation', {'datainfo': {'max': 5000.0, 'min': 0.01, 'unit': 'uA', 'type': 'double'}, 'description': 'excitation current', 'readonly': False}), ('_powerlimit', {'datainfo': {'max': 1000.0, 'min': 0.001, 'unit': 'uW', 'type': 'double'}, 'description': 'power limit', 'readonly': False}), ('_dcflag', {'datainfo': {'type': 'bool'}, 'description': 'True when excitation is DC (else AC)', 'readonly': False}), ('_readingmode', {'datainfo': {'type': 'enum', 'members': {'standard': 0, 'fast': 1, 'highres': 2}}, 'description': 'reading mode', 'readonly': False}), ('_voltagelimit', {'datainfo': {'max': 100.0, 'min': 0.0001, 'unit': 'mV', 'type': 'double'}, 'description': 'voltage limit', 'readonly': False})])
+10:57:42,475 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('i1')
+10:57:42,475 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module i1 -> OrderedDict([('value', {'datainfo': {'unit': 'uA', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False})])
+10:57:42,475 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('i2')
+10:57:42,476 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module i2 -> OrderedDict([('value', {'datainfo': {'unit': 'uA', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False})])
+10:57:42,476 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('i3')
+10:57:42,476 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module i3 -> OrderedDict([('value', {'datainfo': {'unit': 'uA', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False})])
+10:57:42,476 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('i4')
+10:57:42,476 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module i4 -> OrderedDict([('value', {'datainfo': {'unit': 'uA', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False})])
+10:57:42,476 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('v1')
+10:57:42,476 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module v1 -> OrderedDict([('value', {'datainfo': {'unit': 'V', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False}), ('_current', {'datainfo': {'max': 5000.0, 'min': 0.0, 'unit': 'uA', 'type': 'double'}, 'description': 'driver current', 'readonly': False}), ('_powerlimit', {'datainfo': {'max': 1000.0, 'min': 0.0, 'unit': 'uW', 'type': 'double'}, 'description': 'power limit', 'readonly': False})])
+10:57:42,476 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('v2')
+10:57:42,476 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module v2 -> OrderedDict([('value', {'datainfo': {'unit': 'V', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False}), ('_current', {'datainfo': {'max': 5000.0, 'min': 0.0, 'unit': 'uA', 'type': 'double'}, 'description': 'driver current', 'readonly': False}), ('_powerlimit', {'datainfo': {'max': 1000.0, 'min': 0.0, 'unit': 'uW', 'type': 'double'}, 'description': 'power limit', 'readonly': False})])
+10:57:42,476 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('tv')
+10:57:42,477 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module tv -> OrderedDict([('value', {'datainfo': {'unit': 'K', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False})])
+10:57:42,477 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('ts')
+10:57:42,477 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module ts -> OrderedDict([('value', {'datainfo': {'unit': 'K', 'type': 'double'}, 'description': 'main value of channels', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False})])
+10:57:42,477 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('ppms')
+10:57:42,477 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module ppms -> OrderedDict([('communicate', {'datainfo': {'type': 'command', 'argument': {'type': 'string'}, 'result': {'type': 'string'}}, 'description': 'communicate command\n\n:param command: the command to be sent\n:return: the reply'}), ('pollinterval', {'datainfo': {'type': 'double'}, 'description': 'poll interval', 'readonly': False}), ('_data', {'datainfo': {'type': 'string'}, 'description': 'internal', 'readonly': True})])
+11:00:08,935 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('pos')
+11:00:08,936 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module pos -> OrderedDict([('value', {'datainfo': {'unit': 'deg', 'type': 'double'}, 'description': 'current value of the module', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('target', {'datainfo': {'max': 720.0, 'min': -720.0, 'unit': 'deg', 'type': 'double'}, 'description': 'target value of the module', 'readonly': False}), ('stop', {'datainfo': {'type': 'command'}, 'description': 'cease driving, go to IDLE state'}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False}), ('_speed', {'datainfo': {'max': 12.0, 'min': 0.8, 'unit': 'deg/sec', 'type': 'double'}, 'description': 'motor speed', 'readonly': False})])
+11:00:15,647 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('pos')
+11:00:15,648 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module pos -> OrderedDict([('value', {'datainfo': {'unit': 'deg', 'type': 'double'}, 'description': 'current value of the module', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('target', {'datainfo': {'max': 720.0, 'min': -720.0, 'unit': 'deg', 'type': 'double'}, 'description': 'target value of the module', 'readonly': False}), ('stop', {'datainfo': {'type': 'command'}, 'description': 'cease driving, go to IDLE state'}), ('_enabled', {'datainfo': {'type': 'bool'}, 'description': 'is this channel used?', 'readonly': False}), ('_speed', {'datainfo': {'max': 12.0, 'min': 0.8, 'unit': 'deg/sec', 'type': 'double'}, 'description': 'motor speed', 'readonly': False})])
+11:11:34,057 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+11:11:34,094 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Temp
+11:11:34,094 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Field
+11:11:34,094 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Position
+11:11:34,094 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Level
+11:11:34,094 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Chamber
+11:11:34,094 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:11:34,094 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:11:34,094 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:11:34,094 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:11:34,094 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:11:34,094 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:11:34,094 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:11:34,094 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:11:34,094 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:11:34,094 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:11:34,095 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:11:34,095 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:11:34,095 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Main
+11:13:10,487 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+11:13:10,520 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Temp
+11:13:10,520 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Field
+11:13:10,520 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Position
+11:13:10,520 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Level
+11:13:10,520 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Chamber
+11:13:10,521 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:13:10,521 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:13:10,521 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:13:10,521 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:13:10,521 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:13:10,521 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:13:10,521 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:13:10,521 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:13:10,521 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:13:10,521 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:13:10,521 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:13:10,521 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:13:10,521 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Main
+11:15:37,897 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+11:15:37,960 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Temp
+11:15:37,960 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Field
+11:15:37,961 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Position
+11:15:37,961 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Level
+11:15:37,961 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Chamber
+11:15:37,961 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:15:37,961 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:15:37,961 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:15:37,961 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:15:37,961 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:15:37,961 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:15:37,961 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:15:37,961 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:15:37,962 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:15:37,962 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:15:37,962 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:15:37,962 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:15:37,962 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Main
+11:18:01,522 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+11:18:01,589 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Temp
+11:18:01,589 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Field
+11:18:01,590 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Position
+11:18:01,590 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Level
+11:18:01,590 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Chamber
+11:18:01,590 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:18:01,590 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:18:01,590 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:18:01,590 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:18:01,590 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:18:01,590 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:18:01,590 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:18:01,591 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:18:01,591 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:18:01,591 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:18:01,591 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:18:01,591 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:18:01,591 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Main
+11:28:05,380 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+11:28:05,424 : INFO    : secop_test_log.x: registering module 'ppms'
+11:28:05,424 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Main object at 0x1061e1d50> as ppms (export=True)
+11:28:05,424 : DEBUG   : secop_test_log.x.ppms: empty Main.initModule()
+11:28:05,424 : ERROR   : secop_test_log.x: module tt, parameter pollinterval has no default value and was not given in config!
+11:28:05,424 : ERROR   : secop_test_log.x: module mf, parameter pollinterval has no default value and was not given in config!
+11:28:05,424 : ERROR   : secop_test_log.x: module pos, parameter pollinterval has no default value and was not given in config!
+11:28:05,424 : ERROR   : secop_test_log.x: module lev, parameter pollinterval has no default value and was not given in config!
+11:28:05,424 : ERROR   : secop_test_log.x: module chamber, parameter pollinterval has no default value and was not given in config!
+11:28:05,425 : ERROR   : secop_test_log.x: module r1, parameter pollinterval has no default value and was not given in config!
+11:28:05,425 : ERROR   : secop_test_log.x: module r2, parameter pollinterval has no default value and was not given in config!
+11:28:05,425 : ERROR   : secop_test_log.x: module r3, parameter pollinterval has no default value and was not given in config!
+11:28:05,425 : ERROR   : secop_test_log.x: module r4, parameter pollinterval has no default value and was not given in config!
+11:28:05,425 : ERROR   : secop_test_log.x: module i1, parameter pollinterval has no default value and was not given in config!
+11:28:05,425 : ERROR   : secop_test_log.x: module i2, parameter pollinterval has no default value and was not given in config!
+11:28:05,425 : ERROR   : secop_test_log.x: module i3, parameter pollinterval has no default value and was not given in config!
+11:28:05,425 : ERROR   : secop_test_log.x: module i4, parameter pollinterval has no default value and was not given in config!
+11:28:05,425 : ERROR   : secop_test_log.x: module v1, parameter pollinterval has no default value and was not given in config!
+11:28:05,425 : ERROR   : secop_test_log.x: module v2, parameter pollinterval has no default value and was not given in config!
+11:28:05,425 : ERROR   : secop_test_log.x: module tv, parameter pollinterval has no default value and was not given in config!
+11:28:05,425 : ERROR   : secop_test_log.x: module ts, parameter pollinterval has no default value and was not given in config!
+11:28:31,726 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+11:28:31,758 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Temp
+11:28:31,758 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Field
+11:28:31,758 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Position
+11:28:31,758 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Level
+11:28:31,758 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Chamber
+11:28:31,758 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:28:31,759 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:28:31,759 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:28:31,759 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:28:31,759 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:28:31,759 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:28:31,759 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:28:31,759 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:28:31,759 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:28:31,759 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:28:31,759 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:28:31,759 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:28:31,759 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Main
+11:29:13,389 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+11:29:13,420 : INFO    : secop_test_log.x: registering module 'tt'
+11:29:13,420 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Temp object at 0x106dd2850> as tt (export=True)
+11:29:13,420 : DEBUG   : secop_test_log.x.tt: empty Temp.earlyInit()
+11:29:13,420 : INFO    : secop_test_log.x: registering module 'mf'
+11:29:13,420 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Field object at 0x106fa5bd0> as mf (export=True)
+11:29:13,420 : DEBUG   : secop_test_log.x.mf: empty Field.earlyInit()
+11:29:13,420 : INFO    : secop_test_log.x: registering module 'pos'
+11:29:13,420 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Position object at 0x106fb3210> as pos (export=True)
+11:29:13,421 : DEBUG   : secop_test_log.x.pos: empty Position.earlyInit()
+11:29:13,421 : INFO    : secop_test_log.x: registering module 'lev'
+11:29:13,421 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Level object at 0x106fb3710> as lev (export=True)
+11:29:13,421 : DEBUG   : secop_test_log.x.lev: empty Level.earlyInit()
+11:29:13,421 : INFO    : secop_test_log.x: registering module 'chamber'
+11:29:13,421 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Chamber object at 0x106fb3a50> as chamber (export=True)
+11:29:13,421 : DEBUG   : secop_test_log.x.chamber: empty Chamber.earlyInit()
+11:29:13,421 : INFO    : secop_test_log.x: registering module 'r1'
+11:29:13,421 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x106e0a690> as r1 (export=True)
+11:29:13,421 : DEBUG   : secop_test_log.x.r1: empty BridgeChannel.earlyInit()
+11:29:13,421 : INFO    : secop_test_log.x: registering module 'r2'
+11:29:13,421 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x106dbf150> as r2 (export=True)
+11:29:13,421 : DEBUG   : secop_test_log.x.r2: empty BridgeChannel.earlyInit()
+11:29:13,421 : INFO    : secop_test_log.x: registering module 'r3'
+11:29:13,422 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x106fb3e10> as r3 (export=True)
+11:29:13,422 : DEBUG   : secop_test_log.x.r3: empty BridgeChannel.earlyInit()
+11:29:13,422 : INFO    : secop_test_log.x: registering module 'r4'
+11:29:13,422 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x106fc4610> as r4 (export=True)
+11:29:13,422 : DEBUG   : secop_test_log.x.r4: empty BridgeChannel.earlyInit()
+11:29:13,422 : INFO    : secop_test_log.x: registering module 'i1'
+11:29:13,422 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x106fb3190> as i1 (export=True)
+11:29:13,422 : DEBUG   : secop_test_log.x.i1: empty Channel.earlyInit()
+11:29:13,422 : INFO    : secop_test_log.x: registering module 'i2'
+11:29:13,422 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x106fcd310> as i2 (export=True)
+11:29:13,422 : DEBUG   : secop_test_log.x.i2: empty Channel.earlyInit()
+11:29:13,423 : INFO    : secop_test_log.x: registering module 'i3'
+11:29:13,423 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x106fcd710> as i3 (export=True)
+11:29:13,423 : DEBUG   : secop_test_log.x.i3: empty Channel.earlyInit()
+11:29:13,423 : INFO    : secop_test_log.x: registering module 'i4'
+11:29:13,423 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x106fcd2d0> as i4 (export=True)
+11:29:13,423 : DEBUG   : secop_test_log.x.i4: empty Channel.earlyInit()
+11:29:13,423 : INFO    : secop_test_log.x: registering module 'v1'
+11:29:13,423 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x106daaa10> as v1 (export=True)
+11:29:13,423 : DEBUG   : secop_test_log.x.v1: empty DriverChannel.earlyInit()
+11:29:13,423 : INFO    : secop_test_log.x: registering module 'v2'
+11:29:13,423 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x106ed6450> as v2 (export=True)
+11:29:13,423 : DEBUG   : secop_test_log.x.v2: empty DriverChannel.earlyInit()
+11:29:13,424 : INFO    : secop_test_log.x: registering module 'tv'
+11:29:13,424 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x106ed6a50> as tv (export=True)
+11:29:13,424 : DEBUG   : secop_test_log.x.tv: empty UserChannel.earlyInit()
+11:29:13,424 : INFO    : secop_test_log.x: registering module 'ts'
+11:29:13,424 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x106ed64d0> as ts (export=True)
+11:29:13,424 : DEBUG   : secop_test_log.x.ts: empty UserChannel.earlyInit()
+11:29:13,424 : INFO    : secop_test_log.x: registering module 'ppms'
+11:29:13,424 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Main object at 0x106ee1290> as ppms (export=True)
+11:29:13,424 : DEBUG   : secop_test_log.x.ppms: empty Main.initModule()
+11:30:15,404 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+11:30:15,436 : INFO    : secop_test_log.x: registering module 'tt'
+11:30:15,436 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Temp object at 0x105f14890> as tt (export=True)
+11:30:15,436 : DEBUG   : secop_test_log.x.tt: empty Temp.earlyInit()
+11:30:15,436 : INFO    : secop_test_log.x: registering module 'mf'
+11:30:15,436 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Field object at 0x1060e7150> as mf (export=True)
+11:30:15,436 : DEBUG   : secop_test_log.x.mf: empty Field.earlyInit()
+11:30:15,436 : INFO    : secop_test_log.x: registering module 'pos'
+11:30:15,436 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Position object at 0x1060f7190> as pos (export=True)
+11:30:15,436 : DEBUG   : secop_test_log.x.pos: empty Position.earlyInit()
+11:30:15,436 : INFO    : secop_test_log.x: registering module 'lev'
+11:30:15,437 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Level object at 0x1060f7690> as lev (export=True)
+11:30:15,437 : DEBUG   : secop_test_log.x.lev: empty Level.earlyInit()
+11:30:15,437 : INFO    : secop_test_log.x: registering module 'chamber'
+11:30:15,437 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Chamber object at 0x1060f79d0> as chamber (export=True)
+11:30:15,437 : DEBUG   : secop_test_log.x.chamber: empty Chamber.earlyInit()
+11:30:15,437 : INFO    : secop_test_log.x: registering module 'r1'
+11:30:15,437 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x105efd490> as r1 (export=True)
+11:30:15,437 : DEBUG   : secop_test_log.x.r1: empty BridgeChannel.earlyInit()
+11:30:15,437 : INFO    : secop_test_log.x: registering module 'r2'
+11:30:15,437 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x105efdc10> as r2 (export=True)
+11:30:15,437 : DEBUG   : secop_test_log.x.r2: empty BridgeChannel.earlyInit()
+11:30:15,437 : INFO    : secop_test_log.x: registering module 'r3'
+11:30:15,437 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x1060f7dd0> as r3 (export=True)
+11:30:15,437 : DEBUG   : secop_test_log.x.r3: empty BridgeChannel.earlyInit()
+11:30:15,437 : INFO    : secop_test_log.x: registering module 'r4'
+11:30:15,438 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x1061065d0> as r4 (export=True)
+11:30:15,438 : DEBUG   : secop_test_log.x.r4: empty BridgeChannel.earlyInit()
+11:30:15,438 : INFO    : secop_test_log.x: registering module 'i1'
+11:30:15,438 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x106106ed0> as i1 (export=True)
+11:30:15,438 : DEBUG   : secop_test_log.x.i1: empty Channel.earlyInit()
+11:30:15,438 : INFO    : secop_test_log.x: registering module 'i2'
+11:30:15,438 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10610f350> as i2 (export=True)
+11:30:15,438 : DEBUG   : secop_test_log.x.i2: empty Channel.earlyInit()
+11:30:15,438 : INFO    : secop_test_log.x: registering module 'i3'
+11:30:15,438 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10610f750> as i3 (export=True)
+11:30:15,438 : DEBUG   : secop_test_log.x.i3: empty Channel.earlyInit()
+11:30:15,438 : INFO    : secop_test_log.x: registering module 'i4'
+11:30:15,438 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10610fb10> as i4 (export=True)
+11:30:15,438 : DEBUG   : secop_test_log.x.i4: empty Channel.earlyInit()
+11:30:15,439 : INFO    : secop_test_log.x: registering module 'v1'
+11:30:15,439 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x10610ff10> as v1 (export=True)
+11:30:15,439 : DEBUG   : secop_test_log.x.v1: empty DriverChannel.earlyInit()
+11:30:15,439 : INFO    : secop_test_log.x: registering module 'v2'
+11:30:15,439 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x106019490> as v2 (export=True)
+11:30:15,439 : DEBUG   : secop_test_log.x.v2: empty DriverChannel.earlyInit()
+11:30:15,439 : INFO    : secop_test_log.x: registering module 'tv'
+11:30:15,439 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x105c47750> as tv (export=True)
+11:30:15,439 : DEBUG   : secop_test_log.x.tv: empty UserChannel.earlyInit()
+11:30:15,439 : INFO    : secop_test_log.x: registering module 'ts'
+11:30:15,439 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x106019510> as ts (export=True)
+11:30:15,439 : DEBUG   : secop_test_log.x.ts: empty UserChannel.earlyInit()
+11:30:15,439 : INFO    : secop_test_log.x: registering module 'ppms'
+11:30:15,439 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Main object at 0x106023290> as ppms (export=True)
+11:30:15,440 : DEBUG   : secop_test_log.x.ppms: empty Main.initModule()
+11:30:53,653 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+11:30:53,686 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Temp
+11:30:53,686 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Field
+11:30:53,686 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Position
+11:30:53,686 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Level
+11:30:53,686 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Chamber
+11:30:53,686 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:30:53,686 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:30:53,686 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:30:53,687 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:30:53,687 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:30:53,687 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:30:53,687 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:30:53,687 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:30:53,687 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:30:53,687 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:30:53,687 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:30:53,687 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:30:53,687 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Main
+11:35:25,429 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+11:35:25,459 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Temp
+11:35:25,459 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Field
+11:35:25,460 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Position
+11:35:25,460 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Level
+11:35:25,460 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Chamber
+11:35:25,460 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:35:25,460 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:35:25,460 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:35:25,460 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:35:25,460 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:35:25,460 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:35:25,460 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:35:25,460 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:35:25,460 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:35:25,460 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:35:25,460 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:35:25,460 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:35:25,460 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Main
+11:36:47,532 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+11:36:47,561 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Temp
+11:36:47,561 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Field
+11:36:47,561 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Position
+11:36:47,561 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Level
+11:36:47,561 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Chamber
+11:36:47,561 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:36:47,561 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:36:47,561 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:36:47,561 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:36:47,562 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:36:47,562 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:36:47,562 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:36:47,562 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:36:47,562 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:36:47,562 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:36:47,562 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:36:47,562 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:36:47,562 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Main
+11:37:18,876 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+11:37:18,904 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Temp
+11:37:18,904 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Field
+11:37:18,904 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Position
+11:37:18,905 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Level
+11:37:18,905 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Chamber
+11:37:18,905 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:37:18,905 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:37:18,905 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:37:18,905 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:37:18,905 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:37:18,905 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:37:18,905 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:37:18,905 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:37:18,905 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:37:18,905 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:37:18,905 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:37:18,905 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:37:18,906 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Main
+11:37:55,188 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+11:37:55,219 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Temp
+11:37:55,219 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Field
+11:37:55,219 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Position
+11:37:55,219 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Level
+11:37:55,219 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Chamber
+11:37:55,220 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:37:55,220 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:37:55,220 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:37:55,220 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:37:55,220 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:37:55,220 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:37:55,220 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:37:55,220 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:37:55,220 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:37:55,220 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:37:55,220 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:37:55,220 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:37:55,220 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Main
+11:40:04,461 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+11:40:04,495 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Temp
+11:40:04,495 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Field
+11:40:04,495 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Position
+11:40:04,495 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Level
+11:40:04,496 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Chamber
+11:40:04,496 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:40:04,496 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:40:04,496 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:40:04,496 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:40:04,496 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:40:04,496 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:40:04,496 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:40:04,496 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:40:04,496 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:40:04,496 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:40:04,496 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:40:04,496 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:40:04,496 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Main
+11:41:06,872 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+11:41:06,900 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Temp
+11:41:06,900 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Field
+11:41:06,900 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Position
+11:41:06,900 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Level
+11:41:06,900 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Chamber
+11:41:06,900 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:41:06,900 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:41:06,900 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:41:06,900 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:41:06,900 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:41:06,900 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:41:06,900 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:41:06,900 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:41:06,901 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:41:06,901 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:41:06,901 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:41:06,901 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:41:06,901 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Main
+11:47:28,694 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+11:47:28,734 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Temp
+11:47:28,734 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Field
+11:47:28,734 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Position
+11:47:28,734 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Level
+11:47:28,734 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Chamber
+11:47:28,734 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:47:28,734 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:47:28,735 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:47:28,735 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:47:28,735 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:47:28,735 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:47:28,735 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:47:28,735 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:47:28,735 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:47:28,735 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:47:28,735 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:47:28,735 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:47:28,735 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Main
+11:50:03,176 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+11:50:03,209 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Temp
+11:50:03,210 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Field
+11:50:03,210 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Position
+11:50:03,210 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Level
+11:50:03,210 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Chamber
+11:50:03,210 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:50:03,210 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:50:03,210 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:50:03,210 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:50:03,210 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:50:03,210 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:50:03,210 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:50:03,210 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:50:03,210 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:50:03,211 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:50:03,211 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:50:03,211 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:50:03,211 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Main
+11:52:45,514 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+11:52:45,568 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Temp
+11:52:45,568 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Field
+11:52:45,568 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Position
+11:52:45,568 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Level
+11:52:45,568 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Chamber
+11:52:45,568 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:52:45,568 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:52:45,569 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:52:45,569 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+11:52:45,569 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:52:45,569 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:52:45,569 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:52:45,569 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+11:52:45,569 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:52:45,569 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+11:52:45,569 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:52:45,569 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+11:52:45,569 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Main
+12:00:17,227 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+12:00:17,266 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Temp
+12:00:17,266 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Field
+12:00:17,266 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Position
+12:00:17,266 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Level
+12:00:17,266 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Chamber
+12:00:17,266 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+12:00:17,266 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+12:00:17,266 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+12:00:17,266 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+12:00:17,266 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+12:00:17,266 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+12:00:17,267 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+12:00:17,267 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+12:00:17,267 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+12:00:17,267 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+12:00:17,267 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+12:00:17,267 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+12:00:17,267 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Main
+12:01:30,799 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+12:01:30,863 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Temp
+12:01:30,863 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Field
+12:01:30,863 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Position
+12:01:30,863 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Level
+12:01:30,863 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Chamber
+12:01:30,863 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+12:01:30,863 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+12:01:30,863 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+12:01:30,863 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.BridgeChannel
+12:01:30,864 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+12:01:30,864 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+12:01:30,864 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+12:01:30,864 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Channel
+12:01:30,864 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+12:01:30,864 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.DriverChannel
+12:01:30,864 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+12:01:30,864 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.UserChannel
+12:01:30,864 : ERROR   : secop_test_log.x: error while loading secop_psi.ppms.Main
+12:02:10,027 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+12:02:10,053 : INFO    : secop_test_log.x: registering module 'tt'
+12:02:10,053 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Temp object at 0x1090302d0> as tt (export=True)
+12:02:10,053 : DEBUG   : secop_test_log.x.tt: empty Temp.earlyInit()
+12:02:10,053 : INFO    : secop_test_log.x: registering module 'mf'
+12:02:10,053 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Field object at 0x108aaed10> as mf (export=True)
+12:02:10,053 : DEBUG   : secop_test_log.x.mf: empty Field.earlyInit()
+12:02:10,054 : INFO    : secop_test_log.x: registering module 'pos'
+12:02:10,054 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Position object at 0x109091110> as pos (export=True)
+12:02:10,054 : DEBUG   : secop_test_log.x.pos: empty Position.earlyInit()
+12:02:10,054 : INFO    : secop_test_log.x: registering module 'lev'
+12:02:10,054 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Level object at 0x109091610> as lev (export=True)
+12:02:10,054 : DEBUG   : secop_test_log.x.lev: empty Level.earlyInit()
+12:02:10,054 : INFO    : secop_test_log.x: registering module 'chamber'
+12:02:10,054 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Chamber object at 0x109091950> as chamber (export=True)
+12:02:10,054 : DEBUG   : secop_test_log.x.chamber: empty Chamber.earlyInit()
+12:02:10,054 : INFO    : secop_test_log.x: registering module 'r1'
+12:02:10,055 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x109091d90> as r1 (export=True)
+12:02:10,055 : DEBUG   : secop_test_log.x.r1: empty BridgeChannel.earlyInit()
+12:02:10,055 : INFO    : secop_test_log.x: registering module 'r2'
+12:02:10,055 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x109091990> as r2 (export=True)
+12:02:10,055 : DEBUG   : secop_test_log.x.r2: empty BridgeChannel.earlyInit()
+12:02:10,055 : INFO    : secop_test_log.x: registering module 'r3'
+12:02:10,055 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x109009b10> as r3 (export=True)
+12:02:10,055 : DEBUG   : secop_test_log.x.r3: empty BridgeChannel.earlyInit()
+12:02:10,055 : INFO    : secop_test_log.x: registering module 'r4'
+12:02:10,055 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10907fa90> as r4 (export=True)
+12:02:10,055 : DEBUG   : secop_test_log.x.r4: empty BridgeChannel.earlyInit()
+12:02:10,055 : INFO    : secop_test_log.x: registering module 'i1'
+12:02:10,055 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10909bbd0> as i1 (export=True)
+12:02:10,055 : DEBUG   : secop_test_log.x.i1: empty Channel.earlyInit()
+12:02:10,056 : INFO    : secop_test_log.x: registering module 'i2'
+12:02:10,056 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10909b3d0> as i2 (export=True)
+12:02:10,056 : DEBUG   : secop_test_log.x.i2: empty Channel.earlyInit()
+12:02:10,056 : INFO    : secop_test_log.x: registering module 'i3'
+12:02:10,056 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x1090aa410> as i3 (export=True)
+12:02:10,056 : DEBUG   : secop_test_log.x.i3: empty Channel.earlyInit()
+12:02:10,056 : INFO    : secop_test_log.x: registering module 'i4'
+12:02:10,056 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x1090aa050> as i4 (export=True)
+12:02:10,056 : DEBUG   : secop_test_log.x.i4: empty Channel.earlyInit()
+12:02:10,056 : INFO    : secop_test_log.x: registering module 'v1'
+12:02:10,056 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x10904ed10> as v1 (export=True)
+12:02:10,056 : DEBUG   : secop_test_log.x.v1: empty DriverChannel.earlyInit()
+12:02:10,056 : INFO    : secop_test_log.x: registering module 'v2'
+12:02:10,056 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x1090b5090> as v2 (export=True)
+12:02:10,057 : DEBUG   : secop_test_log.x.v2: empty DriverChannel.earlyInit()
+12:02:10,057 : INFO    : secop_test_log.x: registering module 'tv'
+12:02:10,057 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x1090b5590> as tv (export=True)
+12:02:10,057 : DEBUG   : secop_test_log.x.tv: empty UserChannel.earlyInit()
+12:02:10,057 : INFO    : secop_test_log.x: registering module 'ts'
+12:02:10,057 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x1090b5050> as ts (export=True)
+12:02:10,057 : DEBUG   : secop_test_log.x.ts: empty UserChannel.earlyInit()
+12:02:10,057 : INFO    : secop_test_log.x: registering module 'ppms'
+12:02:10,057 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Main object at 0x1090b5dd0> as ppms (export=True)
+12:02:10,058 : DEBUG   : secop_test_log.x.ppms: empty Main.initModule()
+13:13:36,506 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+13:14:34,068 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+13:27:24,509 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+13:27:24,523 : ERROR   : secop_test_log.x: error importing secop_psi.ppms
+13:27:43,301 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+13:27:43,340 : INFO    : secop_test_log.x: registering module 'tt'
+13:27:43,340 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Temp object at 0x11053b750> as tt (export=True)
+13:27:43,340 : DEBUG   : secop_test_log.x.tt: empty Temp.earlyInit()
+13:27:43,340 : INFO    : secop_test_log.x: registering module 'mf'
+13:27:43,340 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Field object at 0x110707d10> as mf (export=True)
+13:27:43,340 : DEBUG   : secop_test_log.x.mf: empty Field.earlyInit()
+13:27:43,340 : INFO    : secop_test_log.x: registering module 'pos'
+13:27:43,341 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Position object at 0x11071d350> as pos (export=True)
+13:27:43,341 : DEBUG   : secop_test_log.x.pos: empty Position.earlyInit()
+13:27:43,341 : INFO    : secop_test_log.x: registering module 'lev'
+13:27:43,341 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Level object at 0x11071d7d0> as lev (export=True)
+13:27:43,341 : DEBUG   : secop_test_log.x.lev: empty Level.earlyInit()
+13:27:43,341 : INFO    : secop_test_log.x: registering module 'chamber'
+13:27:43,341 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Chamber object at 0x11071db50> as chamber (export=True)
+13:27:43,342 : DEBUG   : secop_test_log.x.chamber: empty Chamber.earlyInit()
+13:27:43,342 : INFO    : secop_test_log.x: registering module 'r1'
+13:27:43,342 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x110524e90> as r1 (export=True)
+13:27:43,342 : DEBUG   : secop_test_log.x.r1: empty BridgeChannel.earlyInit()
+13:27:43,342 : INFO    : secop_test_log.x: registering module 'r2'
+13:27:43,342 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x110528290> as r2 (export=True)
+13:27:43,342 : DEBUG   : secop_test_log.x.r2: empty BridgeChannel.earlyInit()
+13:27:43,342 : INFO    : secop_test_log.x: registering module 'r3'
+13:27:43,342 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x110707d50> as r3 (export=True)
+13:27:43,343 : DEBUG   : secop_test_log.x.r3: empty BridgeChannel.earlyInit()
+13:27:43,343 : INFO    : secop_test_log.x: registering module 'r4'
+13:27:43,343 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x11072e590> as r4 (export=True)
+13:27:43,343 : DEBUG   : secop_test_log.x.r4: empty BridgeChannel.earlyInit()
+13:27:43,343 : INFO    : secop_test_log.x: registering module 'i1'
+13:27:43,343 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x11072edd0> as i1 (export=True)
+13:27:43,343 : DEBUG   : secop_test_log.x.i1: empty Channel.earlyInit()
+13:27:43,343 : INFO    : secop_test_log.x: registering module 'i2'
+13:27:43,343 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x110738250> as i2 (export=True)
+13:27:43,344 : DEBUG   : secop_test_log.x.i2: empty Channel.earlyInit()
+13:27:43,344 : INFO    : secop_test_log.x: registering module 'i3'
+13:27:43,344 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x110738610> as i3 (export=True)
+13:27:43,344 : DEBUG   : secop_test_log.x.i3: empty Channel.earlyInit()
+13:27:43,344 : INFO    : secop_test_log.x: registering module 'i4'
+13:27:43,344 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x1107389d0> as i4 (export=True)
+13:27:43,344 : DEBUG   : secop_test_log.x.i4: empty Channel.earlyInit()
+13:27:43,344 : INFO    : secop_test_log.x: registering module 'v1'
+13:27:43,344 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x110738d50> as v1 (export=True)
+13:27:43,344 : DEBUG   : secop_test_log.x.v1: empty DriverChannel.earlyInit()
+13:27:43,344 : INFO    : secop_test_log.x: registering module 'v2'
+13:27:43,344 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x11053b950> as v2 (export=True)
+13:27:43,345 : DEBUG   : secop_test_log.x.v2: empty DriverChannel.earlyInit()
+13:27:43,345 : INFO    : secop_test_log.x: registering module 'tv'
+13:27:43,345 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x110642790> as tv (export=True)
+13:27:43,345 : DEBUG   : secop_test_log.x.tv: empty UserChannel.earlyInit()
+13:27:43,345 : INFO    : secop_test_log.x: registering module 'ts'
+13:27:43,345 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x110642c50> as ts (export=True)
+13:27:43,345 : DEBUG   : secop_test_log.x.ts: empty UserChannel.earlyInit()
+13:27:43,345 : INFO    : secop_test_log.x: registering module 'ppms'
+13:27:43,345 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Main object at 0x11064c050> as ppms (export=True)
+13:27:43,346 : DEBUG   : secop_test_log.x.ppms: empty Main.initModule()
+13:28:05,671 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+13:28:05,708 : INFO    : secop_test_log.x: registering module 'tt'
+13:28:05,708 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Temp object at 0x10f78d9d0> as tt (export=True)
+13:28:05,708 : DEBUG   : secop_test_log.x.tt: empty Temp.earlyInit()
+13:28:05,708 : INFO    : secop_test_log.x: registering module 'mf'
+13:28:05,708 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Field object at 0x10f95acd0> as mf (export=True)
+13:28:05,708 : DEBUG   : secop_test_log.x.mf: empty Field.earlyInit()
+13:28:05,708 : INFO    : secop_test_log.x: registering module 'pos'
+13:28:05,708 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Position object at 0x10f96f310> as pos (export=True)
+13:28:05,709 : DEBUG   : secop_test_log.x.pos: empty Position.earlyInit()
+13:28:05,709 : INFO    : secop_test_log.x: registering module 'chamber'
+13:28:05,709 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Chamber object at 0x10f96f850> as chamber (export=True)
+13:28:05,709 : DEBUG   : secop_test_log.x.chamber: empty Chamber.earlyInit()
+13:28:05,709 : INFO    : secop_test_log.x: registering module 'r1'
+13:28:05,709 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10f7c4310> as r1 (export=True)
+13:28:05,709 : DEBUG   : secop_test_log.x.r1: empty BridgeChannel.earlyInit()
+13:28:05,709 : INFO    : secop_test_log.x: registering module 'r2'
+13:28:05,709 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10f76fb50> as r2 (export=True)
+13:28:05,709 : DEBUG   : secop_test_log.x.r2: empty BridgeChannel.earlyInit()
+13:28:05,709 : INFO    : secop_test_log.x: registering module 'r3'
+13:28:05,709 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10f776910> as r3 (export=True)
+13:28:05,709 : DEBUG   : secop_test_log.x.r3: empty BridgeChannel.earlyInit()
+13:28:05,709 : INFO    : secop_test_log.x: registering module 'r4'
+13:28:05,710 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10f980250> as r4 (export=True)
+13:28:05,710 : DEBUG   : secop_test_log.x.r4: empty BridgeChannel.earlyInit()
+13:28:05,710 : INFO    : secop_test_log.x: registering module 'i1'
+13:28:05,710 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10f980a90> as i1 (export=True)
+13:28:05,710 : DEBUG   : secop_test_log.x.i1: empty Channel.earlyInit()
+13:28:05,710 : INFO    : secop_test_log.x: registering module 'i2'
+13:28:05,710 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10f980ed0> as i2 (export=True)
+13:28:05,710 : DEBUG   : secop_test_log.x.i2: empty Channel.earlyInit()
+13:28:05,710 : INFO    : secop_test_log.x: registering module 'i3'
+13:28:05,710 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10f98a2d0> as i3 (export=True)
+13:28:05,710 : DEBUG   : secop_test_log.x.i3: empty Channel.earlyInit()
+13:28:05,710 : INFO    : secop_test_log.x: registering module 'i4'
+13:28:05,710 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10f98a690> as i4 (export=True)
+13:28:05,710 : DEBUG   : secop_test_log.x.i4: empty Channel.earlyInit()
+13:28:05,710 : INFO    : secop_test_log.x: registering module 'v1'
+13:28:05,710 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x10f98aa10> as v1 (export=True)
+13:28:05,711 : DEBUG   : secop_test_log.x.v1: empty DriverChannel.earlyInit()
+13:28:05,711 : INFO    : secop_test_log.x: registering module 'v2'
+13:28:05,711 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x10f98a290> as v2 (export=True)
+13:28:05,711 : DEBUG   : secop_test_log.x.v2: empty DriverChannel.earlyInit()
+13:28:05,711 : INFO    : secop_test_log.x: registering module 'tv'
+13:28:05,711 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x10f895490> as tv (export=True)
+13:28:05,711 : DEBUG   : secop_test_log.x.tv: empty UserChannel.earlyInit()
+13:28:05,711 : INFO    : secop_test_log.x: registering module 'ts'
+13:28:05,711 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x10f895950> as ts (export=True)
+13:28:05,711 : DEBUG   : secop_test_log.x.ts: empty UserChannel.earlyInit()
+13:28:05,711 : INFO    : secop_test_log.x: registering module 'ppms'
+13:28:05,711 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Main object at 0x10f895cd0> as ppms (export=True)
+13:28:05,711 : DEBUG   : secop_test_log.x.ppms: empty Main.initModule()
+13:28:05,712 : ERROR   : secop_test_log.x: secop_psi.ppms.Level not found
+13:28:23,519 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+13:28:23,550 : INFO    : secop_test_log.x: registering module 'tt'
+13:28:23,550 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Temp object at 0x10e422810> as tt (export=True)
+13:28:23,551 : DEBUG   : secop_test_log.x.tt: empty Temp.earlyInit()
+13:28:23,551 : INFO    : secop_test_log.x: registering module 'mf'
+13:28:23,551 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Field object at 0x10e5efdd0> as mf (export=True)
+13:28:23,551 : DEBUG   : secop_test_log.x.mf: empty Field.earlyInit()
+13:28:23,551 : INFO    : secop_test_log.x: registering module 'pos'
+13:28:23,551 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Position object at 0x10e602410> as pos (export=True)
+13:28:23,551 : DEBUG   : secop_test_log.x.pos: empty Position.earlyInit()
+13:28:23,551 : INFO    : secop_test_log.x: registering module 'r1'
+13:28:23,551 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10e602950> as r1 (export=True)
+13:28:23,551 : DEBUG   : secop_test_log.x.r1: empty BridgeChannel.earlyInit()
+13:28:23,551 : INFO    : secop_test_log.x: registering module 'r2'
+13:28:23,552 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10e602f10> as r2 (export=True)
+13:28:23,552 : DEBUG   : secop_test_log.x.r2: empty BridgeChannel.earlyInit()
+13:28:23,552 : INFO    : secop_test_log.x: registering module 'r3'
+13:28:23,552 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10e404e50> as r3 (export=True)
+13:28:23,552 : DEBUG   : secop_test_log.x.r3: empty BridgeChannel.earlyInit()
+13:28:23,552 : INFO    : secop_test_log.x: registering module 'r4'
+13:28:23,552 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10e5ef3d0> as r4 (export=True)
+13:28:23,552 : DEBUG   : secop_test_log.x.r4: empty BridgeChannel.earlyInit()
+13:28:23,552 : INFO    : secop_test_log.x: registering module 'i1'
+13:28:23,552 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10e60e7d0> as i1 (export=True)
+13:28:23,552 : DEBUG   : secop_test_log.x.i1: empty Channel.earlyInit()
+13:28:23,552 : INFO    : secop_test_log.x: registering module 'i2'
+13:28:23,552 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10e60ec10> as i2 (export=True)
+13:28:23,553 : DEBUG   : secop_test_log.x.i2: empty Channel.earlyInit()
+13:28:23,553 : INFO    : secop_test_log.x: registering module 'i3'
+13:28:23,553 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10e60efd0> as i3 (export=True)
+13:28:23,553 : DEBUG   : secop_test_log.x.i3: empty Channel.earlyInit()
+13:28:23,553 : INFO    : secop_test_log.x: registering module 'i4'
+13:28:23,553 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10e45a950> as i4 (export=True)
+13:28:23,553 : DEBUG   : secop_test_log.x.i4: empty Channel.earlyInit()
+13:28:23,553 : INFO    : secop_test_log.x: registering module 'v1'
+13:28:23,553 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x10e61d710> as v1 (export=True)
+13:28:23,553 : DEBUG   : secop_test_log.x.v1: empty DriverChannel.earlyInit()
+13:28:23,553 : INFO    : secop_test_log.x: registering module 'v2'
+13:28:23,553 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x10e61dc50> as v2 (export=True)
+13:28:23,553 : DEBUG   : secop_test_log.x.v2: empty DriverChannel.earlyInit()
+13:28:23,553 : INFO    : secop_test_log.x: registering module 'tv'
+13:28:23,553 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x10e461490> as tv (export=True)
+13:28:23,553 : DEBUG   : secop_test_log.x.tv: empty UserChannel.earlyInit()
+13:28:23,554 : INFO    : secop_test_log.x: registering module 'ts'
+13:28:23,554 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x10e527610> as ts (export=True)
+13:28:23,554 : DEBUG   : secop_test_log.x.ts: empty UserChannel.earlyInit()
+13:28:23,554 : INFO    : secop_test_log.x: registering module 'ppms'
+13:28:23,554 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Main object at 0x10e527990> as ppms (export=True)
+13:28:23,554 : DEBUG   : secop_test_log.x.ppms: empty Main.initModule()
+13:28:23,554 : ERROR   : secop_test_log.x: secop_psi.ppms.Level not found
+13:28:23,554 : ERROR   : secop_test_log.x: secop_psi.ppms.Chamber not found
+13:29:33,055 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+13:29:33,087 : INFO    : secop_test_log.x: registering module 'tt'
+13:29:33,087 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Temp object at 0x109bf26d0> as tt (export=True)
+13:29:33,087 : DEBUG   : secop_test_log.x.tt: empty Temp.earlyInit()
+13:29:33,087 : INFO    : secop_test_log.x: registering module 'mf'
+13:29:33,087 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Field object at 0x109dc1c90> as mf (export=True)
+13:29:33,087 : DEBUG   : secop_test_log.x.mf: empty Field.earlyInit()
+13:29:33,087 : INFO    : secop_test_log.x: registering module 'pos'
+13:29:33,087 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Position object at 0x109dd42d0> as pos (export=True)
+13:29:33,088 : DEBUG   : secop_test_log.x.pos: empty Position.earlyInit()
+13:29:33,088 : INFO    : secop_test_log.x: registering module 'lev'
+13:29:33,088 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Level object at 0x109c2b610> as lev (export=True)
+13:29:33,088 : DEBUG   : secop_test_log.x.lev: empty Level.earlyInit()
+13:29:33,088 : INFO    : secop_test_log.x: registering module 'chamber'
+13:29:33,088 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Chamber object at 0x109dd4ad0> as chamber (export=True)
+13:29:33,088 : DEBUG   : secop_test_log.x.chamber: empty Chamber.earlyInit()
+13:29:33,088 : INFO    : secop_test_log.x: registering module 'r1'
+13:29:33,088 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x109bdbc90> as r1 (export=True)
+13:29:33,088 : DEBUG   : secop_test_log.x.r1: empty BridgeChannel.earlyInit()
+13:29:33,088 : INFO    : secop_test_log.x: registering module 'r2'
+13:29:33,088 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x109bdf210> as r2 (export=True)
+13:29:33,089 : DEBUG   : secop_test_log.x.r2: empty BridgeChannel.earlyInit()
+13:29:33,089 : INFO    : secop_test_log.x: registering module 'r3'
+13:29:33,089 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x109dd4ed0> as r3 (export=True)
+13:29:33,089 : DEBUG   : secop_test_log.x.r3: empty BridgeChannel.earlyInit()
+13:29:33,089 : INFO    : secop_test_log.x: registering module 'r4'
+13:29:33,089 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x109de5550> as r4 (export=True)
+13:29:33,089 : DEBUG   : secop_test_log.x.r4: empty BridgeChannel.earlyInit()
+13:29:33,089 : INFO    : secop_test_log.x: registering module 'i1'
+13:29:33,089 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x109de5d90> as i1 (export=True)
+13:29:33,089 : DEBUG   : secop_test_log.x.i1: empty Channel.earlyInit()
+13:29:33,089 : INFO    : secop_test_log.x: registering module 'i2'
+13:29:33,089 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x109c2bad0> as i2 (export=True)
+13:29:33,089 : DEBUG   : secop_test_log.x.i2: empty Channel.earlyInit()
+13:29:33,089 : INFO    : secop_test_log.x: registering module 'i3'
+13:29:33,090 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x109def590> as i3 (export=True)
+13:29:33,090 : DEBUG   : secop_test_log.x.i3: empty Channel.earlyInit()
+13:29:33,090 : INFO    : secop_test_log.x: registering module 'i4'
+13:29:33,090 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x109def950> as i4 (export=True)
+13:29:33,090 : DEBUG   : secop_test_log.x.i4: empty Channel.earlyInit()
+13:29:33,090 : INFO    : secop_test_log.x: registering module 'v1'
+13:29:33,090 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x109defcd0> as v1 (export=True)
+13:29:33,090 : DEBUG   : secop_test_log.x.v1: empty DriverChannel.earlyInit()
+13:29:33,090 : INFO    : secop_test_log.x: registering module 'v2'
+13:29:33,090 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x109cf9250> as v2 (export=True)
+13:29:33,090 : DEBUG   : secop_test_log.x.v2: empty DriverChannel.earlyInit()
+13:29:33,090 : INFO    : secop_test_log.x: registering module 'tv'
+13:29:33,090 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x109cf9750> as tv (export=True)
+13:29:33,090 : DEBUG   : secop_test_log.x.tv: empty UserChannel.earlyInit()
+13:29:33,090 : INFO    : secop_test_log.x: registering module 'ts'
+13:29:33,091 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x109cf9c10> as ts (export=True)
+13:29:33,091 : DEBUG   : secop_test_log.x.ts: empty UserChannel.earlyInit()
+13:29:33,091 : INFO    : secop_test_log.x: registering module 'ppms'
+13:29:33,091 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Main object at 0x109cf9f90> as ppms (export=True)
+13:29:33,091 : DEBUG   : secop_test_log.x.ppms: empty Main.initModule()

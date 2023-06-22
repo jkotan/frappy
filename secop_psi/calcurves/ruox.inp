@@ -1,0 +1,68 @@
+sens=ruox
+unit=Ohm        ! sensor format (mV,V,Ohm), log formats are choosen automatically
+!tlim=2         ! setpoint limit (automatic if omitted)
+type=Special    ! sensor type (Special,Si,GaAlAs,Pt250,Pt500,Pt2500,RhFe,C,Cernox,RuOx,Ge) (special if omitted)
+!excit=10uA      ! (off,30nA,100nA,300nA,1uA,3uA,10uA,30uA,100uA,300uA,1mA,10mV,1mV) (if omitted: default from sensor type)
+!range=0         ! range in sensor units (if rang=0: determine range from table, if omitted: default from sensor type)
+form=loglog
+curv            ! curve (sensor,temp/K) follows, must be ordered, but can be increasing or decreasing
+330000	1
+226072	1.5
+222012	2
+210329	3
+198151	4
+187643	5
+178843	6
+171468	7
+165280	8
+160065	9
+155637	10
+151767	11
+148389	12
+145436	13
+142813	14
+140481	15
+138397	16
+136518	17
+134812	18
+133271	19
+131859	20
+130555	21
+129358	22
+128254	23
+127220	24
+126230	25
+125316	26
+124477	27
+123702	28
+122973	29
+122284	30
+121633	31
+121016	32
+120429	33
+119872	34
+119367	35
+118841	36
+118253	37
+117738	38
+117316	39
+116914	40
+113657	50
+111329	60
+109586	70
+108602	77
+108231	80
+107147	90
+106248	100
+104529	125
+103291	150
+102362	175
+101669	200
+101148	225
+100773	250
+100556	270
+100530	273
+100001	295
+100000	295.01
+50000	300
+

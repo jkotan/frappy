@@ -1,0 +1,6 @@
+["pdyn", [{"path": "", "type": "float", "kids": 5},
+{"path": "send", "type": "text", "readonly": false, "cmd": "pdyn send", "visibility": 3},
+{"path": "status", "type": "text", "visibility": 3},
+{"path": "set", "type": "float", "readonly": false, "cmd": "pdyn set"},
+{"path": "control", "type": "enum", "enum": {"OFF": 0, "ON": 1}, "readonly": false, "cmd": "pdyn control"},
+{"path": "pos", "type": "float"}]]

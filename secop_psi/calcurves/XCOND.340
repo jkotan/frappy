@@ -1,0 +1,11 @@
+Sensor Model:   CX-1050-AA-1.4L
+Serial Number:  XCOND
+Data Format:    5      (Log Ohms/Log Kelvin)
+SetPoint Limit: 1000.0      (Kelvin)
+Temperature coefficient:  1 (Negative)
+Number of Breakpoints:  2
+
+No.   Units      Temperature (K)
+
+  1  1.0       3.0
+  2  5.0       -1.0

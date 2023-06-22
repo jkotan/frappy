@@ -1,0 +1,36 @@
+{"smi": {"base": "/smi", "params": [
+{"path": "", "type": "float", "readonly": false, "cmd": "run smi", "kids": 13},
+{"path": "send", "type": "text", "readonly": false, "cmd": "smi send", "visibility": 3},
+{"path": "status", "type": "text", "visibility": 3},
+{"path": "is_running", "type": "int", "readonly": false, "cmd": "smi is_running", "visibility": 3},
+{"path": "target", "type": "float"},
+{"path": "output", "type": "bool", "readonly": false, "cmd": "smi output"},
+{"path": "set", "type": "float", "readonly": false, "cmd": "smi set"},
+{"path": "limited", "type": "float"},
+{"path": "limit", "type": "float", "readonly": false, "cmd": "smi limit"},
+{"path": "lastmsg", "type": "text"},
+{"path": "script", "type": "text", "readonly": false, "cmd": "smi script", "description": "scriptfile containing 'while' and 'halt' scripts"},
+{"path": "delay", "type": "float", "readonly": false, "cmd": "smi delay"},
+{"path": "step", "type": "float", "readonly": false, "cmd": "smi step"},
+{"path": "codeversion", "type": "text", "visibility": 3}]},
+
+"smv": {"base": "/smv", "params": [
+{"path": "", "type": "float", "readonly": false, "cmd": "run smv", "kids": 13},
+{"path": "send", "type": "text", "readonly": false, "cmd": "smv send", "visibility": 3},
+{"path": "status", "type": "text", "visibility": 3},
+{"path": "is_running", "type": "int", "readonly": false, "cmd": "smv is_running", "visibility": 3},
+{"path": "target", "type": "float"},
+{"path": "output", "type": "bool", "readonly": false, "cmd": "smv output"},
+{"path": "set", "type": "float", "readonly": false, "cmd": "smv set"},
+{"path": "limited", "type": "float"},
+{"path": "limit", "type": "float", "readonly": false, "cmd": "smv limit"},
+{"path": "lastmsg", "type": "text"},
+{"path": "script", "type": "text", "readonly": false, "cmd": "smv script", "description": "scriptfile containing 'while' and 'halt' scripts"},
+{"path": "delay", "type": "float", "readonly": false, "cmd": "smv delay"},
+{"path": "step", "type": "float", "readonly": false, "cmd": "smv step"},
+{"path": "codeversion", "type": "text", "visibility": 3}]},
+
+"r": {"base": "/r", "params": [
+{"path": "", "type": "float", "kids": 2},
+{"path": "send", "type": "text", "readonly": false, "cmd": "r send", "visibility": 3},
+{"path": "status", "type": "text", "visibility": 3}]}}

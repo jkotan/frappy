@@ -1,0 +1,8 @@
+sens=logtest
+unit=Ohm        ! sensor format (mV,V,Ohm), log formats are choosen automatically
+type=cernox     ! sensor type (Special,Si,GaAlAs,Pt250,Pt500,Pt2500,RhFe,C,Cernox,RuOx,Ge) (special if omitted)
+curv            ! curve (sensor,temp/K) follows, must be ordered, but can be increasing or decreasing
+1e9	1.0
+1000	1.0
+500	2
+250	4

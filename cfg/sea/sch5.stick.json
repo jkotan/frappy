@@ -1,0 +1,9 @@
+{"warmup": {"base": "/warmup", "params": [{"path": "", "type": "bool", "readonly": false, "cmd": "warmup", "kids": 8},
+{"path": "send", "type": "text", "readonly": false, "cmd": "warmup send", "visibility": 3},
+{"path": "status", "type": "text", "visibility": 3},
+{"path": "trig", "type": "float", "readonly": false, "cmd": "warmup trig", "description": "switch on sample heater when ts < target - trig and tm < target"},
+{"path": "weight", "type": "float", "readonly": false, "cmd": "warmup weight", "description": "switch off sample heater when ts > target - weight * (target - ts)"},
+{"path": "limit", "type": "float", "readonly": false, "cmd": "warmup limit", "description": "do not use warmup when target < limit"},
+{"path": "timef", "type": "float", "readonly": false, "cmd": "warmup timef", "description": "reset double control after (timef * int2) sec"},
+{"path": "abruptstop", "type": "bool", "readonly": false, "cmd": "warmup abruptstop", "description": "switch off sample heater immediately after tm > treg"},
+{"path": "warmup", "type": "enum", "enum": {"off": 0, "warmup": 1, "htroff": 2, "settle": 3}, "readonly": false, "cmd": "warmup warmup"}]}}

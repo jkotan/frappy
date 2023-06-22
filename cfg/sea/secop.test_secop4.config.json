@@ -1,0 +1,3 @@
+["secop", [{"path": "", "type": "text", "readonly": false, "cmd": "secop", "kids": 2},
+{"path": "send", "type": "text", "readonly": false, "cmd": "secop send", "visibility": 3},
+{"path": "status", "type": "text", "visibility": 3}]]

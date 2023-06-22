@@ -1,0 +1,5 @@
+["pars", [{"path": "", "type": "none", "kids": 4},
+{"path": "timestamp", "type": "text", "readonly": false, "cmd": "pars timestamp", "description": "unix timestamp"},
+{"path": "temperature", "type": "float", "readonly": false, "cmd": "pars temperature", "description": "T [K]"},
+{"path": "mf", "type": "float", "readonly": false, "cmd": "pars mf", "description": "field [T]"},
+{"path": "sr", "type": "float", "readonly": false, "cmd": "pars sr", "description": "rotaion angle [deg]"}]]

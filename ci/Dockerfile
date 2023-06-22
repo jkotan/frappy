@@ -1,4 +1,4 @@
-FROM python:3.9 AS base
+FROM python:3-buster AS base
 ARG PYVER=python3
 ENV  DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \
@@ -11,7 +11,7 @@ RUN apt-get update && \
           locales \
           python3 \
           python3-dev \
-          python3-tango \
+          python3-pytango \
           python3-venv python3-setuptools \
           virtualenv
 
@@ -33,15 +33,14 @@ RUN virtualenv /home/jenkins/tools2 && \
     rm -rf /home/jenkins/tools2src
 
 RUN virtualenv -p /usr/bin/python3 --system-site-packages /home/jenkins/secopvenv && \
-    git clone https://forge.frm2.tum.de/review/secop/frappy /home/jenkins/frappy && \
+    git clone https://forge.frm2.tum.de/review/sine2020/secop/playground /home/jenkins/playground && \
     . /home/jenkins/secopvenv/bin/activate && \
     pip install -U pip wheel setuptools && \
-    pip install -r /home/jenkins/frappy/requirements-dev.txt -r /home/jenkins/frappy/requirements.txt pylint pytest && \
-    rm -rf /home/jenkins/frappy
+    pip install -r /home/jenkins/playground/requirements-dev.txt -r /home/jenkins/playground/requirements.txt pylint pytest && \
+    rm -rf /home/jenkins/playground
 
 
 FROM base AS docs
-ARG PYVER=python3
 ENV  DEBIAN_FRONTEND=noninteractive
 
 USER root
@@ -51,8 +50,6 @@ RUN apt-get update && \
      texlive-latex-base \
      texlive-latex-recommended \
      texlive-fonts-recommended \
-     texlive-fonts-extra \
-     tex-gyre \
      texlive-base \
      texlive-binaries \
      latexmk

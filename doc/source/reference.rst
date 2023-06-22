@@ -1,143 +1,75 @@
 Reference
 ---------
 
-Core
-....
-
-For convenience everything documented on this page may also be
-imported from the frappy.core module.
-
-
 Module Base Classes
 ...................
 
-.. autoclass:: frappy.modules.Module
-    :members: earlyInit, initModule, startModule
+.. autoclass:: secop.modules.Module
+    :members: earlyInit, initModule, startModule, pollerClass
 
-.. autoclass:: frappy.modules.Readable
+.. autoclass:: secop.modules.Readable
     :members: Status
 
-.. autoclass:: frappy.modules.Writable
+.. autoclass:: secop.modules.Writable
 
-.. autoclass:: frappy.modules.Drivable
+.. autoclass:: secop.modules.Drivable
     :members: Status, isBusy, isDriving, stop
 
 
 Parameters, Commands and Properties
 ...................................
 
-.. autoclass:: frappy.params.Parameter
-.. autoclass:: frappy.params.Command
-.. autoclass:: frappy.properties.Property
-.. autoclass:: frappy.modules.Attached
+.. autoclass:: secop.params.Parameter
+.. autoclass:: secop.params.Command
+.. autoclass:: secop.properties.Property
+.. autoclass:: secop.modules.Attached
     :show-inheritance:
 
-Access method decorators
-........................
-
-.. autofunction:: frappy.rwhandler.nopoll
-
-
-.. _datatypes:
 
 Datatypes
 .........
 
-.. autoclass:: frappy.datatypes.FloatRange
-    :members: __call__
+.. autoclass:: secop.datatypes.FloatRange
+.. autoclass:: secop.datatypes.IntRange
+.. autoclass:: secop.datatypes.BoolType
+.. autoclass:: secop.datatypes.ScaledInteger
+.. autoclass:: secop.datatypes.EnumType
+.. autoclass:: secop.datatypes.StringType
+.. autoclass:: secop.datatypes.TupleOf
+.. autoclass:: secop.datatypes.ArrayOf
+.. autoclass:: secop.datatypes.StructOf
+.. autoclass:: secop.datatypes.BLOBType
 
-.. autoclass:: frappy.datatypes.IntRange
-    :members: __call__
-
-.. autoclass:: frappy.datatypes.BoolType
-    :members: __call__
-
-.. autoclass:: frappy.datatypes.ScaledInteger
-    :members: __call__
-
-.. autoclass:: frappy.datatypes.EnumType
-    :members: __call__
-
-.. autoclass:: frappy.datatypes.StringType
-    :members: __call__
-
-.. autoclass:: frappy.datatypes.TupleOf
-    :members: __call__
-
-.. autoclass:: frappy.datatypes.ArrayOf
-    :members: __call__
-
-.. autoclass:: frappy.datatypes.StructOf
-    :members: __call__
-
-.. autoclass:: frappy.datatypes.BLOBType
-    :members: __call__
-
-.. autoclass:: frappy.datatypes.DataTypeType
-    :members: __call__
-
-.. autoclass:: frappy.datatypes.ValueType
-    :members: __call__
-
-.. autoclass:: frappy.datatypes.NoneOr
-    :members: __call__
-
-.. autoclass:: frappy.datatypes.OrType
-    :members: __call__
-
-.. autoclass:: frappy.datatypes.LimitsType
-    :members: __call__
 
 
 Communication
 .............
 
-.. autoclass:: frappy.modules.Communicator
+.. autoclass:: secop.modules.Communicator
     :show-inheritance:
     :members: communicate
 
-.. autoclass:: frappy.io.IOBase
-    :show-inheritance:
-    :members: default_settings
-
-.. autoclass:: frappy.io.StringIO
+.. autoclass:: secop.stringio.StringIO
     :show-inheritance:
     :members: communicate, multicomm
 
-.. autoclass:: frappy.io.BytesIO
-    :show-inheritance:
-    :members: communicate, multicomm
-
-.. autoclass:: frappy.io.HasIO
+.. autoclass:: secop.stringio.HasIodev
     :show-inheritance:
 
-.. autoclass:: frappy.lib.asynconn.AsynTcp
-    :show-inheritance:
-
-.. autoclass:: frappy.lib.asynconn.AsynSerial
-    :show-inheritance:
-
-.. autoclass:: frappy.rwhandler.ReadHandler
+.. autoclass:: secop.iohandler.IOHandlerBase
     :show-inheritance:
     :members:
 
-.. autoclass:: frappy.rwhandler.CommonReadHandler
-    :show-inheritance:
-    :members:
-
-.. autoclass:: frappy.rwhandler.WriteHandler
-    :show-inheritance:
-    :members:
-
-.. autoclass:: frappy.rwhandler.CommonWriteHandler
+.. autoclass:: secop.iohandler.IOHandler
     :show-inheritance:
     :members:
 
 
 Exception classes
-.................
+.....................--
 
-.. automodule:: frappy.errors
+.. automodule:: secop.errors
     :members:
 
-.. include:: configuration.rst
+.. include:: server.rst
+

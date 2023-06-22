@@ -15,7 +15,7 @@ def constants():
     del c
 
 
-# pylint: disable=redefined-builtin
 @pytest.fixture(scope="session")
+# pylint: disable=redefined-builtin
 def globals():
-    return {}
+    return dict()

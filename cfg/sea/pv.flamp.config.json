@@ -1,0 +1,6 @@
+["pv", [{"path": "", "type": "float", "kids": 5},
+{"path": "send", "type": "text", "readonly": false, "cmd": "pv send", "visibility": 3},
+{"path": "status", "type": "text", "visibility": 3},
+{"path": "sp1", "type": "text"},
+{"path": "sp2", "type": "text"},
+{"path": "sps", "type": "text"}]]

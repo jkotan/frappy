@@ -1,590 +1,3 @@
-frappy-core (0.17.10) focal; urgency=medium
-
-  * Change leftover %-logging calls to lazy
-  * Convert formatting automatically to f-strings
-  * move unit into display label
-  * [WIP] gui: add specific input widgets
-  * Rebuild NodeWidget when the description changes
-  * Manually convert most remaining format statements
-  * make entangle mapping a dict
-
- -- Alexander Zaft <jenkins@frm2.tum.de>  Wed, 19 Apr 2023 14:32:52 +0200
-
-frappy-core (0.17.9) focal; urgency=medium
-
-  * interactive client: avoid messing up the input line
-
- -- Markus Zolliker <jenkins@frm2.tum.de>  Tue, 11 Apr 2023 16:09:03 +0200
-
-frappy-core (0.17.8) focal; urgency=medium
-
-  * Debian: Fix typo
-
- -- Jens Krüger <jenkins@frm2.tum.de>  Wed, 05 Apr 2023 07:20:25 +0200
-
-frappy-core (0.17.7) focal; urgency=medium
-
-  * Debian: add pyqtgraph dependency
-
- -- Jens Krüger <jenkins@frm2.tum.de>  Wed, 05 Apr 2023 07:07:24 +0200
-
-frappy-core (0.17.6) focal; urgency=medium
-
-  [ Alexander Zaft ]
-  * gui: show parameter properties again
-  * gui: full module description only in detailed mode
-  * gui: switch group button order, change text
-  * gui: add console history
-  * gui: logwindow improvements
-  * add copyright headers where missing
-  * add optional validation to ValueType
-  * cli: add argparse and inlcudes before repl
-
-  [ Markus Zolliker ]
-  * improve error messages
-
-  [ Jens Krüger ]
-  * Fix debian GUI package dependency
-
- -- Alexander Zaft <jenkins@frm2.tum.de>  Tue, 04 Apr 2023 08:42:26 +0200
-
-frappy-core (0.17.5) focal; urgency=medium
-
-  * Fix generator
-
- -- Alexander Zaft <jenkins@frm2.tum.de>  Wed, 22 Mar 2023 12:32:06 +0100
-
-frappy-core (0.17.4) focal; urgency=medium
-
-  * Fix entangle integration bugs
-
- -- Alexander Zaft <jenkins@frm2.tum.de>  Wed, 22 Mar 2023 11:44:34 +0100
-
-frappy-core (0.17.3) focal; urgency=medium
-
-  * UNRELEASED
-
- -- Alexander Zaft <jenkins@frm2.tum.de>  Tue, 21 Mar 2023 15:55:09 +0100
-
-frappy-core (0.17.2) focal; urgency=medium
-
-  [ Alexander Zaft ]
-  * Fix Simulation and Proxy
-
-  [ Markus Zolliker ]
-  * cfg path quick fix for hands-on session
-
-  [ Georg Brandl ]
-  * add pyqtgraph to gui dependencies
-
-  [ Markus Zolliker ]
-  * allow super calls on read_/write_ methods
-
-  [ Alexander Zaft ]
-  * Add greeter tab to UI
-  * Add recent SECNodes to Drop down menu
-  * Remove auto-connect to 10767 on startup
-
-  [ Markus Zolliker ]
-  * do not reuse address on Windows
-
-  [ Georg Brandl ]
-  * version.py: sync with other projects
-
-  [ Alexander Zaft ]
-  * Fix forge link in README
-
-  [ Markus Zolliker ]
-  * better guess for cfg file location
-  * fix ppms with proxy
-  * default settings on the IO class
-  * demo lakeshore with simulation
-
-  [ Georg Brandl ]
-  * cfg editor: fixes
-  * installer: add config for frappy gui exe
-
-  [ Markus Zolliker ]
-  * make doc should not fail when version is not available
-
-  [ Alexander Zaft ]
-  * Add reconnect Action
-
-  [ Georg Brandl ]
-  * readme: fix make call
-  * gui: add about dialog, remove "about Qt" menu entry
-  * gui: move QSECNode to separate module
-  * gui: isort
-
-  [ Alexander Zaft ]
-  * Fix Node adding logic
-  * Remove unneeded constants
-  * Make input field more distinct
-
-  [ Markus Zolliker ]
-  * AsynConn.uri: better handling for missing scheme
-
-  [ Georg Brandl ]
-  * gui: remove unused ui file
-  * gui: better label for param set button
-
-  [ Alexander Zaft ]
-  * Always make a greeter tab
-
-  [ Markus Zolliker ]
-  * improve online help of frappy-cli
-  * refresh logging when reconnected while watching
-
-  [ Alexander Zaft ]
-  * [Needs Feedback] Add PyQt6. Remove PyQt4
-  * Merge resource files
-  * Extend Node and Module widgets
-  * Scroll Module area instead of replacing widgets
-  * Remove Modulectrl Widget
-
-  [ Georg Brandl ]
-  * gui: better display of protocol version
-  * gui: cleanup code in modulewidget
-  * gui: always show scrollbar in nodewidget
-
-  [ Alexander Zaft ]
-  * Short background Color animation on scroll
-
-  [ Markus Zolliker ]
-  * treat returning None from write_<param> properly
-
-  [ Alexander Zaft ]
-  * Fix doubled module info
-
-  [ Georg Brandl ]
-  * Jenkinsfile: isort does not fail the build
-  * isort: add firstparty
-
-  [ Alexander Zaft ]
-  * gui: make module details button checkable
-  * gui: Logo in greeter
-
-  [ Enrico Faulhaber ]
-  * handle connection close more gracefully
-
-  [ Markus Zolliker ]
-  * split BadValue into WrongType and RangeError
-
-  [ Georg Brandl ]
-  * demo: fixup Switch class
-
-  [ Alexander Zaft ]
-  * fix importing AsynCon without serial
-
-  [ Markus Zolliker ]
-  * gui: support proper formatting of values
-  * central point for status codes
-
-  [ Alexander Zaft ]
-  * fix README typo
-  * gui: terminate connection on tab close
-  * check configured names for spaces
-
-  [ Markus Zolliker ]
-  * make return value 'Done' unneccessary
-  * enhanced parameter range checks
-  * simplify status type declaration
-  * improve frappy.errors
-  * remove UNKNOWN, UNSTABLE and DISABLED from Readable.status
-  * fix generalConfig defaults
-
-  [ Alexander Zaft ]
-  * Add SECoP link to readme
-  * gui: more greeter interactions
-
-  [ Markus Zolliker ]
-  * fix issues when closing tabs
-  * format unit properly in the case of nested arrays
-
- -- Alexander Zaft <jenkins@frm2.tum.de>  Tue, 21 Mar 2023 15:49:06 +0100
-
-frappy-core (0.17.1) focal; urgency=medium
-
-  [ Georg Brandl ]
-  * gitignore: ignore demo PID file
-  * config: demo config fixes
-  * cfg: repair demo cfg after conversion
-  * gui: make spacing more consistent
-
-  [ Markus Zolliker ]
-  * fix links in doc/introduction
-
-  [ Georg Brandl ]
-  * gui console: better formatting of input/output
-  * gui: as a stopgap measure, apply %g format to floats
-  * gui: clear tree selection by clicking into empty space
-  * gui: make plot windows children of the node, so they close automatically
-
- -- Georg Brandl <jenkins@frm2.tum.de>  Tue, 21 Feb 2023 17:44:56 +0100
-
-frappy-core (0.17.0) focal; urgency=medium
-
-  [ Alexander Zaft ]
-  * Rework GUI.
-
-  [ Georg Brandl ]
-  * ci: remove duplicate variable
-  * doc: fix trailing comma in authors
-
- -- Alexander Zaft <jenkins@frm2.tum.de>  Tue, 21 Feb 2023 13:52:17 +0100
-
-frappy-core (0.16.1) focal; urgency=medium
-
-  * UNRELEASED
-
- -- Georg Brandl <jenkins@frm2.tum.de>  Tue, 21 Feb 2023 08:44:28 +0100
-
-frappy-core (0.16.4) focal; urgency=medium
-
-  * UNRELEASED
-
- -- Georg Brandl <jenkins@frm2.tum.de>  Tue, 21 Feb 2023 08:09:20 +0100
-
-frappy-core (0.16.3) focal; urgency=medium
-
-  * UNRELEASED
-
- -- Georg Brandl <jenkins@frm2.tum.de>  Tue, 21 Feb 2023 08:00:15 +0100
-
-frappy-core (0.16.2) focal; urgency=medium
-
-  * gui: move icon resources for the cfg editor to its subdirectory
-
- -- Georg Brandl <jenkins@frm2.tum.de>  Tue, 21 Feb 2023 07:50:13 +0100
-
-frappy-core (0.16.1) focal; urgency=medium
-
-  * add frappy-cli to package
-
- -- Enrico Faulhaber <jenkins@frm2.tum.de>  Mon, 20 Feb 2023 17:17:23 +0100
-
-frappy-core (0.16.0) focal; urgency=medium
-
-  [ Enrico Faulhaber ]
-  * fix sorce package name
-
-  [ Markus Zolliker ]
-  * interactive client: fix detection of overriding modules
-
-  [ Alexander Zaft ]
-  * Fix error Message for too large arrays
-
-  [ Markus Zolliker ]
-  * redesign of the state machine
-
-  [ Alexander Zaft ]
-  * Fix identification response
-  * GUI: add logging infra, switch to argparse
-
-  [ Bjoern Pedersen ]
-  * Improve jenkinsfile
-
-  [ Alexander Zaft ]
-  * Change config to Python
-
-  [ Markus Zolliker ]
-  * improve He level tutorial
-  * client: detect original frappy error class
-  * rework datatypes (setter should not check limits)
-
-  [ Alexander Zaft ]
-  * Bring demo up to date
-  * Revert limit change in demo
-
-  [ Markus Zolliker ]
-  * improve parameter initialisation
-  * fix copy method of Attached
-
-  [ Alexander Zaft ]
-  * Add .desktop file
-
-  [ Markus Zolliker ]
-  * improve persistent parameters
-  * do not throw ZeroDivisonError when pollinterval is 0
-  * HasStates: fix status code inheritance
-  * HasControlledBy and HasOutputModule mixins
-  * adapt tutorial to new config file format
-  * raise ProtcolError when specifier is missing
-  * interactive client: improve watch function
-  * add lakeshore demo for hands-on workshop
-  * T controller tutorial and improve documentation
-  * do proper value import on the client side
-
-  [ Alexander Zaft ]
-  * Add initial README
-  * Change Readme title
-  * Convert example configs to python
-
-  [ Markus Zolliker ]
-  * README: add link to doc on forge.frm2.tum.de
-
- -- Enrico Faulhaber <jenkins@frm2.tum.de>  Mon, 20 Feb 2023 16:15:10 +0100
-
-frappy-core (0.15.0) focal; urgency=medium
-
-  [ Björn Pedersen ]
-  * Remove iohandler left-overs from docs
-
-  [ Georg Brandl ]
-  * Makefile: fix release target
-
-  [ Alexander Zaft ]
-  * Add requirements-gui.txt and add PyQT5
-
-  [ Christian Felder ]
-  * Fix typo in .description
-
-  [ Alexander Zaft ]
-  * fixed pylint warnings
-  * Rename from secop to frappy
-  * rename debian package files
-
-  [ Björn Pedersen ]
-  * CI build: upgrade base image
-
-  [ Alexander Zaft ]
-  * rename debian files
-
-  [ Björn Pedersen ]
-  * Fix doc warnings/errors
-
- -- Björn Pedersen <jenkins@frm2.tum.de>  Thu, 10 Nov 2022 14:46:01 +0100
-
-secop-core (0.14.3) focal; urgency=medium
-
-  [ Enrico Faulhaber ]
-  * change repo to secop/frappy
-
-  [ Georg Brandl ]
-  * secop_mlz/amagnet: formatting fixup
-
-  [ Bjoern Pedersen ]
-  * Upgrade for ci
-
-  [ Enrico Faulhaber ]
-  * MLZ/entangle: fix AnalogOutput.read_status()
-
- -- Enrico Faulhaber <jenkins@frm2.tum.de>  Thu, 03 Nov 2022 13:51:52 +0100
-
-secop-core (0.14.2) focal; urgency=medium
-
-  * systemd generator: adapt to changed config API
-
- -- Georg Brandl <jenkins@frm2.tum.de>  Thu, 20 Oct 2022 15:38:45 +0200
-
-secop-core (0.14.1) focal; urgency=medium
-
-  [ Markus Zolliker ]
-  * secop_psi.entangle.AnalogInput: fix main value
-
-  [ Georg Brandl ]
-  * gui: clarify needed input for "add sec node" dialog
-  * mlz: avoid error on import due to consistency check
-  * Makefile: fix Jenkins host
-
- -- Markus Zolliker <jenkins@frm2.tum.de>  Thu, 20 Oct 2022 14:04:07 +0200
-
-secop-core (0.14.0) focal; urgency=medium
-
-  * add simple interactive python client
-  * fix undefined status in softcal
-  * improve HasConvergence mixin
-  * fix bug in persistent.py
-  * fix bug when restarting statemachine
-  * improve general config
-  * improvements on interactive client
-  * apply main unit also in structured types
-  * HasIO: automatic creation of io from uri fails
-
- -- Markus Zolliker <jenkins@frm2.tum.de>  Wed, 19 Oct 2022 11:31:50 +0200
-
-secop-core (0.13.1) focal; urgency=medium
-
-  [ Markus Zolliker ]
-  * an enum with value 0 should be interpreted as False
-  * make startup faster in case of errors
-
-  [ Enrico Faulhaber ]
-  * secop_mlz: minor rework entangle client
-
- -- Markus Zolliker <jenkins@jenkins02.admin.frm2.tum.de>  Tue, 02 Aug 2022 15:31:52 +0200
-
-secop-core (0.13.0) focal; urgency=medium
-
-  [ Georg Brandl ]
-  * debian: fix email addresses in changelog
-
-  [ Markus Zolliker ]
-  * various small changes
-  * automatic saving of persistent parameters
-  * add more tests and fixes for command inheritance
-  * entangle.AnalogOutput: fix window mechanism
-  * remote logging (issue 46)
-  * add timeouts to MultiEvents
-  * introduce general config file
-  * improve handling of module init methods
-  * check for bad read_* and write_* methods
-  * change name of read_hw_status method in sequencer mixin
-  * fix doc (stringio - > io)
-  * enhance logging
-  * UniqueObject
-  * ReadHandler and WriteHandler decorators
-  * do not convert string to float
-  * check for problematic value range
-  * unify name and module on Attached property
-  * ppms: replace IOHandler by Read/WriteHandler
-  * fix handling commands
-  * common read/write handlers
-  * implement a state machine
-  * proper return value in handler read_* methods
-  * new poll mechanism
-  * support for fast poll when busy
-  * various small fixes
-  * reset connection on identification
-  * improve softcal
-  * move markdown to requirements-dev.txt
-  * improve k2601b driver
-  * fix and improved Attached
-  * fix error in write wrapper and more
-  * support write_ method on readonly param and more
-  * init generalConfig.defaults only in secop-server
-  * HasConvergence mixin
-  * avoid race conditions in read_*/write_* methods
-  * reintroduced individual init of generalConfig.defaults
-  * fix statemachine
-  * use a common poller thread for modules sharing io
-  * motor valve using trinamic motor
-  * improved trinamic driver
-  * fix error in secop.logging
-  * avoid deadlock in proxy
-  * improve poller error handling
-  * support for OI mercury series
-  * add 'ts' to the ppms simulation
-  * allow a configfile path as single argument to secop-server
-  * fix keithley 2601b after tests
-  * channel switcher for Lakeshore 370 with scanner
-  * feature implementation
-  * allow to convert numpy arrays to ArrayOf
-  * remove IOHandler stuff
-
-  [ Enrico Faulhaber ]
-  * default unit to UTF8
-
- -- Georg Brandl <jenkins@frm2.tum.de>  Tue, 02 Aug 2022 09:47:06 +0200
-
-secop-core (0.12.4) focal; urgency=medium
-
-  * fix command inheritance
-
- -- Markus Zolliker <jenkins@jenkins01.admin.frm2.tum.de>  Thu, 11 Nov 2021 16:21:19 +0100
-
-secop-core (0.12.3) focal; urgency=medium
-
-  [ Georg Brandl ]
-  * Makefile: fix docker image
-
-  [ Markus Zolliker ]
-  * various fixes
-  * remove irrelevant comments
-  * introduce BytesIO
-  * GUI fixes
-  * persistent params / trinamic motor
-  * fix Parameter/Command copy method
-  * show first instead of last traceback on multiple errors
-  * fix parameter inheritance
-  * fix property inheritance
-  * fix python 3.5 compatibility
-  * omit updates of unchanged values within short time
-  * improve simulation
-  * automatically register subclasses of AsynConn
-  * fix feature for removing commands
-
- -- Georg Brandl <jenkins@jenkins01.admin.frm2.tum.de>  Wed, 10 Nov 2021 16:33:19 +0100
-
-secop-core (0.12.2) focal; urgency=medium
-
-  [ Markus Zolliker ]
-  * fix issue with new syntax in simulation
-  * treat specifier of describe message
-  * allow to remove accessibles
-
-  [ Enrico Faulhaber ]
-  * secop_mlz: small fixes
-
- -- Markus Zolliker <jenkins@jenkins01.admin.frm2.tum.de>  Tue, 18 May 2021 10:29:17 +0200
-
-secop-core (0.12.1) focal; urgency=medium
-
-  * remove secop-console from debian *.install file
-
- -- Enrico Faulhaber <jenkins@jenkins02.admin.frm2.tum.de>  Tue, 04 May 2021 09:42:53 +0200
-
-secop-core (0.12.0) focal; urgency=medium
-
-  [ Markus Zolliker ]
-  * make datatypes immutable
-  * customizable general config
-  * support for multiple secop servers
-  * secop.asynconn without pyserial
-  * change cfg file format
-  * fix bug in secop.gui.valuewidgets
-  * fix deadlock when reconnecting client
-  * allow class instead of class name in proxy_class
-  * fix pylint command in Makefile
-  * change arguments of stringio-server
-  * router bug fix
-  * introduce update callbacks
-  * improve error handling on client connections
-  * ppms: improve status and temperature
-  * rework tcp server
-  * cosmetics on datatypes.TextType
-  * improve error handling in SecopClient
-  * improve HasIodev
-  * HasIodev bug fix
-  * fix handling of StructOf datatype
-  * more flexible end_of_line in stringio
-  * improvements on PPMS and LS370
-  * add readbytes method to AsynConn
-  * Param(..., initwrite=True) works only with poll=True
-  * fix initwrite behaviour
-  * make order of accessibles work again
-  * main module of LS370 is now drivable
-  * improve softcal
-  * make arguments of Parameter and Override consistent
-  * new syntax for parameter/commands/properties
-  * enhance documentation
-  * removed old style syntax
-  * after running isort
-  * try to follow PEP8
-  * fix inheritance order
-  * remove obsolete code
-  * lookup cfg files in a list of directories
-  * added hook for optional history writer
-  * fixed errors during migration
-  * move historywriter to secop_psi
-  * fix autoscan behaviour in ls370res
-
-  [ l_samenv ]
-  * improve tutorial_helevel
-  * fixed bugs from syntax migration
-
-  [ Markus Zolliker ]
-  * user friendly reporting of config errors
-
-  [ Bjoern Pedersen ]
-  * Jenkisfile: verification
-  * Fixes to Jenkinsfile
-  * No pull for images, they are recreated in the job
-  * Another Jenkisfile error
-  * Correct checks enum
-
- -- Markus Zolliker <jenkins@jenkins02.admin.frm2.tum.de>  Tue, 04 May 2021 08:49:57 +0200
-
 secop-core (0.11.6) unstable; urgency=medium
 
   * fix secop-generator
@@ -720,7 +133,7 @@ secop-core (0.10.5) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Tue, 29 Oct 2019 16:33:18 +0100
+ -- Jenkins <jenkins@debuild.taco.frm2>  Tue, 29 Oct 2019 16:33:18 +0100
 
 secop-core (0.10.3) unstable; urgency=low
 
@@ -729,7 +142,7 @@ secop-core (0.10.3) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Fri, 11 Oct 2019 10:49:43 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Fri, 11 Oct 2019 10:49:43 +0200
 
 secop-core (0.10.2) unstable; urgency=low
 
@@ -740,7 +153,7 @@ secop-core (0.10.2) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Fri, 11 Oct 2019 10:42:58 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Fri, 11 Oct 2019 10:42:58 +0200
 
 secop-core (0.10.1) unstable; urgency=low
 
@@ -749,7 +162,7 @@ secop-core (0.10.1) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Thu, 26 Sep 2019 16:41:10 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Thu, 26 Sep 2019 16:41:10 +0200
 
 secop-core (0.10.0) unstable; urgency=low
 
@@ -758,7 +171,7 @@ secop-core (0.10.0) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Thu, 26 Sep 2019 16:31:14 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Thu, 26 Sep 2019 16:31:14 +0200
 
 secop-core (0.9.0) unstable; urgency=low
 
@@ -785,7 +198,7 @@ secop-core (0.9.0) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Thu, 26 Sep 2019 16:26:07 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Thu, 26 Sep 2019 16:26:07 +0200
 
 secop-core (0.8.1) unstable; urgency=low
 
@@ -794,7 +207,7 @@ secop-core (0.8.1) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Wed, 25 Sep 2019 15:40:44 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Wed, 25 Sep 2019 15:40:44 +0200
 
 secop-core (0.8.0) unstable; urgency=low
 
@@ -862,7 +275,7 @@ secop-core (0.8.0) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Wed, 25 Sep 2019 10:27:51 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Wed, 25 Sep 2019 10:27:51 +0200
 
 secop-core (0.7.0) unstable; urgency=low
 
@@ -898,7 +311,7 @@ secop-core (0.7.0) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Thu, 28 Mar 2019 13:46:08 +0100
+ -- Jenkins <jenkins@debuild.taco.frm2>  Thu, 28 Mar 2019 13:46:08 +0100
 
 secop-core (0.6.4) unstable; urgency=low
 
@@ -963,7 +376,7 @@ secop-core (0.6.4) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Thu, 20 Dec 2018 16:44:03 +0100
+ -- Jenkins <jenkins@debuild.taco.frm2>  Thu, 20 Dec 2018 16:44:03 +0100
 
 secop-core (0.6.3) unstable; urgency=low
 
@@ -977,7 +390,7 @@ secop-core (0.6.3) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Fri, 27 Jul 2018 09:31:59 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Fri, 27 Jul 2018 09:31:59 +0200
 
 secop-core (0.6.2) unstable; urgency=low
 
@@ -1016,7 +429,7 @@ secop-core (0.6.2) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Wed, 18 Jul 2018 12:06:57 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Wed, 18 Jul 2018 12:06:57 +0200
 
 secop-core (0.6.1) unstable; urgency=low
 
@@ -1025,7 +438,7 @@ secop-core (0.6.1) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Thu, 19 Apr 2018 10:24:44 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Thu, 19 Apr 2018 10:24:44 +0200
 
 secop-core (0.6.0) unstable; urgency=low
 
@@ -1045,7 +458,7 @@ secop-core (0.6.0) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Tue, 17 Apr 2018 17:38:52 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Tue, 17 Apr 2018 17:38:52 +0200
 
 secop-core (0.5.0) unstable; urgency=low
 
@@ -1057,7 +470,7 @@ secop-core (0.5.0) unstable; urgency=low
   * fix amagnet
   * add info about Meeting @PSI
   * fix typo and include comment from Niklas
-  * give sequencermixin a loopcounter (per step)
+  * playground: give sequencermixin a loopcounter (per step)
 
   [ Frank Wutzler ]
   * describe SECoP motivation discussed in meeting 2017-11-27
@@ -1108,7 +521,7 @@ secop-core (0.5.0) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Tue, 17 Apr 2018 12:45:58 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Tue, 17 Apr 2018 12:45:58 +0200
 
 secop-core (0.4.4) unstable; urgency=low
 
@@ -1117,7 +530,7 @@ secop-core (0.4.4) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Sun, 24 Sep 2017 22:25:01 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Sun, 24 Sep 2017 22:25:01 +0200
 
 secop-core (0.4.3) unstable; urgency=low
 
@@ -1126,7 +539,7 @@ secop-core (0.4.3) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Fri, 22 Sep 2017 17:29:46 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Fri, 22 Sep 2017 17:29:46 +0200
 
 secop-core (0.4.2) unstable; urgency=low
 
@@ -1135,7 +548,7 @@ secop-core (0.4.2) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Fri, 22 Sep 2017 16:37:59 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Fri, 22 Sep 2017 16:37:59 +0200
 
 secop-core (0.4.1) unstable; urgency=low
 
@@ -1144,7 +557,7 @@ secop-core (0.4.1) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Fri, 22 Sep 2017 13:25:28 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Fri, 22 Sep 2017 13:25:28 +0200
 
 secop-core (0.4.0) unstable; urgency=low
 
@@ -1154,7 +567,7 @@ secop-core (0.4.0) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Fri, 22 Sep 2017 10:33:04 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Fri, 22 Sep 2017 10:33:04 +0200
 
 secop-core (0.3.0) unstable; urgency=low
 
@@ -1220,7 +633,7 @@ secop-core (0.3.0) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Mon, 18 Sep 2017 14:18:36 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Mon, 18 Sep 2017 14:18:36 +0200
 
 secop-core (0.2.0) unstable; urgency=low
 
@@ -1229,7 +642,7 @@ secop-core (0.2.0) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Thu, 07 Sep 2017 14:55:41 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Thu, 07 Sep 2017 14:55:41 +0200
 
 secop-core (0.1.1) unstable; urgency=low
 
@@ -1238,7 +651,7 @@ secop-core (0.1.1) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Thu, 07 Sep 2017 11:02:19 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Thu, 07 Sep 2017 11:02:19 +0200
 
 secop-core (0.1.0) unstable; urgency=low
 
@@ -1247,7 +660,7 @@ secop-core (0.1.0) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Thu, 07 Sep 2017 10:50:24 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Thu, 07 Sep 2017 10:50:24 +0200
 
 secop-core (0.0.8) unstable; urgency=low
 
@@ -1256,7 +669,7 @@ secop-core (0.0.8) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Tue, 01 Aug 2017 14:13:11 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Tue, 01 Aug 2017 14:13:11 +0200
 
 secop-core (0.0.7) unstable; urgency=low
 
@@ -1265,7 +678,7 @@ secop-core (0.0.7) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Tue, 01 Aug 2017 13:52:15 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Tue, 01 Aug 2017 13:52:15 +0200
 
 secop-core (0.0.6) unstable; urgency=low
 
@@ -1275,7 +688,7 @@ secop-core (0.0.6) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Tue, 01 Aug 2017 13:39:07 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Tue, 01 Aug 2017 13:39:07 +0200
 
 secop-core (0.0.5) unstable; urgency=low
 
@@ -1284,7 +697,7 @@ secop-core (0.0.5) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Tue, 01 Aug 2017 13:11:43 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Tue, 01 Aug 2017 13:11:43 +0200
 
 secop-core (0.0.4) unstable; urgency=low
 
@@ -1293,7 +706,7 @@ secop-core (0.0.4) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Thu, 27 Jul 2017 11:39:42 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Thu, 27 Jul 2017 11:39:42 +0200
 
 secop-core (0.0.3) unstable; urgency=low
 
@@ -1303,7 +716,7 @@ secop-core (0.0.3) unstable; urgency=low
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Thu, 27 Jul 2017 11:27:28 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Thu, 27 Jul 2017 11:27:28 +0200
 
 secop-core (0.0.2) unstable; urgency=medium
 
@@ -1381,4 +794,4 @@ secop-core (0.0.2) unstable; urgency=medium
 
   [ Jenkins ]
 
- -- Jenkins <jenkins@debuild.taco.frm2.tum.de>  Wed, 19 Jul 2017 11:44:13 +0200
+ -- Jenkins <jenkins@debuild.taco.frm2>  Wed, 19 Jul 2017 11:44:13 +0200

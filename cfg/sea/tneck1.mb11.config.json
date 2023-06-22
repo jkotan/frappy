@@ -1,0 +1,4 @@
+["tneck1", [{"path": "", "type": "float", "kids": 3},
+{"path": "send", "type": "text", "readonly": false, "cmd": "tneck1 send", "visibility": 3},
+{"path": "status", "type": "text", "visibility": 3},
+{"path": "raw", "type": "float"}]]

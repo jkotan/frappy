@@ -8,7 +8,7 @@ meter, as this is the simplest module.
 As mentioned in the introduction, we have to code the access to the hardware (driver),
 and the Frappy framework will deal with the SECoP interface. The code for the driver is
 located in a subdirectory named after the facility or institute programming the driver
-in our case *frappy_psi*. We create a file named from the electronic device CCU4 we use
+in our case *secop_psi*. We create a file named from the electronic device CCU4 we use
 here for the He level reading.
 
 CCU4 luckily has a very simple and logical protocol:
@@ -17,12 +17,12 @@ CCU4 luckily has a very simple and logical protocol:
 * ``<name>\n`` reads the parameter named ``<name>``
 * in both cases, the reply is ``<name>=<value>\n``
 
-``frappy_psi/ccu4.py``:
+``secop_psi/ccu4.py``:
 
 .. code:: python
 
-    # the most common Frappy classes can be imported from frappy.core
-    from frappy.core import Readable, Parameter, FloatRange, BoolType, StringIO, HasIO
+    # the most common Frappy classes can be imported from secop.core
+    from secop.core import Readable, Parameter, FloatRange, BoolType, StringIO, HasIodev
 
 
     class CCU4IO(StringIO):
@@ -34,13 +34,14 @@ CCU4 luckily has a very simple and logical protocol:
         identification = [('cid', r'CCU4.*')]
 
 
-    # inheriting HasIO allows us to use the communicate method for talking with the hardware
-    # 'Readable' as base class defines the value and status parameters
-    class HeLevel(HasIO, Readable):
+    # inheriting the HasIodev mixin creates us a private attribute *_iodev*
+    # for talking with the hardware
+    # Readable as a base class defines the value and status parameters
+    class HeLevel(HasIodev, Readable):
         """He Level channel of CCU4"""
 
-        # define the communication class for automatic creation of the IO module
-        ioClass = CCU4IO
+        # define the communication class to create the IO module
+        iodevClass = CCU4IO
 
         # define or alter the parameters
         # as Readable.value exists already, we give only the modified property 'unit'
@@ -48,13 +49,13 @@ CCU4 luckily has a very simple and logical protocol:
 
         def read_value(self):
             # method for reading the main value
-            reply = self.communicate('h')  # send 'h\n' and get the reply 'h=<value>\n'
+            reply = self._iodev.communicate('h')  # send 'h\n' and get the reply 'h=<value>\n'
             name, txtvalue = reply.split('=')
             assert name == 'h'  # check that we got a reply to our command
-            return float(txtvalue)
+            return txtvalue  # the framework will automatically convert the string to a float
 
 
-The class :class:`frappy_psi.ccu4.CCU4IO`, an extension of (:class:`frappy.stringio.StringIO`)
+The class :class:`secop_psi.ccu4.CCU4IO`, an extension of (:class:`secop.stringio.StringIO`)
 serves as communication class.
 
 :Note:
@@ -114,19 +115,19 @@ the status codes from the hardware to the standard SECoP status codes.
         }
 
         def read_status(self):
-            name, txtvalue = self.communicate('hsf').split('=')
+            name, txtvalue = self._iodev.communicate('hsf').split('=')
             assert name == 'hsf'
             return self.STATUS_MAP(int(txtvalue))
 
         def read_empty_length(self):
-            name, txtvalue = self.communicate('hem').split('=')
+            name, txtvalue = self._iodev.communicate('hem').split('=')
             assert name == 'hem'
-            return float(txtvalue)
+            return txtvalue
 
         def write_empty_length(self, value):
-            name, txtvalue = self.communicate('hem=%g' % value).split('=')
+            name, txtvalue = self._iodev.communicate('hem=%g' % value).split('=')
             assert name == 'hem'
-            return float(txtvalue)
+            return txtvalue
 
     ...
 
@@ -151,9 +152,9 @@ which means it might be worth to create a *query* method, and then the
                         for changing a parameter
             :returns: the (new) value of the parameter
             """
-            name, txtvalue = self.communicate(cmd).split('=')
+            name, txtvalue = self._iodev.communicate(cmd).split('=')
             assert name == cmd.split('=')[0]  # check that we got a reply to our command
-            return float(txtvalue)
+            return txtvalue  # Frappy will automatically convert the string to the needed data type
 
         def read_value(self):
             return self.query('h')
@@ -183,7 +184,7 @@ which means it might be worth to create a *query* method, and then the
 :Note:
 
     It make sense to unify *empty_length* and *full_length* to one parameter *calibration*,
-    as a :class:`frappy.datatypes.StructOf` with members *empty_length* and *full_length*:
+    as a :class:`secop.datatypes.StructOf` with members *empty_length* and *full_length*:
 
     .. code:: python
 
@@ -196,7 +197,7 @@ which means it might be worth to create a *query* method, and then the
     For simplicity we stay with two float parameters for this tutorial.
 
 
-The full documentation of the example can be found here: :class:`frappy_psi.ccu4.HeLevel`
+The full documentation of the example can be found here: :class:`secop_psi.ccu4.HeLevel`
 
 
 Configuration
@@ -205,50 +206,46 @@ Before we continue coding, we may try out what we have coded and create a config
 The directory tree of the Frappy framework contains the code for all drivers, but the
 configuration file determines, which code will be loaded when a server is started.
 We choose the name *example_cryo* and create therefore a configuration file
-*example_cryo_cfg.py* in the *cfg* subdirectory:
+*example_cryo.cfg* in the *cfg* subdirectory:
 
-``cfg/example_cryo_cfg.py``:
+``cfg/example_cryo.cfg``:
 
-.. code:: python
+.. code:: ini
 
-    Node('example_cryo.psi.ch',
-         'this is an example cryostat for the Frappy tutorial',
-          interface='tcp://5000')
-    Mod('helev',
-        'frappy_psi.ccu4.HeLevel',
-        'He level of the cryostat He reservoir',
-        uri='linse-moxa-4.psi.ch:3001',
-        empty_length=380,
-        full_length=0)
+    [NODE]
+    description = this is an example cryostat for the Frappy tutorial
+    id = example_cryo.psi.ch
 
-A configuration file contains a node configuration and one or several module configurations.
+    [INTERFACE]
+    uri = tcp://5000
 
-*Node* describes the main properties of the SEC Node: an id and a description of the node
-which should be globally unique, and an interface defining the address of the server,
-usually the only important value here is the TCP port under which the server will be accessible.
-Currently only tcp is supported.
+    [helev]
+    description = He level of the cryostat He reservoir
+    class = secop_psi.ccu4.HeLevel
+    uri = linse-moxa-4.psi.ch:3001
+    empty_length = 380
+    full_length = 0
 
-All the other sections define the SECoP modules to be used. This first arguments of *Mod(* are:
+A configuration file contains several sections with a header enclosed by rectangular brackets.
 
-* the module name
-* the python class to be used for the creation of the module
-* a human readable description is its
+The *NODE* section describes the main properties of the SEC Node: a description of the node
+and an id, which should be globally unique.
 
-Other properties or parameter values may follow, in this case the *uri* for the communication
-with the He level monitor and the values for configuring the He Level sensor.
-We might also alter parameter properties, for example we may hide
+The *INTERFACE* section defines the address of the server, usually the only important value
+here is the TCP port under which the server will be accessible. Currently only tcp is
+supported.
+
+All the other sections define the SECoP modules to be used. A module section at least contains a
+human readable *description*, and the Python *class* used. Other properties or parameter values may
+follow, in this case the *uri* for the communication with the He level monitor and the values for
+configuring the He Level sensor. We might also alter parameter properties, for example we may hide
 the parameters *empty_length* and *full_length* from the client by defining:
 
-.. code:: python
+.. code:: ini
 
-    Mod('helev',
-        'frappy_psi.ccu4.HeLevel',
-        'He level of the cryostat He reservoir',
-        uri='linse-moxa-4.psi.ch:3001',
-        empty_length=Param(380, export=False),
-        full_length=Param(0, export=False))
+    empty_length.export = False
+    full_length.export = False
 
-As we configure more than just an initial value, we have to call *Param* and give the
-value as the first argument, and additional properties as keyworded arguments.
+However, we do not put this here, as it is nice to try out changing parameters for a test!
 
 *to be continued*

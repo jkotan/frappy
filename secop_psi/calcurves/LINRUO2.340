@@ -1,0 +1,12 @@
+Sensor Model:   RUO5K
+Serial Number:  LINRUO2
+Data Format:    3      (Ohms/Kelvin)
+SetPoint Limit: 325.0      (Kelvin)
+Temperature coefficient:  2 (Positive)
+Number of Breakpoints:   2
+intype:0,2,2,12,1
+
+No.   Units      Temperature (K)
+
+  1  4000.0       4.000
+  2  100000.0     100.0

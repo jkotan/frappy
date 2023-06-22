@@ -4,12 +4,17 @@ properties([
                               daysToKeepStr: '',
                               numToKeepStr: '50')),
     parameters([
-         string(defaultValue: 'secop/frappy',
+         string(defaultValue: 'sine2020/secop/playground',
                 description: '', name: 'GERRIT_PROJECT'),
          string(defaultValue: 'master',
                 description: '', name: 'GERRIT_BRANCH'),
          string(defaultValue: 'refs/heads/master',
                 description: '', name: 'GERRIT_REFSPEC'),
+         choice(choices: '''\
+patchset-created
+ref-updated
+change-merged''',
+               description: '', name: 'GERRIT_EVENT'),
          choice(choices: '''\
 patchset-created
 ref-updated
@@ -38,21 +43,21 @@ git diff HEAD~1... --name-only --diff-filter=ARCM -- \\*.py
 pip install -r requirements-dev.txt
 pip install -r requirements.txt
 pip install isort pylint
-pip install -e .
+python3 setup.py develop
 export PYTHONIOENCODING=utf8
 
 echo "$changedFiles"
 if [[  -n "$changedFiles" ]]; then
    set -o pipefail
    pylint $changedFiles | tee pylint_results.txt
-   isort --df $changedFiles || true | tee isort_results.txt
+   isort -df $changedFiles | tee isort_results.txt
 fi
 """
     withCredentials([string(credentialsId: 'GERRITHTTP',
                      variable: 'GERRITHTTP')]) {
         sh """\
-#!/bin/bash
-        if [ -f pylint_results.txt ] ; then
+        #!/bin/bash
+	if [ -f pylint_results.txt ] ; then
           /home/jenkins/tools2/bin/pylint2gerrit
           mv pylint_results.txt pylint-${pyver}.txt
         else
@@ -62,11 +67,19 @@ fi
     } // credentials
 
     echo "pylint result: $res"
+    this.verifyresult.put('pylint'+pyver, 1)
     if ( res != 0 ) {
         currentBuild.result='FAILURE'
+        this.verifyresult.put('pylint'+ pyver, -1)
         status = 'FAILURE'
     }
 
+    gerritverificationpublisher([
+        verifyStatusValue: this.verifyresult['pylint'+pyver],
+        verifyStatusCategory: 'pylint ',
+        verifyStatusName: 'pylint-'+pyver,
+        verifyStatusReporter: 'jenkins',
+        verifyStatusRerun: '!recheck'])
     archiveArtifacts([allowEmptyArchive: true,
                           artifacts: 'pylint-*.txt'])
     recordIssues([enabledForFailure: true,
@@ -77,17 +90,21 @@ fi
                   failedTotalAll: 1])
 
 
+    if (status == 'FAILURE') {
+        throw new Exception('Failure in pylint with ' + pyver)
+    }
   }
 } // run_pylint
 
 
 def run_tests(pyver) {
     stage('Test:' + pyver) {
-        writeFile file: 'setup.cfg', text: '''
+       writeFile file: 'setup.cfg', text: '''
 [tool:pytest]
 addopts = --junit-xml=pytest.xml --junit-prefix=''' + pyver
 
     def status = "OK"
+    verifyresult.put(pyver, 0)
     try {
         timeout(5) {
             sh '''\
@@ -95,17 +112,28 @@ addopts = --junit-xml=pytest.xml --junit-prefix=''' + pyver
 . /home/jenkins/secopvenv/bin/activate
 pip install -r requirements-dev.txt
 pip install -r requirements.txt
-pip install -e .
+python3 setup.py develop
 make test
 '''
+        verifyresult.put(pyver, 1)
         }
     } catch (all) {
         currentBuild.result = 'FAILURE'
         status = 'FAILURE'
+        verifyresult.put(pyver, -1)
     }
+    gerritverificationpublisher([
+    verifyStatusValue: verifyresult[pyver],
+    verifyStatusCategory: 'test ',
+    verifyStatusName: 'pytest-'+pyver,
+    verifyStatusReporter: 'jenkins',
+    verifyStatusRerun: '!recheck'])
 
     step([$class: 'JUnitResultArchiver', allowEmptyResults: true,
           keepLongStdio: true, testResults: 'pytest.xml'])
+    if (status == 'FAILURE') {
+        throw new Exception('Failure in test with ' + pyver)
+    }
   }
 }
 
@@ -115,7 +143,7 @@ def run_docs() {
         . /home/jenkins/secopvenv/bin/activate
         pip install -r requirements-dev.txt
         pip install -r requirements.txt
-        pip install -e .
+        python3 setup.py develop
         '''
     }
 
@@ -157,7 +185,15 @@ def run_docs() {
 
     stage('store html doc for build') {
         publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'doc/_build/html', reportFiles: 'index.html', reportName: 'Built documentation', reportTitles: ''])
+        gerritverificationpublisher([
+        verifyStatusValue: 1,
+        verifyStatusCategory: 'test ',
+        verifyStatusName: 'doc',
+        verifyStatusReporter: 'jenkins',
+        verifyStatusRerun: '@recheck'
+    ])
     }
+
 }
 
 
@@ -189,16 +225,16 @@ node("dockerhost") {
        sh '''#!/bin/bash
         git worktree add tmpmaster origin/master
         cd tmpmaster
-        docker build --target base --tag frappy_base:latest ci
-        docker build --target docs --tag frappy_docs:latest ci
+        docker build --target base --tag secop_base:latest ci
+        docker build --target docs --tag secop_docs:latest ci
         cd ..
         rm -rf tmpmaster
         '''
    }
 
     stage('execute tests') {
-    def img = docker.image('frappy_base:latest')
-    def docimg = docker.image('frappy_docs:latest')
+    def img = docker.image('secop_base:latest')
+    def docimg = docker.image('secop_docs:latest')
 
     parallel 'Test': {
         img.inside {
@@ -216,10 +252,9 @@ node("dockerhost") {
             if (GERRIT_EVENT_TYPE == 'change-merged')
             {
                 sh '''
-                rsync -rlv doc/_build/* /ictrlsrv/share/public/doc/frappy
+                rsync -rlv doc/_build/* /ictrlsrv/share/public/doc/secop
                 '''
             }
-        }}, failFast: false
+        }}
     }
-    setGerritReview()
 }

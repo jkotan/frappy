@@ -1,0 +1,7 @@
+["lambdawatch", [{"path": "", "type": "float", "kids": 6},
+{"path": "send", "type": "text", "readonly": false, "cmd": "lambdawatch send", "visibility": 3},
+{"path": "status", "type": "text", "visibility": 3},
+{"path": "safefield", "type": "float", "readonly": false, "cmd": "lambdawatch safefield"},
+{"path": "maxfield", "type": "float", "readonly": false, "cmd": "lambdawatch maxfield"},
+{"path": "safetemp", "type": "float", "readonly": false, "cmd": "lambdawatch safetemp"},
+{"path": "coiltemp", "type": "text", "readonly": false, "cmd": "lambdawatch coiltemp"}]]

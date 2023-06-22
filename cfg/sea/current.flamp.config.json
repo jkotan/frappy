@@ -1,0 +1,7 @@
+["current", [{"path": "", "type": "float", "kids": 6},
+{"path": "send", "type": "text", "readonly": false, "cmd": "current send", "visibility": 3},
+{"path": "status", "type": "text", "visibility": 3},
+{"path": "i1", "type": "float"},
+{"path": "i2", "type": "float"},
+{"path": "i3", "type": "float"},
+{"path": "i4", "type": "float"}]]

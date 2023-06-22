@@ -1,0 +1,44 @@
+sens=ruox408																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																														
+unit=Ohm	!	sensor	format	(mV	V	Ohm)	log	formats	are	choosen	automatical$																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																				
+!tlim=2	!	setpoint	limit	(automatic	if	omitted)																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																									
+type=Special	!	sensor	type	(Special	Si	GaAlAs	Pt250	Pt500	Pt2500	RhFe	C	Cern$																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																			
+form=loglog																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																															
+curv	!	curve	(sensor	temp/K)	follows	must	be	ordered	but	can	be	in$																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																			
+1000.0 295
+1270.0 38.00
+1349.0 8.0
+1488.5 3.20
+1517.2 3.00
+1550.3 2.80
+1587.5 2.60
+1630.2 2.40
+1679.8 2.20
+1739.8 2.00
+1774.8 1.90
+1812.4 1.80
+1854.4 1.70
+1901.5 1.60
+1953.7 1.50
+2011.5 1.40
+2079.3 1.30
+2160.4 1.20
+2256.6 1.10 
+2368.1 1.00
+2508.7 0.90
+2679.9 0.80
+2902.2 0.70
+3193.5 0.60
+3602.5 0.50
+3875.1 0.45
+4222.8 0.40 
+4629.0 0.35
+5228.7 0.30
+6081.5 0.25
+7398.5 0.20
+9749.7 0.15
+15315. 0.10
+17554 0.09
+20523 0.08
+23723 0.07
+29568 0.06
+37886.0 0.05

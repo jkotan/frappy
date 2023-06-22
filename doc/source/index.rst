@@ -5,16 +5,12 @@ Frappy Programming Guide
    :maxdepth: 2
 
    introduction
-   structure
-   programming
-   magic
-   server
    tutorial
    reference
-   frappy_psi
-   frappy_demo
-   frappy_mlz
-   frappy_ess
+   secop_psi
+   secop_demo
+   secop_mlz
+   secop_ess
 
 * :ref:`genindex`
 

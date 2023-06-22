@@ -1,0 +1,66 @@
+sens=rhfe8119
+unit=Ohm        ! sensor format (mV,V,Ohm), log formats are choosen automatically
+!tlim=3250       ! setpoint limit (automatic if omitted)
+type=RhFe       ! sensor type (Special,Si,GaAlAs,Pt250,Pt500,Pt2500,RhFe,C,Cernox,RuOx,Ge) (special if omitted)
+!excit=300uA    ! (off,30nA,100nA,300nA,1uA,3uA,10uA,30uA,100uA,300uA,1mA,10mV,1mV) (if omitted: default from sensor type)
+!range=0        ! range in sensor units (if rang=0: determine range from table, if omitted: default from sensor type)
+curv            ! curve (sensor,temp/K) follows, must be ordered, but can be increasing or decreasing
+1.6835	1.0
+1.7566	1.408
+1.7745	1.508
+1.7925	1.609
+1.8617	2.006
+1.9298	2.41
+1.9932	2.8
+2.0569	3.208
+2.1158	3.602
+2.1776	4.032
+2.2019	4.207
+2.2559	4.607
+2.3591	5.42
+2.4535	6.224
+2.5469	7.085
+2.6428	8.044
+2.7344	9.041
+2.8239	10.097
+2.9026	11.099
+3.0388	13.018
+3.1086	14.103
+3.2263	16.105
+3.3306	18.075
+3.4277	20.081
+3.5359	22.497
+3.6426	25.036
+3.7436	27.529
+3.8446	30.018
+3.9485	32.539
+4.0556	35.035
+4.2955	40.16
+4.8847	50.442
+5.599	60.391
+6.443	70.418
+7.3254	79.886
+8.3393	90.091
+9.3943	100.318
+12.1072	126.038
+14.6989	150.738
+17.2882	175.872
+19.8227	200.897
+22.3245	225.909
+25.0177	253.046
+27.0043	273.132
+27.033	273.422
+29.7561	300.957
+32.138	325
+34.625	350
+37.126	375
+39.645	400
+42.185	425
+44.747	450
+47.333	475
+49.944	500
+60.669	600
+71.872	700
+83.594	800
+
+

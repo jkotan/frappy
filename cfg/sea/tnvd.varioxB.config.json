@@ -1,0 +1,8 @@
+["tnvd", [{"path": "", "type": "float", "kids": 7},
+{"path": "send", "type": "text", "readonly": false, "cmd": "tnvd send", "visibility": 3},
+{"path": "status", "type": "text", "visibility": 3},
+{"path": "raw", "type": "float"},
+{"path": "set", "type": "float", "readonly": false, "cmd": "tnvd set"},
+{"path": "control", "type": "enum", "enum": {"OFF": 0, "ON": 1}, "readonly": false, "cmd": "tnvd control"},
+{"path": "htr", "type": "float"},
+{"path": "pow", "type": "float"}]]

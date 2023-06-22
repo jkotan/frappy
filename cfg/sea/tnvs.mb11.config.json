@@ -1,0 +1,4 @@
+["tnvs", [{"path": "", "type": "float", "kids": 3},
+{"path": "send", "type": "text", "readonly": false, "cmd": "tnvs send", "visibility": 3},
+{"path": "status", "type": "text", "visibility": 3},
+{"path": "raw", "type": "float"}]]

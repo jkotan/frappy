@@ -27,7 +27,7 @@ from collections import OrderedDict
 
 import pytest
 
-from frappy.parse import Parser
+from secop.parse import Parser
 
 
 # pylint: disable=redefined-outer-name

@@ -1,0 +1,34 @@
+sens=c030307
+unit=Ohm        ! sensor format (mV,V,Ohm), log formats are choosen automatically
+!tlim=325       ! setpoint limit (automatic if omitted)
+type=C          ! sensor type (Special,Si,GaAlAs,Pt250,Pt500,Pt2500,RhFe,C,Cernox,RuOx,Ge) (special if omitted)
+curv            ! curve (sensor,temp/K) follows, must be ordered, but can be increasing or decreasing
+100000	0.42
+15000	1.05
+8000	1.42
+4000	1.99
+2000	2.77
+1600	3.1
+1400	3.32
+1200	3.61
+1000	4.01
+900	4.28
+800	4.61
+700	5.05
+600	5.64
+500	6.5
+400	7.96
+300	10.81
+265	12.68
+228	15.77
+206	18.96
+191	21.67
+180	24.48
+171	27.3
+154	35.2
+142	45
+134	60
+130	70
+90	310
+
+

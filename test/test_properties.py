@@ -23,10 +23,9 @@
 
 import pytest
 
-from frappy.datatypes import FloatRange, IntRange, StringType, ValueType
-from frappy.errors import RangeError, ConfigError, ProgrammingError
-from frappy.properties import HasProperties, Property
-from frappy.core import Parameter
+from secop.datatypes import FloatRange, IntRange, StringType, ValueType
+from secop.errors import BadValueError, ConfigError, ProgrammingError
+from secop.properties import HasProperties, Property
 
 
 def Prop(*args, name=None, **kwds):
@@ -35,15 +34,14 @@ def Prop(*args, name=None, **kwds):
 
 
 # Property(description, datatype, default, ...)
-# pylint: disable=use-dict-literal
 V_test_Property = [
     [Prop(StringType(), 'default', extname='extname', mandatory=False),
      dict(default='default', extname='extname', export=True, mandatory=False)
      ],
-    [Prop(IntRange(), 42, export=True, name='custom', mandatory=True),
+    [Prop(IntRange(), '42', export=True, name='custom', mandatory=True),
      dict(default=42, extname='_custom', export=True, mandatory=True),
      ],
-    [Prop(IntRange(), 42, export=True, name='name'),
+    [Prop(IntRange(), '42', export=True, name='name'),
      dict(default=42, extname='_name', export=True, mandatory=False)
      ],
     [Prop(IntRange(), 42, '_extname', mandatory=True),
@@ -87,12 +85,12 @@ def test_Property_basic():
         Property('')
     with pytest.raises(ValueError):
         Property('', 1)
-    Property('', IntRange(), 42, 'extname', False, False)
+    Property('', IntRange(), '42', 'extname', False, False)
 
 
 def test_Properties():
     class Cls(HasProperties):
-        aa = Property('', IntRange(0, 99), 42, export=True)
+        aa = Property('', IntRange(0, 99), '42', export=True)
         bb = Property('', IntRange(), 0, export=False)
 
     assert Cls.aa.default == 42
@@ -100,7 +98,7 @@ def test_Properties():
     assert Cls.aa.extname == '_aa'
 
     cc = Cls()
-    with pytest.raises(RangeError):
+    with pytest.raises(BadValueError):
         cc.aa = 137
 
     assert Cls.bb.default == 0
@@ -151,44 +149,36 @@ def test_Property_override():
     assert o2.a == 3
 
     with pytest.raises(ProgrammingError) as e:
-        class cx(c):  # pylint: disable=unused-variable
+        class cx(c): # pylint: disable=unused-variable
             def a(self):
                 pass
     assert 'collides with' in str(e.value)
 
     with pytest.raises(ProgrammingError) as e:
-        class cy(c):  # pylint: disable=unused-variable
+        class cz(c): # pylint: disable=unused-variable
             a = 's'
 
     assert 'can not set' in str(e.value)
 
-    with pytest.raises(ProgrammingError) as e:
-        class cz(c):  # pylint: disable=unused-variable
-            a = 's'
-
-    class cp(c):  # pylint: disable=unused-variable
-        # overriding a Property with a Parameter is allowed
-        a = Parameter('x', IntRange())
-
 
 def test_Properties_mro():
-    class Base(HasProperties):
-        prop = Property('base', StringType(), 'base', export='always')
+    class A(HasProperties):
+        p = Property('base', StringType(), 'base', export='always')
 
-    class SubA(Base):
+    class B(A):
         pass
 
-    class SubB(Base):
-        prop = Property('sub', FloatRange(), extname='prop')
+    class C(A):
+        p = Property('sub', FloatRange(), extname='p')
 
-    class FinalBA(SubB, SubA):
-        prop = 1
+    class D(C, B):
+        p = 1
 
-    class FinalAB(SubA, SubB):
-        prop = 2
+    class E(B, C):
+        p = 2
 
-    assert SubA().exportProperties() == {'_prop': 'base'}
-    assert FinalBA().exportProperties() == {'prop': 1.0}
-    # in an older implementation the following would fail, as SubA.p is constructed first
-    # and then SubA.p overrides SubB.p
-    assert FinalAB().exportProperties() == {'prop': 2.0}
+    assert B().exportProperties() == {'_p': 'base'}
+    assert D().exportProperties() == {'p': 1.0}
+    # in an older implementation the following would fail, as B.p is constructed first
+    # and then B.p overrides C.p
+    assert E().exportProperties() == {'p': 2.0}

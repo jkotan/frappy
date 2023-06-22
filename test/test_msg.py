@@ -23,8 +23,8 @@
 
 import pytest
 
-import frappy.protocol.messages as m
-from frappy.protocol.interface import decode_msg, encode_msg_frame
+import secop.protocol.messages as m
+from secop.protocol.interface import decode_msg, encode_msg_frame
 
 # args are: msg tuple, msg bytes
 MSG = [
@@ -40,7 +40,7 @@ MSG = [
     [(m.EVENTREPLY, 'mod:par', [123, dict(t=12.25)]), b'update mod:par [123, {"t": 12.25}]'],
     [(m.HEARTBEATREQUEST, '0', None), b'ping 0'],
     [(m.HEARTBEATREPLY, None, [None, dict(t=11.75)]), b'pong  [null, {"t": 11.75}]'],
-    [(m.ERRORPREFIX + m.WRITEREQUEST, 'm:p', ['ErrClass', 'text', {}]),
+    [(m.ERRORPREFIX + m.WRITEREQUEST, 'm:p', ['ErrClass', 'text', dict()]),
      b'error_change m:p ["ErrClass", "text", {}]'],
 ]
 @pytest.mark.parametrize('msg, line', MSG)

@@ -1,0 +1,1767 @@
+17:09:01,348 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+17:09:11,538 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+17:10:35,891 : INFO    : secop_test_log.x: registering module 'tt'
+17:10:35,891 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Temp object at 0x100e298d0> as tt (export=True)
+17:10:35,891 : DEBUG   : secop_test_log.x.tt: empty Temp.earlyInit()
+17:10:35,892 : INFO    : secop_test_log.x: registering module 'mf'
+17:10:35,892 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Field object at 0x100e0c390> as mf (export=True)
+17:10:35,892 : DEBUG   : secop_test_log.x.mf: empty Field.earlyInit()
+17:10:35,892 : INFO    : secop_test_log.x: registering module 'pos'
+17:10:35,892 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Position object at 0x100dd8790> as pos (export=True)
+17:10:35,892 : DEBUG   : secop_test_log.x.pos: empty Position.earlyInit()
+17:10:35,892 : INFO    : secop_test_log.x: registering module 'lev'
+17:10:35,892 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Level object at 0x100e8e090> as lev (export=True)
+17:10:35,892 : DEBUG   : secop_test_log.x.lev: empty Level.earlyInit()
+17:10:35,892 : INFO    : secop_test_log.x: registering module 'chamber'
+17:10:35,892 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Chamber object at 0x100e8e3d0> as chamber (export=True)
+17:10:35,892 : DEBUG   : secop_test_log.x.chamber: empty Chamber.earlyInit()
+17:10:35,892 : INFO    : secop_test_log.x: registering module 'r1'
+17:10:35,892 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x100e8eb50> as r1 (export=True)
+17:10:35,892 : DEBUG   : secop_test_log.x.r1: empty BridgeChannel.earlyInit()
+17:10:35,893 : INFO    : secop_test_log.x: registering module 'r2'
+17:10:35,893 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x100ea1490> as r2 (export=True)
+17:10:35,893 : DEBUG   : secop_test_log.x.r2: empty BridgeChannel.earlyInit()
+17:10:35,893 : INFO    : secop_test_log.x: registering module 'r3'
+17:10:35,893 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x100ea1b50> as r3 (export=True)
+17:10:35,893 : DEBUG   : secop_test_log.x.r3: empty BridgeChannel.earlyInit()
+17:10:35,893 : INFO    : secop_test_log.x: registering module 'r4'
+17:10:35,893 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x100ea9510> as r4 (export=True)
+17:10:35,893 : DEBUG   : secop_test_log.x.r4: empty BridgeChannel.earlyInit()
+17:10:35,893 : INFO    : secop_test_log.x: registering module 'i1'
+17:10:35,893 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x100eb0210> as i1 (export=True)
+17:10:35,893 : DEBUG   : secop_test_log.x.i1: empty Channel.earlyInit()
+17:10:35,893 : INFO    : secop_test_log.x: registering module 'i2'
+17:10:35,893 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x100eb0690> as i2 (export=True)
+17:10:35,893 : DEBUG   : secop_test_log.x.i2: empty Channel.earlyInit()
+17:10:35,894 : INFO    : secop_test_log.x: registering module 'i3'
+17:10:35,894 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x100e7b890> as i3 (export=True)
+17:10:35,894 : DEBUG   : secop_test_log.x.i3: empty Channel.earlyInit()
+17:10:35,894 : INFO    : secop_test_log.x: registering module 'i4'
+17:10:35,894 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x100eb0bd0> as i4 (export=True)
+17:10:35,894 : DEBUG   : secop_test_log.x.i4: empty Channel.earlyInit()
+17:10:35,894 : INFO    : secop_test_log.x: registering module 'v1'
+17:10:35,894 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x100eba3d0> as v1 (export=True)
+17:10:35,894 : DEBUG   : secop_test_log.x.v1: empty DriverChannel.earlyInit()
+17:10:35,894 : INFO    : secop_test_log.x: registering module 'v2'
+17:10:35,894 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x100eba4d0> as v2 (export=True)
+17:10:35,894 : DEBUG   : secop_test_log.x.v2: empty DriverChannel.earlyInit()
+17:10:35,894 : INFO    : secop_test_log.x: registering module 'tv'
+17:10:35,894 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x100ec30d0> as tv (export=True)
+17:10:35,895 : DEBUG   : secop_test_log.x.tv: empty UserChannel.earlyInit()
+17:10:35,895 : INFO    : secop_test_log.x: registering module 'ts'
+17:10:35,895 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x100e7b450> as ts (export=True)
+17:10:35,895 : DEBUG   : secop_test_log.x.ts: empty UserChannel.earlyInit()
+17:10:35,895 : INFO    : secop_test_log.x: registering module 'ppms'
+17:10:35,895 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Main object at 0x100ec3a50> as ppms (export=True)
+17:10:35,895 : DEBUG   : secop_test_log.x.ppms: empty Main.initModule()
+17:10:35,896 : DEBUG   : secop_test_log.x.ppms: initialize parameter pollinterval
+17:10:35,896 : DEBUG   : secop_test_log.x.ppms: check validity of pollinterval = 2.0
+17:10:35,896 : DEBUG   : secop_test_log.x.tv: initialize parameter enabled
+17:10:35,896 : INFO    : secop_test_log.x: waiting for modules and pollers being started
+17:10:35,896 : DEBUG   : secop_test_log.x.tv: check validity of enabled = True
+17:10:35,897 : DEBUG   : secop_test_log.x.tv: calling write_enabled <function UserChannel.write_enabled at 0x100e663b0>(True)
+17:10:35,897 : DEBUG   : secop_test_log.x.ts: initialize parameter enabled
+17:10:35,897 : DEBUG   : secop_test_log.x.ts: check validity of enabled = True
+17:10:35,897 : DEBUG   : secop_test_log.x.ts: calling write_enabled <function UserChannel.write_enabled at 0x100e663b0>(True)
+17:10:35,897 : DEBUG   : secop_test_log.x.tt: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e6b950>>
+17:10:35,897 : DEBUG   : secop_test_log.x.tt: rfunc(setpoint) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:35,912 : ERROR   : secop_test_log.x.tt: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:35,912 : DEBUG   : secop_test_log.x.mf: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e6bb90>>
+17:10:35,913 : DEBUG   : secop_test_log.x.mf: rfunc(target) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:35,913 : ERROR   : secop_test_log.x.mf: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:35,913 : DEBUG   : secop_test_log.x.pos: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e7b590>>
+17:10:35,913 : DEBUG   : secop_test_log.x.pos: rfunc(target) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:35,913 : ERROR   : secop_test_log.x.pos: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:35,913 : DEBUG   : secop_test_log.x.r1: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c10>>
+17:10:35,913 : DEBUG   : secop_test_log.x.r1: rfunc(excitation) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:35,913 : ERROR   : secop_test_log.x.r1: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:35,914 : DEBUG   : secop_test_log.x.r2: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c10>>
+17:10:35,914 : DEBUG   : secop_test_log.x.r2: rfunc(excitation) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:35,914 : ERROR   : secop_test_log.x.r2: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:35,914 : DEBUG   : secop_test_log.x.r3: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c10>>
+17:10:35,914 : DEBUG   : secop_test_log.x.r3: rfunc(excitation) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:35,914 : ERROR   : secop_test_log.x.r3: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:35,914 : DEBUG   : secop_test_log.x.r4: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c10>>
+17:10:35,915 : DEBUG   : secop_test_log.x.r4: rfunc(excitation) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:35,915 : ERROR   : secop_test_log.x.r4: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:35,915 : DEBUG   : secop_test_log.x.v1: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e1ab10>>
+17:10:35,915 : DEBUG   : secop_test_log.x.v1: rfunc(current) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:35,915 : ERROR   : secop_test_log.x.v1: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:35,915 : DEBUG   : secop_test_log.x.v2: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e1ab10>>
+17:10:35,916 : DEBUG   : secop_test_log.x.v2: rfunc(current) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:35,916 : ERROR   : secop_test_log.x.v2: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:35,916 : DEBUG   : secop_test_log.x.ppms: calling <function Main.read_data at 0x100e43ef0>
+17:10:35,916 : DEBUG   : secop_test_log.x.ppms: rfunc(data) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:35,917 : ERROR   : secop_test_log.x.ppms: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop_psi/ppms.py", line 117, in read_data
+    data = self.do_communicate('GETDAT? %d' % mask)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:35,918 : DEBUG   : secop_test_log.x.tt: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:35,918 : DEBUG   : secop_test_log.x.tt: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:35,918 : DEBUG   : secop_test_log.x.tt: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:35,918 : DEBUG   : secop_test_log.x.tt: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:35,918 : DEBUG   : secop_test_log.x.mf: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:35,918 : DEBUG   : secop_test_log.x.mf: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:35,918 : DEBUG   : secop_test_log.x.mf: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:35,918 : DEBUG   : secop_test_log.x.mf: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:35,918 : DEBUG   : secop_test_log.x.pos: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:35,918 : DEBUG   : secop_test_log.x.pos: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:35,918 : DEBUG   : secop_test_log.x.pos: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:35,918 : DEBUG   : secop_test_log.x.pos: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:35,918 : DEBUG   : secop_test_log.x.lev: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e1e810>>
+17:10:35,918 : DEBUG   : secop_test_log.x.lev: rfunc(value) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:35,919 : ERROR   : secop_test_log.x.lev: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:35,919 : DEBUG   : secop_test_log.x.chamber: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c90>>
+17:10:35,919 : DEBUG   : secop_test_log.x.chamber: rfunc(value) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:35,919 : ERROR   : secop_test_log.x.chamber: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:35,919 : DEBUG   : secop_test_log.x.chamber: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:35,919 : DEBUG   : secop_test_log.x.chamber: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:35,919 : DEBUG   : secop_test_log.x.r1: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:35,919 : DEBUG   : secop_test_log.x.r1: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:35,919 : DEBUG   : secop_test_log.x.r1: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:35,920 : DEBUG   : secop_test_log.x.r1: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:35,920 : DEBUG   : secop_test_log.x.r2: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:35,920 : DEBUG   : secop_test_log.x.r2: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:35,920 : DEBUG   : secop_test_log.x.r2: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:35,920 : DEBUG   : secop_test_log.x.r2: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:35,920 : DEBUG   : secop_test_log.x.r3: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:35,920 : DEBUG   : secop_test_log.x.r3: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:35,920 : DEBUG   : secop_test_log.x.r3: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:35,920 : DEBUG   : secop_test_log.x.r3: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:35,920 : DEBUG   : secop_test_log.x.r4: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:35,920 : DEBUG   : secop_test_log.x.r4: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:35,920 : DEBUG   : secop_test_log.x.r4: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:35,920 : DEBUG   : secop_test_log.x.r4: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:35,920 : DEBUG   : secop_test_log.x.i1: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:35,920 : DEBUG   : secop_test_log.x.i1: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:35,920 : DEBUG   : secop_test_log.x.i1: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:35,920 : DEBUG   : secop_test_log.x.i1: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:35,920 : DEBUG   : secop_test_log.x.i2: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:35,921 : DEBUG   : secop_test_log.x.i2: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:35,921 : DEBUG   : secop_test_log.x.i2: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:35,921 : DEBUG   : secop_test_log.x.i2: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:35,921 : DEBUG   : secop_test_log.x.i3: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:35,921 : DEBUG   : secop_test_log.x.i3: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:35,921 : DEBUG   : secop_test_log.x.i3: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:35,921 : DEBUG   : secop_test_log.x.i3: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:35,921 : DEBUG   : secop_test_log.x.i4: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:35,921 : DEBUG   : secop_test_log.x.i4: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:35,921 : DEBUG   : secop_test_log.x.i4: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:35,921 : DEBUG   : secop_test_log.x.i4: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:35,921 : DEBUG   : secop_test_log.x.v1: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:35,921 : DEBUG   : secop_test_log.x.v1: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:35,921 : DEBUG   : secop_test_log.x.v1: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:35,921 : DEBUG   : secop_test_log.x.v1: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:35,921 : DEBUG   : secop_test_log.x.v2: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:35,921 : DEBUG   : secop_test_log.x.v2: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:35,921 : DEBUG   : secop_test_log.x.v2: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:35,922 : DEBUG   : secop_test_log.x.v2: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:35,922 : DEBUG   : secop_test_log.x.tv: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:35,922 : DEBUG   : secop_test_log.x.tv: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:35,922 : DEBUG   : secop_test_log.x.tv: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:35,922 : DEBUG   : secop_test_log.x.tv: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:35,922 : DEBUG   : secop_test_log.x.ts: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:35,922 : DEBUG   : secop_test_log.x.ts: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:35,922 : DEBUG   : secop_test_log.x.ts: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:35,922 : DEBUG   : secop_test_log.x.ts: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:35,922 : INFO    : secop_test_log.x: all modules and pollers started
+17:10:37,920 : DEBUG   : secop_test_log.x.ppms: calling <function Main.read_data at 0x100e43ef0>
+17:10:37,921 : DEBUG   : secop_test_log.x.ppms: rfunc(data) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:37,921 : ERROR   : secop_test_log.x.ppms: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop_psi/ppms.py", line 117, in read_data
+    data = self.do_communicate('GETDAT? %d' % mask)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:39,916 : DEBUG   : secop_test_log.x.ppms: calling <function Main.read_data at 0x100e43ef0>
+17:10:39,916 : DEBUG   : secop_test_log.x.ppms: rfunc(data) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:39,916 : ERROR   : secop_test_log.x.ppms: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop_psi/ppms.py", line 117, in read_data
+    data = self.do_communicate('GETDAT? %d' % mask)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:40,900 : DEBUG   : secop_test_log.x.tt: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e6b950>>
+17:10:40,900 : DEBUG   : secop_test_log.x.tt: rfunc(setpoint) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:40,900 : ERROR   : secop_test_log.x.tt: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:40,914 : DEBUG   : secop_test_log.x.mf: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e6bb90>>
+17:10:40,914 : DEBUG   : secop_test_log.x.mf: rfunc(target) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:40,914 : ERROR   : secop_test_log.x.mf: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:40,914 : DEBUG   : secop_test_log.x.pos: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e7b590>>
+17:10:40,914 : DEBUG   : secop_test_log.x.pos: rfunc(target) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:40,914 : ERROR   : secop_test_log.x.pos: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:40,914 : DEBUG   : secop_test_log.x.r1: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c10>>
+17:10:40,914 : DEBUG   : secop_test_log.x.r1: rfunc(excitation) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:40,915 : ERROR   : secop_test_log.x.r1: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:40,915 : DEBUG   : secop_test_log.x.r2: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c10>>
+17:10:40,915 : DEBUG   : secop_test_log.x.r2: rfunc(excitation) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:40,915 : ERROR   : secop_test_log.x.r2: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:40,915 : DEBUG   : secop_test_log.x.r3: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c10>>
+17:10:40,915 : DEBUG   : secop_test_log.x.r3: rfunc(excitation) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:40,916 : ERROR   : secop_test_log.x.r3: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:40,916 : DEBUG   : secop_test_log.x.r4: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c10>>
+17:10:40,916 : DEBUG   : secop_test_log.x.r4: rfunc(excitation) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:40,916 : ERROR   : secop_test_log.x.r4: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:40,916 : DEBUG   : secop_test_log.x.v1: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e1ab10>>
+17:10:40,916 : DEBUG   : secop_test_log.x.v1: rfunc(current) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:40,917 : ERROR   : secop_test_log.x.v1: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:40,917 : DEBUG   : secop_test_log.x.v2: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e1ab10>>
+17:10:40,917 : DEBUG   : secop_test_log.x.v2: rfunc(current) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:40,917 : ERROR   : secop_test_log.x.v2: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:40,918 : DEBUG   : secop_test_log.x.tt: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:40,918 : DEBUG   : secop_test_log.x.tt: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:40,918 : DEBUG   : secop_test_log.x.tt: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:40,918 : DEBUG   : secop_test_log.x.tt: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:40,918 : DEBUG   : secop_test_log.x.mf: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:40,918 : DEBUG   : secop_test_log.x.mf: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:40,918 : DEBUG   : secop_test_log.x.mf: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:40,918 : DEBUG   : secop_test_log.x.mf: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:40,918 : DEBUG   : secop_test_log.x.pos: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:40,918 : DEBUG   : secop_test_log.x.pos: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:40,919 : DEBUG   : secop_test_log.x.pos: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:40,919 : DEBUG   : secop_test_log.x.pos: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:40,919 : DEBUG   : secop_test_log.x.lev: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e1e810>>
+17:10:40,919 : DEBUG   : secop_test_log.x.lev: rfunc(value) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:40,919 : ERROR   : secop_test_log.x.lev: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:40,919 : DEBUG   : secop_test_log.x.chamber: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c90>>
+17:10:40,919 : DEBUG   : secop_test_log.x.chamber: rfunc(value) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:40,919 : ERROR   : secop_test_log.x.chamber: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:40,919 : DEBUG   : secop_test_log.x.chamber: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:40,919 : DEBUG   : secop_test_log.x.chamber: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:40,919 : DEBUG   : secop_test_log.x.r1: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:40,919 : DEBUG   : secop_test_log.x.r1: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:40,919 : DEBUG   : secop_test_log.x.r1: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:40,920 : DEBUG   : secop_test_log.x.r1: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:40,920 : DEBUG   : secop_test_log.x.r2: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:40,920 : DEBUG   : secop_test_log.x.r2: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:40,920 : DEBUG   : secop_test_log.x.r2: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:40,920 : DEBUG   : secop_test_log.x.r2: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:40,920 : DEBUG   : secop_test_log.x.r3: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:40,920 : DEBUG   : secop_test_log.x.r3: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:40,920 : DEBUG   : secop_test_log.x.r3: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:40,920 : DEBUG   : secop_test_log.x.r3: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:40,920 : DEBUG   : secop_test_log.x.r4: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:40,920 : DEBUG   : secop_test_log.x.r4: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:40,920 : DEBUG   : secop_test_log.x.r4: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:40,920 : DEBUG   : secop_test_log.x.r4: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:40,920 : DEBUG   : secop_test_log.x.i1: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:40,920 : DEBUG   : secop_test_log.x.i1: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:40,920 : DEBUG   : secop_test_log.x.i1: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:40,920 : DEBUG   : secop_test_log.x.i1: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:40,921 : DEBUG   : secop_test_log.x.i2: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:40,921 : DEBUG   : secop_test_log.x.i2: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:40,921 : DEBUG   : secop_test_log.x.i2: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:40,921 : DEBUG   : secop_test_log.x.i2: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:40,921 : DEBUG   : secop_test_log.x.i3: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:40,921 : DEBUG   : secop_test_log.x.i3: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:40,921 : DEBUG   : secop_test_log.x.i3: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:40,921 : DEBUG   : secop_test_log.x.i3: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:40,921 : DEBUG   : secop_test_log.x.i4: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:40,921 : DEBUG   : secop_test_log.x.i4: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:40,921 : DEBUG   : secop_test_log.x.i4: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:40,921 : DEBUG   : secop_test_log.x.i4: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:40,921 : DEBUG   : secop_test_log.x.v1: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:40,921 : DEBUG   : secop_test_log.x.v1: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:40,921 : DEBUG   : secop_test_log.x.v1: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:40,922 : DEBUG   : secop_test_log.x.v1: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:40,922 : DEBUG   : secop_test_log.x.v2: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:40,922 : DEBUG   : secop_test_log.x.v2: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:40,922 : DEBUG   : secop_test_log.x.v2: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:40,922 : DEBUG   : secop_test_log.x.v2: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:40,922 : DEBUG   : secop_test_log.x.tv: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:40,922 : DEBUG   : secop_test_log.x.tv: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:40,922 : DEBUG   : secop_test_log.x.tv: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:40,922 : DEBUG   : secop_test_log.x.tv: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:40,922 : DEBUG   : secop_test_log.x.ts: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:40,922 : DEBUG   : secop_test_log.x.ts: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:40,922 : DEBUG   : secop_test_log.x.ts: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:40,922 : DEBUG   : secop_test_log.x.ts: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:41,916 : DEBUG   : secop_test_log.x.ppms: calling <function Main.read_data at 0x100e43ef0>
+17:10:41,917 : DEBUG   : secop_test_log.x.ppms: rfunc(data) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:41,917 : ERROR   : secop_test_log.x.ppms: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop_psi/ppms.py", line 117, in read_data
+    data = self.do_communicate('GETDAT? %d' % mask)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:43,917 : DEBUG   : secop_test_log.x.ppms: calling <function Main.read_data at 0x100e43ef0>
+17:10:43,917 : DEBUG   : secop_test_log.x.ppms: rfunc(data) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:43,917 : ERROR   : secop_test_log.x.ppms: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop_psi/ppms.py", line 117, in read_data
+    data = self.do_communicate('GETDAT? %d' % mask)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:45,901 : DEBUG   : secop_test_log.x.tt: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e6b950>>
+17:10:45,901 : DEBUG   : secop_test_log.x.tt: rfunc(setpoint) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:45,901 : ERROR   : secop_test_log.x.tt: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:45,915 : DEBUG   : secop_test_log.x.mf: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e6bb90>>
+17:10:45,915 : DEBUG   : secop_test_log.x.mf: rfunc(target) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:45,915 : ERROR   : secop_test_log.x.mf: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:45,915 : DEBUG   : secop_test_log.x.pos: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e7b590>>
+17:10:45,915 : DEBUG   : secop_test_log.x.pos: rfunc(target) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:45,915 : ERROR   : secop_test_log.x.pos: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:45,915 : DEBUG   : secop_test_log.x.r1: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c10>>
+17:10:45,915 : DEBUG   : secop_test_log.x.r1: rfunc(excitation) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:45,916 : ERROR   : secop_test_log.x.r1: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:45,916 : DEBUG   : secop_test_log.x.ppms: calling <function Main.read_data at 0x100e43ef0>
+17:10:45,916 : DEBUG   : secop_test_log.x.ppms: rfunc(data) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:45,916 : ERROR   : secop_test_log.x.ppms: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop_psi/ppms.py", line 117, in read_data
+    data = self.do_communicate('GETDAT? %d' % mask)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:45,916 : DEBUG   : secop_test_log.x.r2: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c10>>
+17:10:45,916 : DEBUG   : secop_test_log.x.r2: rfunc(excitation) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:45,917 : ERROR   : secop_test_log.x.r2: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:45,917 : DEBUG   : secop_test_log.x.r3: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c10>>
+17:10:45,917 : DEBUG   : secop_test_log.x.r3: rfunc(excitation) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:45,917 : ERROR   : secop_test_log.x.r3: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:45,917 : DEBUG   : secop_test_log.x.r4: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c10>>
+17:10:45,917 : DEBUG   : secop_test_log.x.r4: rfunc(excitation) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:45,917 : ERROR   : secop_test_log.x.r4: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:45,917 : DEBUG   : secop_test_log.x.v1: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e1ab10>>
+17:10:45,918 : DEBUG   : secop_test_log.x.v1: rfunc(current) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:45,918 : ERROR   : secop_test_log.x.v1: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:45,918 : DEBUG   : secop_test_log.x.tt: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:45,918 : DEBUG   : secop_test_log.x.tt: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:45,918 : DEBUG   : secop_test_log.x.tt: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:45,918 : DEBUG   : secop_test_log.x.tt: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:45,918 : DEBUG   : secop_test_log.x.v2: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e1ab10>>
+17:10:45,918 : DEBUG   : secop_test_log.x.v2: rfunc(current) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:45,918 : ERROR   : secop_test_log.x.v2: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:45,919 : DEBUG   : secop_test_log.x.mf: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:45,919 : DEBUG   : secop_test_log.x.mf: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:45,919 : DEBUG   : secop_test_log.x.mf: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:45,919 : DEBUG   : secop_test_log.x.mf: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:45,919 : DEBUG   : secop_test_log.x.pos: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:45,919 : DEBUG   : secop_test_log.x.pos: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:45,919 : DEBUG   : secop_test_log.x.pos: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:45,919 : DEBUG   : secop_test_log.x.pos: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:45,919 : DEBUG   : secop_test_log.x.lev: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e1e810>>
+17:10:45,919 : DEBUG   : secop_test_log.x.lev: rfunc(value) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:45,919 : ERROR   : secop_test_log.x.lev: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:45,919 : DEBUG   : secop_test_log.x.chamber: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c90>>
+17:10:45,919 : DEBUG   : secop_test_log.x.chamber: rfunc(value) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:45,920 : ERROR   : secop_test_log.x.chamber: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:45,920 : DEBUG   : secop_test_log.x.chamber: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:45,920 : DEBUG   : secop_test_log.x.chamber: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:45,920 : DEBUG   : secop_test_log.x.r1: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:45,920 : DEBUG   : secop_test_log.x.r1: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:45,920 : DEBUG   : secop_test_log.x.r1: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:45,920 : DEBUG   : secop_test_log.x.r1: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:45,920 : DEBUG   : secop_test_log.x.r2: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:45,920 : DEBUG   : secop_test_log.x.r2: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:45,920 : DEBUG   : secop_test_log.x.r2: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:45,920 : DEBUG   : secop_test_log.x.r2: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:45,920 : DEBUG   : secop_test_log.x.r3: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:45,920 : DEBUG   : secop_test_log.x.r3: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:45,920 : DEBUG   : secop_test_log.x.r3: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:45,920 : DEBUG   : secop_test_log.x.r3: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:45,921 : DEBUG   : secop_test_log.x.r4: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:45,921 : DEBUG   : secop_test_log.x.r4: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:45,921 : DEBUG   : secop_test_log.x.r4: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:45,921 : DEBUG   : secop_test_log.x.r4: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:45,921 : DEBUG   : secop_test_log.x.i1: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:45,921 : DEBUG   : secop_test_log.x.i1: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:45,921 : DEBUG   : secop_test_log.x.i1: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:45,921 : DEBUG   : secop_test_log.x.i1: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:45,921 : DEBUG   : secop_test_log.x.i2: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:45,921 : DEBUG   : secop_test_log.x.i2: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:45,921 : DEBUG   : secop_test_log.x.i2: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:45,921 : DEBUG   : secop_test_log.x.i2: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:45,921 : DEBUG   : secop_test_log.x.i3: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:45,922 : DEBUG   : secop_test_log.x.i3: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:45,922 : DEBUG   : secop_test_log.x.i3: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:45,922 : DEBUG   : secop_test_log.x.i3: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:45,922 : DEBUG   : secop_test_log.x.i4: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:45,922 : DEBUG   : secop_test_log.x.i4: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:45,922 : DEBUG   : secop_test_log.x.i4: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:45,922 : DEBUG   : secop_test_log.x.i4: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:45,922 : DEBUG   : secop_test_log.x.v1: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:45,922 : DEBUG   : secop_test_log.x.v1: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:45,922 : DEBUG   : secop_test_log.x.v1: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:45,922 : DEBUG   : secop_test_log.x.v1: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:45,922 : DEBUG   : secop_test_log.x.v2: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:45,922 : DEBUG   : secop_test_log.x.v2: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:45,922 : DEBUG   : secop_test_log.x.v2: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:45,922 : DEBUG   : secop_test_log.x.v2: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:45,922 : DEBUG   : secop_test_log.x.tv: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:45,923 : DEBUG   : secop_test_log.x.tv: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:45,923 : DEBUG   : secop_test_log.x.tv: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:45,923 : DEBUG   : secop_test_log.x.tv: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:45,923 : DEBUG   : secop_test_log.x.ts: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:45,923 : DEBUG   : secop_test_log.x.ts: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:45,923 : DEBUG   : secop_test_log.x.ts: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:45,923 : DEBUG   : secop_test_log.x.ts: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:47,919 : DEBUG   : secop_test_log.x.ppms: calling <function Main.read_data at 0x100e43ef0>
+17:10:47,919 : DEBUG   : secop_test_log.x.ppms: rfunc(data) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:47,919 : ERROR   : secop_test_log.x.ppms: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop_psi/ppms.py", line 117, in read_data
+    data = self.do_communicate('GETDAT? %d' % mask)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:49,920 : DEBUG   : secop_test_log.x.ppms: calling <function Main.read_data at 0x100e43ef0>
+17:10:49,920 : DEBUG   : secop_test_log.x.ppms: rfunc(data) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:49,920 : ERROR   : secop_test_log.x.ppms: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop_psi/ppms.py", line 117, in read_data
+    data = self.do_communicate('GETDAT? %d' % mask)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:50,899 : DEBUG   : secop_test_log.x.tt: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e6b950>>
+17:10:50,899 : DEBUG   : secop_test_log.x.tt: rfunc(setpoint) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:50,899 : ERROR   : secop_test_log.x.tt: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:50,916 : DEBUG   : secop_test_log.x.mf: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e6bb90>>
+17:10:50,916 : DEBUG   : secop_test_log.x.mf: rfunc(target) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:50,916 : ERROR   : secop_test_log.x.mf: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:50,916 : DEBUG   : secop_test_log.x.pos: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e7b590>>
+17:10:50,916 : DEBUG   : secop_test_log.x.pos: rfunc(target) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:50,917 : ERROR   : secop_test_log.x.pos: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:50,917 : DEBUG   : secop_test_log.x.r1: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c10>>
+17:10:50,917 : DEBUG   : secop_test_log.x.r1: rfunc(excitation) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:50,917 : ERROR   : secop_test_log.x.r1: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:50,917 : DEBUG   : secop_test_log.x.r2: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c10>>
+17:10:50,917 : DEBUG   : secop_test_log.x.r2: rfunc(excitation) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:50,917 : ERROR   : secop_test_log.x.r2: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:50,918 : DEBUG   : secop_test_log.x.r3: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c10>>
+17:10:50,918 : DEBUG   : secop_test_log.x.r3: rfunc(excitation) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:50,918 : ERROR   : secop_test_log.x.r3: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:50,918 : DEBUG   : secop_test_log.x.tt: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:50,918 : DEBUG   : secop_test_log.x.tt: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:50,918 : DEBUG   : secop_test_log.x.tt: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:50,918 : DEBUG   : secop_test_log.x.tt: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:50,918 : DEBUG   : secop_test_log.x.r4: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c10>>
+17:10:50,918 : DEBUG   : secop_test_log.x.r4: rfunc(excitation) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:50,919 : ERROR   : secop_test_log.x.r4: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:50,919 : DEBUG   : secop_test_log.x.mf: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:50,919 : DEBUG   : secop_test_log.x.mf: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:50,919 : DEBUG   : secop_test_log.x.mf: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:50,919 : DEBUG   : secop_test_log.x.mf: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:50,919 : DEBUG   : secop_test_log.x.v1: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e1ab10>>
+17:10:50,919 : DEBUG   : secop_test_log.x.v1: rfunc(current) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:50,919 : ERROR   : secop_test_log.x.v1: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:50,919 : DEBUG   : secop_test_log.x.pos: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:50,919 : DEBUG   : secop_test_log.x.pos: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:50,919 : DEBUG   : secop_test_log.x.pos: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:50,919 : DEBUG   : secop_test_log.x.pos: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:50,920 : DEBUG   : secop_test_log.x.v2: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e1ab10>>
+17:10:50,920 : DEBUG   : secop_test_log.x.v2: rfunc(current) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:50,920 : ERROR   : secop_test_log.x.v2: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:50,920 : DEBUG   : secop_test_log.x.lev: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e1e810>>
+17:10:50,920 : DEBUG   : secop_test_log.x.lev: rfunc(value) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:50,920 : ERROR   : secop_test_log.x.lev: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:50,920 : DEBUG   : secop_test_log.x.chamber: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c90>>
+17:10:50,920 : DEBUG   : secop_test_log.x.chamber: rfunc(value) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:50,920 : ERROR   : secop_test_log.x.chamber: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:50,920 : DEBUG   : secop_test_log.x.chamber: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:50,920 : DEBUG   : secop_test_log.x.chamber: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:50,921 : DEBUG   : secop_test_log.x.r1: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:50,921 : DEBUG   : secop_test_log.x.r1: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:50,921 : DEBUG   : secop_test_log.x.r1: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:50,921 : DEBUG   : secop_test_log.x.r1: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:50,921 : DEBUG   : secop_test_log.x.r2: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:50,921 : DEBUG   : secop_test_log.x.r2: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:50,921 : DEBUG   : secop_test_log.x.r2: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:50,921 : DEBUG   : secop_test_log.x.r2: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:50,921 : DEBUG   : secop_test_log.x.r3: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:50,921 : DEBUG   : secop_test_log.x.r3: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:50,921 : DEBUG   : secop_test_log.x.r3: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:50,921 : DEBUG   : secop_test_log.x.r3: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:50,921 : DEBUG   : secop_test_log.x.r4: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:50,921 : DEBUG   : secop_test_log.x.r4: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:50,921 : DEBUG   : secop_test_log.x.r4: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:50,921 : DEBUG   : secop_test_log.x.r4: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:50,922 : DEBUG   : secop_test_log.x.i1: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:50,922 : DEBUG   : secop_test_log.x.i1: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:50,922 : DEBUG   : secop_test_log.x.i1: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:50,922 : DEBUG   : secop_test_log.x.i1: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:50,922 : DEBUG   : secop_test_log.x.i2: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:50,922 : DEBUG   : secop_test_log.x.i2: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:50,922 : DEBUG   : secop_test_log.x.i2: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:50,922 : DEBUG   : secop_test_log.x.i2: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:50,922 : DEBUG   : secop_test_log.x.i3: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:50,922 : DEBUG   : secop_test_log.x.i3: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:50,922 : DEBUG   : secop_test_log.x.i3: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:50,922 : DEBUG   : secop_test_log.x.i3: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:50,922 : DEBUG   : secop_test_log.x.i4: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:50,922 : DEBUG   : secop_test_log.x.i4: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:50,922 : DEBUG   : secop_test_log.x.i4: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:50,922 : DEBUG   : secop_test_log.x.i4: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:50,922 : DEBUG   : secop_test_log.x.v1: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:50,923 : DEBUG   : secop_test_log.x.v1: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:50,923 : DEBUG   : secop_test_log.x.v1: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:50,923 : DEBUG   : secop_test_log.x.v1: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:50,923 : DEBUG   : secop_test_log.x.v2: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:50,923 : DEBUG   : secop_test_log.x.v2: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:50,923 : DEBUG   : secop_test_log.x.v2: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:50,923 : DEBUG   : secop_test_log.x.v2: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:50,923 : DEBUG   : secop_test_log.x.tv: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:50,923 : DEBUG   : secop_test_log.x.tv: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:50,923 : DEBUG   : secop_test_log.x.tv: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:50,923 : DEBUG   : secop_test_log.x.tv: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:50,923 : DEBUG   : secop_test_log.x.ts: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:50,923 : DEBUG   : secop_test_log.x.ts: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:50,923 : DEBUG   : secop_test_log.x.ts: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:50,923 : DEBUG   : secop_test_log.x.ts: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:51,916 : DEBUG   : secop_test_log.x.ppms: calling <function Main.read_data at 0x100e43ef0>
+17:10:51,916 : DEBUG   : secop_test_log.x.ppms: rfunc(data) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:51,917 : ERROR   : secop_test_log.x.ppms: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop_psi/ppms.py", line 117, in read_data
+    data = self.do_communicate('GETDAT? %d' % mask)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:53,921 : DEBUG   : secop_test_log.x.ppms: calling <function Main.read_data at 0x100e43ef0>
+17:10:53,921 : DEBUG   : secop_test_log.x.ppms: rfunc(data) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:53,922 : ERROR   : secop_test_log.x.ppms: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop_psi/ppms.py", line 117, in read_data
+    data = self.do_communicate('GETDAT? %d' % mask)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:55,900 : DEBUG   : secop_test_log.x.tt: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e6b950>>
+17:10:55,900 : DEBUG   : secop_test_log.x.tt: rfunc(setpoint) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:55,900 : ERROR   : secop_test_log.x.tt: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:55,913 : DEBUG   : secop_test_log.x.mf: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e6bb90>>
+17:10:55,914 : DEBUG   : secop_test_log.x.mf: rfunc(target) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:55,914 : ERROR   : secop_test_log.x.mf: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:55,914 : DEBUG   : secop_test_log.x.pos: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e7b590>>
+17:10:55,914 : DEBUG   : secop_test_log.x.pos: rfunc(target) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:55,914 : ERROR   : secop_test_log.x.pos: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:55,914 : DEBUG   : secop_test_log.x.r1: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c10>>
+17:10:55,914 : DEBUG   : secop_test_log.x.r1: rfunc(excitation) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:55,914 : ERROR   : secop_test_log.x.r1: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:55,915 : DEBUG   : secop_test_log.x.r2: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c10>>
+17:10:55,915 : DEBUG   : secop_test_log.x.r2: rfunc(excitation) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:55,915 : ERROR   : secop_test_log.x.r2: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:55,915 : DEBUG   : secop_test_log.x.r3: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c10>>
+17:10:55,915 : DEBUG   : secop_test_log.x.r3: rfunc(excitation) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:55,915 : ERROR   : secop_test_log.x.r3: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:55,915 : DEBUG   : secop_test_log.x.r4: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c10>>
+17:10:55,915 : DEBUG   : secop_test_log.x.r4: rfunc(excitation) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:55,915 : ERROR   : secop_test_log.x.r4: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:55,916 : DEBUG   : secop_test_log.x.v1: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e1ab10>>
+17:10:55,916 : DEBUG   : secop_test_log.x.v1: rfunc(current) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:55,916 : ERROR   : secop_test_log.x.v1: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:55,916 : DEBUG   : secop_test_log.x.ppms: calling <function Main.read_data at 0x100e43ef0>
+17:10:55,916 : DEBUG   : secop_test_log.x.ppms: rfunc(data) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:55,916 : ERROR   : secop_test_log.x.ppms: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop_psi/ppms.py", line 117, in read_data
+    data = self.do_communicate('GETDAT? %d' % mask)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:55,916 : DEBUG   : secop_test_log.x.v2: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e1ab10>>
+17:10:55,916 : DEBUG   : secop_test_log.x.v2: rfunc(current) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:55,916 : ERROR   : secop_test_log.x.v2: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:55,918 : DEBUG   : secop_test_log.x.tt: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:55,918 : DEBUG   : secop_test_log.x.tt: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:55,918 : DEBUG   : secop_test_log.x.tt: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:55,918 : DEBUG   : secop_test_log.x.tt: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:55,918 : DEBUG   : secop_test_log.x.mf: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:55,918 : DEBUG   : secop_test_log.x.mf: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:55,918 : DEBUG   : secop_test_log.x.mf: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:55,918 : DEBUG   : secop_test_log.x.mf: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:55,918 : DEBUG   : secop_test_log.x.pos: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:55,919 : DEBUG   : secop_test_log.x.pos: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:55,919 : DEBUG   : secop_test_log.x.pos: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:55,919 : DEBUG   : secop_test_log.x.pos: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:55,919 : DEBUG   : secop_test_log.x.lev: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e1e810>>
+17:10:55,919 : DEBUG   : secop_test_log.x.lev: rfunc(value) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:55,919 : ERROR   : secop_test_log.x.lev: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:55,919 : DEBUG   : secop_test_log.x.chamber: calling <bound method IOHandler.read of <secop_psi.ppms.IOHandler object at 0x100e60c90>>
+17:10:55,919 : DEBUG   : secop_test_log.x.chamber: rfunc(value) failed TypeError("communicate() missing 1 required positional argument: 'command'")
+17:10:55,919 : ERROR   : secop_test_log.x.chamber: Traceback (most recent call last):
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 538, in pollOneParam
+    result = getattr(self, 'read_' + pname)()
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/modules.py", line 171, in wrapped_rfunc
+    value = rfunc(self)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 274, in read
+    reply = self.send_command(module)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/iohandler.py", line 239, in send_command
+    reply = module.sendRecv(changecmd + querycmd)
+  File "/Users/zolliker/switchdrive/gitpsi/frappy/secop/stringio.py", line 255, in sendRecv
+    return self._iodev.communicate(command)
+TypeError: communicate() missing 1 required positional argument: 'command'
+
+17:10:55,919 : DEBUG   : secop_test_log.x.chamber: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:55,919 : DEBUG   : secop_test_log.x.chamber: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:55,919 : DEBUG   : secop_test_log.x.r1: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:55,920 : DEBUG   : secop_test_log.x.r1: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:55,920 : DEBUG   : secop_test_log.x.r1: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:55,920 : DEBUG   : secop_test_log.x.r1: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:55,920 : DEBUG   : secop_test_log.x.r2: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:55,920 : DEBUG   : secop_test_log.x.r2: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:55,920 : DEBUG   : secop_test_log.x.r2: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:55,920 : DEBUG   : secop_test_log.x.r2: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:55,920 : DEBUG   : secop_test_log.x.r3: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:55,920 : DEBUG   : secop_test_log.x.r3: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:55,920 : DEBUG   : secop_test_log.x.r3: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:55,920 : DEBUG   : secop_test_log.x.r3: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:55,920 : DEBUG   : secop_test_log.x.r4: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:55,920 : DEBUG   : secop_test_log.x.r4: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:55,920 : DEBUG   : secop_test_log.x.r4: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:55,920 : DEBUG   : secop_test_log.x.r4: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:55,920 : DEBUG   : secop_test_log.x.i1: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:55,920 : DEBUG   : secop_test_log.x.i1: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:55,921 : DEBUG   : secop_test_log.x.i1: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:55,921 : DEBUG   : secop_test_log.x.i1: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:55,921 : DEBUG   : secop_test_log.x.i2: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:55,921 : DEBUG   : secop_test_log.x.i2: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:55,921 : DEBUG   : secop_test_log.x.i2: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:55,921 : DEBUG   : secop_test_log.x.i2: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:55,921 : DEBUG   : secop_test_log.x.i3: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:55,921 : DEBUG   : secop_test_log.x.i3: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:55,921 : DEBUG   : secop_test_log.x.i3: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:55,921 : DEBUG   : secop_test_log.x.i3: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:55,921 : DEBUG   : secop_test_log.x.i4: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:55,921 : DEBUG   : secop_test_log.x.i4: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:55,921 : DEBUG   : secop_test_log.x.i4: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:55,921 : DEBUG   : secop_test_log.x.i4: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:55,921 : DEBUG   : secop_test_log.x.v1: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:55,922 : DEBUG   : secop_test_log.x.v1: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:55,922 : DEBUG   : secop_test_log.x.v1: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:55,922 : DEBUG   : secop_test_log.x.v1: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:55,922 : DEBUG   : secop_test_log.x.v2: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:55,922 : DEBUG   : secop_test_log.x.v2: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:55,922 : DEBUG   : secop_test_log.x.v2: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:55,922 : DEBUG   : secop_test_log.x.v2: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:55,922 : DEBUG   : secop_test_log.x.tv: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:55,922 : DEBUG   : secop_test_log.x.tv: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:55,923 : DEBUG   : secop_test_log.x.tv: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:55,923 : DEBUG   : secop_test_log.x.tv: rfunc(status) returned <class 'secop.modules.Done'>
+17:10:55,923 : DEBUG   : secop_test_log.x.ts: calling <function PpmsMixin.read_value at 0x100e5ecb0>
+17:10:55,923 : DEBUG   : secop_test_log.x.ts: rfunc(value) returned <class 'secop.modules.Done'>
+17:10:55,923 : DEBUG   : secop_test_log.x.ts: calling <function PpmsMixin.read_status at 0x100e5ed40>
+17:10:55,923 : DEBUG   : secop_test_log.x.ts: rfunc(status) returned <class 'secop.modules.Done'>
+17:11:27,784 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+17:14:02,103 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+17:14:19,897 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+17:14:19,943 : INFO    : secop_test_log.x: registering module 'tt'
+17:14:19,943 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Temp object at 0x10c7ec3d0> as tt (export=True)
+17:14:19,943 : DEBUG   : secop_test_log.x.tt: empty Temp.earlyInit()
+17:14:19,943 : INFO    : secop_test_log.x: registering module 'mf'
+17:14:19,943 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Field object at 0x10c7d11d0> as mf (export=True)
+17:14:19,943 : DEBUG   : secop_test_log.x.mf: empty Field.earlyInit()
+17:14:19,943 : INFO    : secop_test_log.x: registering module 'pos'
+17:14:19,943 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Position object at 0x10c7c2b10> as pos (export=True)
+17:14:19,944 : DEBUG   : secop_test_log.x.pos: empty Position.earlyInit()
+17:14:19,944 : INFO    : secop_test_log.x: registering module 'lev'
+17:14:19,944 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Level object at 0x10c84cb90> as lev (export=True)
+17:14:19,944 : DEBUG   : secop_test_log.x.lev: empty Level.earlyInit()
+17:14:19,944 : INFO    : secop_test_log.x: registering module 'chamber'
+17:14:19,944 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Chamber object at 0x10c84ced0> as chamber (export=True)
+17:14:19,944 : DEBUG   : secop_test_log.x.chamber: empty Chamber.earlyInit()
+17:14:19,944 : INFO    : secop_test_log.x: registering module 'r1'
+17:14:19,944 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10c8152d0> as r1 (export=True)
+17:14:19,944 : DEBUG   : secop_test_log.x.r1: empty BridgeChannel.earlyInit()
+17:14:19,944 : INFO    : secop_test_log.x: registering module 'r2'
+17:14:19,944 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10c85e510> as r2 (export=True)
+17:14:19,945 : DEBUG   : secop_test_log.x.r2: empty BridgeChannel.earlyInit()
+17:14:19,945 : INFO    : secop_test_log.x: registering module 'r3'
+17:14:19,945 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10c867650> as r3 (export=True)
+17:14:19,945 : DEBUG   : secop_test_log.x.r3: empty BridgeChannel.earlyInit()
+17:14:19,945 : INFO    : secop_test_log.x: registering module 'r4'
+17:14:19,945 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10c86e1d0> as r4 (export=True)
+17:14:19,945 : DEBUG   : secop_test_log.x.r4: empty BridgeChannel.earlyInit()
+17:14:19,945 : INFO    : secop_test_log.x: registering module 'i1'
+17:14:19,945 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10c86ecd0> as i1 (export=True)
+17:14:19,945 : DEBUG   : secop_test_log.x.i1: empty Channel.earlyInit()
+17:14:19,946 : INFO    : secop_test_log.x: registering module 'i2'
+17:14:19,946 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10c876190> as i2 (export=True)
+17:14:19,946 : DEBUG   : secop_test_log.x.i2: empty Channel.earlyInit()
+17:14:19,946 : INFO    : secop_test_log.x: registering module 'i3'
+17:14:19,946 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10c876250> as i3 (export=True)
+17:14:19,946 : DEBUG   : secop_test_log.x.i3: empty Channel.earlyInit()
+17:14:19,946 : INFO    : secop_test_log.x: registering module 'i4'
+17:14:19,946 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10c8766d0> as i4 (export=True)
+17:14:19,946 : DEBUG   : secop_test_log.x.i4: empty Channel.earlyInit()
+17:14:19,946 : INFO    : secop_test_log.x: registering module 'v1'
+17:14:19,946 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x10c876ed0> as v1 (export=True)
+17:14:19,947 : DEBUG   : secop_test_log.x.v1: empty DriverChannel.earlyInit()
+17:14:19,947 : INFO    : secop_test_log.x: registering module 'v2'
+17:14:19,947 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x10c87f550> as v2 (export=True)
+17:14:19,947 : DEBUG   : secop_test_log.x.v2: empty DriverChannel.earlyInit()
+17:14:19,947 : INFO    : secop_test_log.x: registering module 'tv'
+17:14:19,947 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x10c87f790> as tv (export=True)
+17:14:19,947 : DEBUG   : secop_test_log.x.tv: empty UserChannel.earlyInit()
+17:14:19,947 : INFO    : secop_test_log.x: registering module 'ts'
+17:14:19,947 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x10c888190> as ts (export=True)
+17:14:19,947 : DEBUG   : secop_test_log.x.ts: empty UserChannel.earlyInit()
+17:14:19,947 : INFO    : secop_test_log.x: registering module 'ppms'
+17:14:19,947 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Main object at 0x10c8885d0> as ppms (export=True)
+17:14:19,947 : DEBUG   : secop_test_log.x.ppms: empty Main.initModule()
+17:16:04,715 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+17:16:04,755 : INFO    : secop_test_log.x: registering module 'tt'
+17:16:04,755 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Temp object at 0x103914590> as tt (export=True)
+17:16:04,755 : DEBUG   : secop_test_log.x.tt: empty Temp.earlyInit()
+17:16:04,755 : INFO    : secop_test_log.x: registering module 'mf'
+17:16:04,755 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Field object at 0x1038f9910> as mf (export=True)
+17:16:04,755 : DEBUG   : secop_test_log.x.mf: empty Field.earlyInit()
+17:16:04,755 : INFO    : secop_test_log.x: registering module 'pos'
+17:16:04,755 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Position object at 0x10393f450> as pos (export=True)
+17:16:04,755 : DEBUG   : secop_test_log.x.pos: empty Position.earlyInit()
+17:16:04,755 : INFO    : secop_test_log.x: registering module 'lev'
+17:16:04,755 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Level object at 0x103973c50> as lev (export=True)
+17:16:04,756 : DEBUG   : secop_test_log.x.lev: empty Level.earlyInit()
+17:16:04,756 : INFO    : secop_test_log.x: registering module 'chamber'
+17:16:04,756 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Chamber object at 0x1039630d0> as chamber (export=True)
+17:16:04,756 : DEBUG   : secop_test_log.x.chamber: empty Chamber.earlyInit()
+17:16:04,756 : INFO    : secop_test_log.x: registering module 'r1'
+17:16:04,756 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x103987710> as r1 (export=True)
+17:16:04,756 : DEBUG   : secop_test_log.x.r1: empty BridgeChannel.earlyInit()
+17:16:04,756 : INFO    : secop_test_log.x: registering module 'r2'
+17:16:04,756 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x103987590> as r2 (export=True)
+17:16:04,756 : DEBUG   : secop_test_log.x.r2: empty BridgeChannel.earlyInit()
+17:16:04,756 : INFO    : secop_test_log.x: registering module 'r3'
+17:16:04,756 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10398e710> as r3 (export=True)
+17:16:04,756 : DEBUG   : secop_test_log.x.r3: empty BridgeChannel.earlyInit()
+17:16:04,756 : INFO    : secop_test_log.x: registering module 'r4'
+17:16:04,757 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x1039970d0> as r4 (export=True)
+17:16:04,757 : DEBUG   : secop_test_log.x.r4: empty BridgeChannel.earlyInit()
+17:16:04,757 : INFO    : secop_test_log.x: registering module 'i1'
+17:16:04,757 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x103997d90> as i1 (export=True)
+17:16:04,757 : DEBUG   : secop_test_log.x.i1: empty Channel.earlyInit()
+17:16:04,757 : INFO    : secop_test_log.x: registering module 'i2'
+17:16:04,757 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10399f250> as i2 (export=True)
+17:16:04,757 : DEBUG   : secop_test_log.x.i2: empty Channel.earlyInit()
+17:16:04,757 : INFO    : secop_test_log.x: registering module 'i3'
+17:16:04,757 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10399f310> as i3 (export=True)
+17:16:04,757 : DEBUG   : secop_test_log.x.i3: empty Channel.earlyInit()
+17:16:04,757 : INFO    : secop_test_log.x: registering module 'i4'
+17:16:04,757 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x103955b10> as i4 (export=True)
+17:16:04,757 : DEBUG   : secop_test_log.x.i4: empty Channel.earlyInit()
+17:16:04,757 : INFO    : secop_test_log.x: registering module 'v1'
+17:16:04,758 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x1039a8090> as v1 (export=True)
+17:16:04,758 : DEBUG   : secop_test_log.x.v1: empty DriverChannel.earlyInit()
+17:16:04,758 : INFO    : secop_test_log.x: registering module 'v2'
+17:16:04,758 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x1039a85d0> as v2 (export=True)
+17:16:04,758 : DEBUG   : secop_test_log.x.v2: empty DriverChannel.earlyInit()
+17:16:04,758 : INFO    : secop_test_log.x: registering module 'tv'
+17:16:04,758 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x1039a8810> as tv (export=True)
+17:16:04,758 : DEBUG   : secop_test_log.x.tv: empty UserChannel.earlyInit()
+17:16:04,758 : INFO    : secop_test_log.x: registering module 'ts'
+17:16:04,759 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x1039b1210> as ts (export=True)
+17:16:04,759 : DEBUG   : secop_test_log.x.ts: empty UserChannel.earlyInit()
+17:16:04,759 : INFO    : secop_test_log.x: registering module 'ppms'
+17:16:04,759 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Main object at 0x1039b1650> as ppms (export=True)
+17:16:04,759 : DEBUG   : secop_test_log.x.ppms: empty Main.initModule()
+17:19:25,107 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+17:19:25,144 : INFO    : secop_test_log.x: registering module 'tt'
+17:19:25,144 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Temp object at 0x10f71a590> as tt (export=True)
+17:19:25,144 : DEBUG   : secop_test_log.x.tt: empty Temp.earlyInit()
+17:19:25,144 : INFO    : secop_test_log.x: registering module 'mf'
+17:19:25,144 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Field object at 0x10f710250> as mf (export=True)
+17:19:25,144 : DEBUG   : secop_test_log.x.mf: empty Field.earlyInit()
+17:19:25,144 : INFO    : secop_test_log.x: registering module 'pos'
+17:19:25,144 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Position object at 0x10f6c2ed0> as pos (export=True)
+17:19:25,145 : DEBUG   : secop_test_log.x.pos: empty Position.earlyInit()
+17:19:25,145 : INFO    : secop_test_log.x: registering module 'lev'
+17:19:25,145 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Level object at 0x10f770c10> as lev (export=True)
+17:19:25,145 : DEBUG   : secop_test_log.x.lev: empty Level.earlyInit()
+17:19:25,145 : INFO    : secop_test_log.x: registering module 'chamber'
+17:19:25,145 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Chamber object at 0x10f770f50> as chamber (export=True)
+17:19:25,145 : DEBUG   : secop_test_log.x.chamber: empty Chamber.earlyInit()
+17:19:25,145 : INFO    : secop_test_log.x: registering module 'r1'
+17:19:25,145 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10f785710> as r1 (export=True)
+17:19:25,145 : DEBUG   : secop_test_log.x.r1: empty BridgeChannel.earlyInit()
+17:19:25,145 : INFO    : secop_test_log.x: registering module 'r2'
+17:19:25,145 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10f785590> as r2 (export=True)
+17:19:25,145 : DEBUG   : secop_test_log.x.r2: empty BridgeChannel.earlyInit()
+17:19:25,145 : INFO    : secop_test_log.x: registering module 'r3'
+17:19:25,146 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10f78d710> as r3 (export=True)
+17:19:25,146 : DEBUG   : secop_test_log.x.r3: empty BridgeChannel.earlyInit()
+17:19:25,146 : INFO    : secop_test_log.x: registering module 'r4'
+17:19:25,146 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10f795110> as r4 (export=True)
+17:19:25,146 : DEBUG   : secop_test_log.x.r4: empty BridgeChannel.earlyInit()
+17:19:25,146 : INFO    : secop_test_log.x: registering module 'i1'
+17:19:25,146 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10f795dd0> as i1 (export=True)
+17:19:25,146 : DEBUG   : secop_test_log.x.i1: empty Channel.earlyInit()
+17:19:25,146 : INFO    : secop_test_log.x: registering module 'i2'
+17:19:25,146 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10f79d290> as i2 (export=True)
+17:19:25,146 : DEBUG   : secop_test_log.x.i2: empty Channel.earlyInit()
+17:19:25,146 : INFO    : secop_test_log.x: registering module 'i3'
+17:19:25,146 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10f761c10> as i3 (export=True)
+17:19:25,146 : DEBUG   : secop_test_log.x.i3: empty Channel.earlyInit()
+17:19:25,146 : INFO    : secop_test_log.x: registering module 'i4'
+17:19:25,147 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10f79d7d0> as i4 (export=True)
+17:19:25,147 : DEBUG   : secop_test_log.x.i4: empty Channel.earlyInit()
+17:19:25,147 : INFO    : secop_test_log.x: registering module 'v1'
+17:19:25,147 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x10f7a60d0> as v1 (export=True)
+17:19:25,147 : DEBUG   : secop_test_log.x.v1: empty DriverChannel.earlyInit()
+17:19:25,147 : INFO    : secop_test_log.x: registering module 'v2'
+17:19:25,147 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x10f7a6190> as v2 (export=True)
+17:19:25,147 : DEBUG   : secop_test_log.x.v2: empty DriverChannel.earlyInit()
+17:19:25,147 : INFO    : secop_test_log.x: registering module 'tv'
+17:19:25,147 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x10f7a6810> as tv (export=True)
+17:19:25,147 : DEBUG   : secop_test_log.x.tv: empty UserChannel.earlyInit()
+17:19:25,147 : INFO    : secop_test_log.x: registering module 'ts'
+17:19:25,147 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x10f7af210> as ts (export=True)
+17:19:25,147 : DEBUG   : secop_test_log.x.ts: empty UserChannel.earlyInit()
+17:19:25,147 : INFO    : secop_test_log.x: registering module 'ppms'
+17:19:25,148 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Main object at 0x10f7af650> as ppms (export=True)
+17:19:25,148 : DEBUG   : secop_test_log.x.ppms: empty Main.initModule()
+17:20:37,112 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+17:20:37,150 : INFO    : secop_test_log.x: registering module 'tt'
+17:20:37,150 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Temp object at 0x101dde610> as tt (export=True)
+17:20:37,150 : DEBUG   : secop_test_log.x.tt: empty Temp.earlyInit()
+17:20:37,150 : INFO    : secop_test_log.x: registering module 'mf'
+17:20:37,150 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Field object at 0x101dc21d0> as mf (export=True)
+17:20:37,150 : DEBUG   : secop_test_log.x.mf: empty Field.earlyInit()
+17:20:37,150 : INFO    : secop_test_log.x: registering module 'pos'
+17:20:37,150 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Position object at 0x101d86f90> as pos (export=True)
+17:20:37,150 : DEBUG   : secop_test_log.x.pos: empty Position.earlyInit()
+17:20:37,150 : INFO    : secop_test_log.x: registering module 'lev'
+17:20:37,150 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Level object at 0x101e3ec10> as lev (export=True)
+17:20:37,151 : DEBUG   : secop_test_log.x.lev: empty Level.earlyInit()
+17:20:37,151 : INFO    : secop_test_log.x: registering module 'chamber'
+17:20:37,151 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Chamber object at 0x101e3ef50> as chamber (export=True)
+17:20:37,151 : DEBUG   : secop_test_log.x.chamber: empty Chamber.earlyInit()
+17:20:37,151 : INFO    : secop_test_log.x: registering module 'r1'
+17:20:37,151 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x101e51710> as r1 (export=True)
+17:20:37,151 : DEBUG   : secop_test_log.x.r1: empty BridgeChannel.earlyInit()
+17:20:37,151 : INFO    : secop_test_log.x: registering module 'r2'
+17:20:37,151 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x101e51590> as r2 (export=True)
+17:20:37,152 : DEBUG   : secop_test_log.x.r2: empty BridgeChannel.earlyInit()
+17:20:37,152 : INFO    : secop_test_log.x: registering module 'r3'
+17:20:37,152 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x101e59710> as r3 (export=True)
+17:20:37,152 : DEBUG   : secop_test_log.x.r3: empty BridgeChannel.earlyInit()
+17:20:37,152 : INFO    : secop_test_log.x: registering module 'r4'
+17:20:37,152 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x101e61110> as r4 (export=True)
+17:20:37,152 : DEBUG   : secop_test_log.x.r4: empty BridgeChannel.earlyInit()
+17:20:37,152 : INFO    : secop_test_log.x: registering module 'i1'
+17:20:37,152 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x101e61dd0> as i1 (export=True)
+17:20:37,152 : DEBUG   : secop_test_log.x.i1: empty Channel.earlyInit()
+17:20:37,152 : INFO    : secop_test_log.x: registering module 'i2'
+17:20:37,152 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x101e69290> as i2 (export=True)
+17:20:37,153 : DEBUG   : secop_test_log.x.i2: empty Channel.earlyInit()
+17:20:37,153 : INFO    : secop_test_log.x: registering module 'i3'
+17:20:37,153 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x101e69350> as i3 (export=True)
+17:20:37,153 : DEBUG   : secop_test_log.x.i3: empty Channel.earlyInit()
+17:20:37,153 : INFO    : secop_test_log.x: registering module 'i4'
+17:20:37,153 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x101e697d0> as i4 (export=True)
+17:20:37,153 : DEBUG   : secop_test_log.x.i4: empty Channel.earlyInit()
+17:20:37,153 : INFO    : secop_test_log.x: registering module 'v1'
+17:20:37,153 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x101e72050> as v1 (export=True)
+17:20:37,153 : DEBUG   : secop_test_log.x.v1: empty DriverChannel.earlyInit()
+17:20:37,153 : INFO    : secop_test_log.x: registering module 'v2'
+17:20:37,153 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x101e72650> as v2 (export=True)
+17:20:37,153 : DEBUG   : secop_test_log.x.v2: empty DriverChannel.earlyInit()
+17:20:37,154 : INFO    : secop_test_log.x: registering module 'tv'
+17:20:37,154 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x101e72890> as tv (export=True)
+17:20:37,154 : DEBUG   : secop_test_log.x.tv: empty UserChannel.earlyInit()
+17:20:37,154 : INFO    : secop_test_log.x: registering module 'ts'
+17:20:37,154 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x101e7b290> as ts (export=True)
+17:20:37,154 : DEBUG   : secop_test_log.x.ts: empty UserChannel.earlyInit()
+17:20:37,154 : INFO    : secop_test_log.x: registering module 'ppms'
+17:20:37,154 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Main object at 0x101e3ea90> as ppms (export=True)
+17:20:37,154 : DEBUG   : secop_test_log.x.ppms: empty Main.initModule()
+17:21:12,410 : DEBUG   : secop_test_log.x.ppms: TEMP?|200,1,0
+17:21:28,178 : DEBUG   : secop_test_log.x.ppms: TEMP?|200,1,0
+17:23:46,365 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+17:23:46,406 : INFO    : secop_test_log.x: registering module 'tt'
+17:23:46,406 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Temp object at 0x1077b25d0> as tt (export=True)
+17:23:46,407 : DEBUG   : secop_test_log.x.tt: empty Temp.earlyInit()
+17:23:46,407 : INFO    : secop_test_log.x: registering module 'mf'
+17:23:46,407 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Field object at 0x1077975d0> as mf (export=True)
+17:23:46,407 : DEBUG   : secop_test_log.x.mf: empty Field.earlyInit()
+17:23:46,407 : INFO    : secop_test_log.x: registering module 'pos'
+17:23:46,407 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Position object at 0x10775be50> as pos (export=True)
+17:23:46,407 : DEBUG   : secop_test_log.x.pos: empty Position.earlyInit()
+17:23:46,407 : INFO    : secop_test_log.x: registering module 'lev'
+17:23:46,407 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Level object at 0x107808c90> as lev (export=True)
+17:23:46,407 : DEBUG   : secop_test_log.x.lev: empty Level.earlyInit()
+17:23:46,407 : INFO    : secop_test_log.x: registering module 'chamber'
+17:23:46,408 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Chamber object at 0x107808fd0> as chamber (export=True)
+17:23:46,408 : DEBUG   : secop_test_log.x.chamber: empty Chamber.earlyInit()
+17:23:46,408 : INFO    : secop_test_log.x: registering module 'r1'
+17:23:46,408 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10781d790> as r1 (export=True)
+17:23:46,408 : DEBUG   : secop_test_log.x.r1: empty BridgeChannel.earlyInit()
+17:23:46,408 : INFO    : secop_test_log.x: registering module 'r2'
+17:23:46,408 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10781d610> as r2 (export=True)
+17:23:46,408 : DEBUG   : secop_test_log.x.r2: empty BridgeChannel.earlyInit()
+17:23:46,408 : INFO    : secop_test_log.x: registering module 'r3'
+17:23:46,408 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x107825790> as r3 (export=True)
+17:23:46,409 : DEBUG   : secop_test_log.x.r3: empty BridgeChannel.earlyInit()
+17:23:46,409 : INFO    : secop_test_log.x: registering module 'r4'
+17:23:46,409 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10782d150> as r4 (export=True)
+17:23:46,409 : DEBUG   : secop_test_log.x.r4: empty BridgeChannel.earlyInit()
+17:23:46,409 : INFO    : secop_test_log.x: registering module 'i1'
+17:23:46,409 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10782de10> as i1 (export=True)
+17:23:46,409 : DEBUG   : secop_test_log.x.i1: empty Channel.earlyInit()
+17:23:46,409 : INFO    : secop_test_log.x: registering module 'i2'
+17:23:46,409 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x107835250> as i2 (export=True)
+17:23:46,409 : DEBUG   : secop_test_log.x.i2: empty Channel.earlyInit()
+17:23:46,409 : INFO    : secop_test_log.x: registering module 'i3'
+17:23:46,409 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x1077db390> as i3 (export=True)
+17:23:46,409 : DEBUG   : secop_test_log.x.i3: empty Channel.earlyInit()
+17:23:46,410 : INFO    : secop_test_log.x: registering module 'i4'
+17:23:46,410 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x107835b10> as i4 (export=True)
+17:23:46,410 : DEBUG   : secop_test_log.x.i4: empty Channel.earlyInit()
+17:23:46,410 : INFO    : secop_test_log.x: registering module 'v1'
+17:23:46,410 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x10783e0d0> as v1 (export=True)
+17:23:46,410 : DEBUG   : secop_test_log.x.v1: empty DriverChannel.earlyInit()
+17:23:46,410 : INFO    : secop_test_log.x: registering module 'v2'
+17:23:46,410 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x10775bf10> as v2 (export=True)
+17:23:46,410 : DEBUG   : secop_test_log.x.v2: empty DriverChannel.earlyInit()
+17:23:46,410 : INFO    : secop_test_log.x: registering module 'tv'
+17:23:46,410 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x10783e810> as tv (export=True)
+17:23:46,410 : DEBUG   : secop_test_log.x.tv: empty UserChannel.earlyInit()
+17:23:46,410 : INFO    : secop_test_log.x: registering module 'ts'
+17:23:46,410 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x107847210> as ts (export=True)
+17:23:46,410 : DEBUG   : secop_test_log.x.ts: empty UserChannel.earlyInit()
+17:23:46,411 : INFO    : secop_test_log.x: registering module 'ppms'
+17:23:46,411 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Main object at 0x107847650> as ppms (export=True)
+17:23:46,411 : DEBUG   : secop_test_log.x.ppms: empty Main.initModule()
+17:23:49,418 : DEBUG   : secop_test_log.x.ppms: TEMP?|200,1,0
+17:24:33,110 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+17:24:33,151 : INFO    : secop_test_log.x: registering module 'tt'
+17:24:33,151 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Temp object at 0x1096e4490> as tt (export=True)
+17:24:33,151 : DEBUG   : secop_test_log.x.tt: empty Temp.earlyInit()
+17:24:33,151 : INFO    : secop_test_log.x: registering module 'mf'
+17:24:33,151 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Field object at 0x1096c9810> as mf (export=True)
+17:24:33,151 : DEBUG   : secop_test_log.x.mf: empty Field.earlyInit()
+17:24:33,151 : INFO    : secop_test_log.x: registering module 'pos'
+17:24:33,151 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Position object at 0x10968be50> as pos (export=True)
+17:24:33,152 : DEBUG   : secop_test_log.x.pos: empty Position.earlyInit()
+17:24:33,152 : INFO    : secop_test_log.x: registering module 'lev'
+17:24:33,152 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Level object at 0x109743c10> as lev (export=True)
+17:24:33,152 : DEBUG   : secop_test_log.x.lev: empty Level.earlyInit()
+17:24:33,152 : INFO    : secop_test_log.x: registering module 'chamber'
+17:24:33,152 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Chamber object at 0x109743f50> as chamber (export=True)
+17:24:33,152 : DEBUG   : secop_test_log.x.chamber: empty Chamber.earlyInit()
+17:24:33,152 : INFO    : secop_test_log.x: registering module 'r1'
+17:24:33,152 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x109756710> as r1 (export=True)
+17:24:33,152 : DEBUG   : secop_test_log.x.r1: empty BridgeChannel.earlyInit()
+17:24:33,152 : INFO    : secop_test_log.x: registering module 'r2'
+17:24:33,152 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x109756590> as r2 (export=True)
+17:24:33,152 : DEBUG   : secop_test_log.x.r2: empty BridgeChannel.earlyInit()
+17:24:33,152 : INFO    : secop_test_log.x: registering module 'r3'
+17:24:33,153 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10975e710> as r3 (export=True)
+17:24:33,153 : DEBUG   : secop_test_log.x.r3: empty BridgeChannel.earlyInit()
+17:24:33,153 : INFO    : secop_test_log.x: registering module 'r4'
+17:24:33,153 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x1097660d0> as r4 (export=True)
+17:24:33,153 : DEBUG   : secop_test_log.x.r4: empty BridgeChannel.earlyInit()
+17:24:33,153 : INFO    : secop_test_log.x: registering module 'i1'
+17:24:33,153 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x109419c90> as i1 (export=True)
+17:24:33,153 : DEBUG   : secop_test_log.x.i1: empty Channel.earlyInit()
+17:24:33,153 : INFO    : secop_test_log.x: registering module 'i2'
+17:24:33,153 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10970dc90> as i2 (export=True)
+17:24:33,153 : DEBUG   : secop_test_log.x.i2: empty Channel.earlyInit()
+17:24:33,153 : INFO    : secop_test_log.x: registering module 'i3'
+17:24:33,153 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x109163490> as i3 (export=True)
+17:24:33,153 : DEBUG   : secop_test_log.x.i3: empty Channel.earlyInit()
+17:24:33,153 : INFO    : secop_test_log.x: registering module 'i4'
+17:24:33,153 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10976e710> as i4 (export=True)
+17:24:33,154 : DEBUG   : secop_test_log.x.i4: empty Channel.earlyInit()
+17:24:33,154 : INFO    : secop_test_log.x: registering module 'v1'
+17:24:33,154 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x10976eed0> as v1 (export=True)
+17:24:33,154 : DEBUG   : secop_test_log.x.v1: empty DriverChannel.earlyInit()
+17:24:33,154 : INFO    : secop_test_log.x: registering module 'v2'
+17:24:33,154 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x109777550> as v2 (export=True)
+17:24:33,154 : DEBUG   : secop_test_log.x.v2: empty DriverChannel.earlyInit()
+17:24:33,154 : INFO    : secop_test_log.x: registering module 'tv'
+17:24:33,154 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x109777790> as tv (export=True)
+17:24:33,154 : DEBUG   : secop_test_log.x.tv: empty UserChannel.earlyInit()
+17:24:33,154 : INFO    : secop_test_log.x: registering module 'ts'
+17:24:33,154 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x109780190> as ts (export=True)
+17:24:33,154 : DEBUG   : secop_test_log.x.ts: empty UserChannel.earlyInit()
+17:24:33,154 : INFO    : secop_test_log.x: registering module 'ppms'
+17:24:33,154 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Main object at 0x1097805d0> as ppms (export=True)
+17:24:33,155 : DEBUG   : secop_test_log.x.ppms: empty Main.initModule()
+17:48:02,224 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+17:48:02,279 : INFO    : secop_test_log.x: registering module 'tt'
+17:48:02,279 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Temp object at 0x10fce1510> as tt (export=True)
+17:48:02,279 : DEBUG   : secop_test_log.x.tt: empty Temp.earlyInit()
+17:48:02,279 : INFO    : secop_test_log.x: registering module 'mf'
+17:48:02,280 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Field object at 0x10fcc7610> as mf (export=True)
+17:48:02,280 : DEBUG   : secop_test_log.x.mf: empty Field.earlyInit()
+17:48:02,280 : INFO    : secop_test_log.x: registering module 'pos'
+17:48:02,280 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Position object at 0x10fc89e90> as pos (export=True)
+17:48:02,280 : DEBUG   : secop_test_log.x.pos: empty Position.earlyInit()
+17:48:02,280 : INFO    : secop_test_log.x: registering module 'lev'
+17:48:02,280 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Level object at 0x10fd41c90> as lev (export=True)
+17:48:02,280 : DEBUG   : secop_test_log.x.lev: empty Level.earlyInit()
+17:48:02,280 : INFO    : secop_test_log.x: registering module 'chamber'
+17:48:02,280 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Chamber object at 0x10fd41fd0> as chamber (export=True)
+17:48:02,280 : DEBUG   : secop_test_log.x.chamber: empty Chamber.earlyInit()
+17:48:02,281 : INFO    : secop_test_log.x: registering module 'r1'
+17:48:02,281 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10fd54790> as r1 (export=True)
+17:48:02,281 : DEBUG   : secop_test_log.x.r1: empty BridgeChannel.earlyInit()
+17:48:02,281 : INFO    : secop_test_log.x: registering module 'r2'
+17:48:02,281 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10fd54610> as r2 (export=True)
+17:48:02,281 : DEBUG   : secop_test_log.x.r2: empty BridgeChannel.earlyInit()
+17:48:02,281 : INFO    : secop_test_log.x: registering module 'r3'
+17:48:02,281 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10fd5c790> as r3 (export=True)
+17:48:02,281 : DEBUG   : secop_test_log.x.r3: empty BridgeChannel.earlyInit()
+17:48:02,281 : INFO    : secop_test_log.x: registering module 'r4'
+17:48:02,281 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10fd64150> as r4 (export=True)
+17:48:02,282 : DEBUG   : secop_test_log.x.r4: empty BridgeChannel.earlyInit()
+17:48:02,282 : INFO    : secop_test_log.x: registering module 'i1'
+17:48:02,282 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10fd64e10> as i1 (export=True)
+17:48:02,282 : DEBUG   : secop_test_log.x.i1: empty Channel.earlyInit()
+17:48:02,282 : INFO    : secop_test_log.x: registering module 'i2'
+17:48:02,282 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10fd6c2d0> as i2 (export=True)
+17:48:02,282 : DEBUG   : secop_test_log.x.i2: empty Channel.earlyInit()
+17:48:02,282 : INFO    : secop_test_log.x: registering module 'i3'
+17:48:02,282 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10fd41b10> as i3 (export=True)
+17:48:02,282 : DEBUG   : secop_test_log.x.i3: empty Channel.earlyInit()
+17:48:02,282 : INFO    : secop_test_log.x: registering module 'i4'
+17:48:02,282 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10fd6c810> as i4 (export=True)
+17:48:02,282 : DEBUG   : secop_test_log.x.i4: empty Channel.earlyInit()
+17:48:02,283 : INFO    : secop_test_log.x: registering module 'v1'
+17:48:02,283 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x10fd75050> as v1 (export=True)
+17:48:02,283 : DEBUG   : secop_test_log.x.v1: empty DriverChannel.earlyInit()
+17:48:02,283 : INFO    : secop_test_log.x: registering module 'v2'
+17:48:02,283 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x10fd6cfd0> as v2 (export=True)
+17:48:02,283 : DEBUG   : secop_test_log.x.v2: empty DriverChannel.earlyInit()
+17:48:02,283 : INFO    : secop_test_log.x: registering module 'tv'
+17:48:02,283 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x10fd01250> as tv (export=True)
+17:48:02,283 : DEBUG   : secop_test_log.x.tv: empty UserChannel.earlyInit()
+17:48:02,283 : INFO    : secop_test_log.x: registering module 'ts'
+17:48:02,283 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x10fd7e210> as ts (export=True)
+17:48:02,283 : DEBUG   : secop_test_log.x.ts: empty UserChannel.earlyInit()
+17:48:02,284 : INFO    : secop_test_log.x: registering module 'ppms'
+17:48:02,284 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Main object at 0x10fd7e650> as ppms (export=True)
+17:48:02,284 : DEBUG   : secop_test_log.x.ppms: empty Main.initModule()
+17:49:24,608 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/ppmssim.cfg ...
+17:49:24,644 : INFO    : secop_test_log.x: registering module 'tt'
+17:49:24,644 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Temp object at 0x10e2a4510> as tt (export=True)
+17:49:24,644 : DEBUG   : secop_test_log.x.tt: empty Temp.earlyInit()
+17:49:24,644 : INFO    : secop_test_log.x: registering module 'mf'
+17:49:24,645 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Field object at 0x10e28a610> as mf (export=True)
+17:49:24,645 : DEBUG   : secop_test_log.x.mf: empty Field.earlyInit()
+17:49:24,645 : INFO    : secop_test_log.x: registering module 'pos'
+17:49:24,645 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Position object at 0x10e24ce90> as pos (export=True)
+17:49:24,645 : DEBUG   : secop_test_log.x.pos: empty Position.earlyInit()
+17:49:24,645 : INFO    : secop_test_log.x: registering module 'lev'
+17:49:24,645 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Level object at 0x10e304c50> as lev (export=True)
+17:49:24,645 : DEBUG   : secop_test_log.x.lev: empty Level.earlyInit()
+17:49:24,645 : INFO    : secop_test_log.x: registering module 'chamber'
+17:49:24,645 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Chamber object at 0x10e304f90> as chamber (export=True)
+17:49:24,645 : DEBUG   : secop_test_log.x.chamber: empty Chamber.earlyInit()
+17:49:24,646 : INFO    : secop_test_log.x: registering module 'r1'
+17:49:24,646 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10e317750> as r1 (export=True)
+17:49:24,646 : DEBUG   : secop_test_log.x.r1: empty BridgeChannel.earlyInit()
+17:49:24,646 : INFO    : secop_test_log.x: registering module 'r2'
+17:49:24,646 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10e3175d0> as r2 (export=True)
+17:49:24,646 : DEBUG   : secop_test_log.x.r2: empty BridgeChannel.earlyInit()
+17:49:24,646 : INFO    : secop_test_log.x: registering module 'r3'
+17:49:24,646 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10e31f750> as r3 (export=True)
+17:49:24,646 : DEBUG   : secop_test_log.x.r3: empty BridgeChannel.earlyInit()
+17:49:24,647 : INFO    : secop_test_log.x: registering module 'r4'
+17:49:24,647 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.BridgeChannel object at 0x10e327110> as r4 (export=True)
+17:49:24,647 : DEBUG   : secop_test_log.x.r4: empty BridgeChannel.earlyInit()
+17:49:24,647 : INFO    : secop_test_log.x: registering module 'i1'
+17:49:24,647 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10e2f3090> as i1 (export=True)
+17:49:24,647 : DEBUG   : secop_test_log.x.i1: empty Channel.earlyInit()
+17:49:24,647 : INFO    : secop_test_log.x: registering module 'i2'
+17:49:24,647 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10e32f250> as i2 (export=True)
+17:49:24,647 : DEBUG   : secop_test_log.x.i2: empty Channel.earlyInit()
+17:49:24,647 : INFO    : secop_test_log.x: registering module 'i3'
+17:49:24,647 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10e32f310> as i3 (export=True)
+17:49:24,647 : DEBUG   : secop_test_log.x.i3: empty Channel.earlyInit()
+17:49:24,647 : INFO    : secop_test_log.x: registering module 'i4'
+17:49:24,647 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Channel object at 0x10e32f790> as i4 (export=True)
+17:49:24,648 : DEBUG   : secop_test_log.x.i4: empty Channel.earlyInit()
+17:49:24,648 : INFO    : secop_test_log.x: registering module 'v1'
+17:49:24,648 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x10e3380d0> as v1 (export=True)
+17:49:24,648 : DEBUG   : secop_test_log.x.v1: empty DriverChannel.earlyInit()
+17:49:24,648 : INFO    : secop_test_log.x: registering module 'v2'
+17:49:24,648 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.DriverChannel object at 0x10e338610> as v2 (export=True)
+17:49:24,648 : DEBUG   : secop_test_log.x.v2: empty DriverChannel.earlyInit()
+17:49:24,648 : INFO    : secop_test_log.x: registering module 'tv'
+17:49:24,648 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x10e338850> as tv (export=True)
+17:49:24,648 : DEBUG   : secop_test_log.x.tv: empty UserChannel.earlyInit()
+17:49:24,648 : INFO    : secop_test_log.x: registering module 'ts'
+17:49:24,648 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.UserChannel object at 0x10e341250> as ts (export=True)
+17:49:24,648 : DEBUG   : secop_test_log.x.ts: empty UserChannel.earlyInit()
+17:49:24,648 : INFO    : secop_test_log.x: registering module 'ppms'
+17:49:24,648 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.ppms.Main object at 0x10e341690> as ppms (export=True)
+17:49:24,649 : DEBUG   : secop_test_log.x.ppms: empty Main.initModule()

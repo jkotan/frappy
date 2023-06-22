@@ -1,0 +1,3 @@
+["ultrasound", [{"path": "", "type": "text", "readonly": false, "cmd": "ultrasound", "kids": 2},
+{"path": "send", "type": "text", "readonly": false, "cmd": "ultrasound send", "visibility": 3},
+{"path": "status", "type": "text", "visibility": 3}]]

@@ -1,0 +1,8 @@
+#!/bin/tcsh
+foreach fil (*.inp)
+  set u=${fil:au:r}
+  if (-e $u.340) then
+    # rm $fil
+    echo "$fil $u.340"
+  endif
+end

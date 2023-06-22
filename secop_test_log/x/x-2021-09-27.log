@@ -1,0 +1,66 @@
+15:12:08,657 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/sim_uniax.cfg ...
+15:12:08,896 : INFO    : secop_test_log.x: registering module 'drv'
+15:12:08,896 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop.properties.SimBase_drv object at 0x10115d190> as drv (export=True)
+15:12:08,896 : DEBUG   : secop_test_log.x.drv: empty SimBase_drv.earlyInit()
+15:12:08,896 : INFO    : secop_test_log.x: registering module 'force'
+15:12:08,896 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.simdpm.DPM3 object at 0x101163550> as force (export=True)
+15:12:08,896 : DEBUG   : secop_test_log.x.force: empty DPM3.earlyInit()
+15:12:08,897 : INFO    : secop_test_log.x: registering module 'res'
+15:12:08,897 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop.properties.SimBase_res object at 0x1014d4850> as res (export=True)
+15:12:08,897 : DEBUG   : secop_test_log.x.res: empty SimBase_res.earlyInit()
+15:12:08,897 : INFO    : secop_test_log.x: registering module 'T'
+15:12:08,897 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.softcal.Sensor object at 0x1014d4bd0> as T (export=True)
+15:12:08,897 : DEBUG   : secop_test_log.x.T: empty Sensor.earlyInit()
+15:12:08,898 : DEBUG   : secop_test_log.x.force: empty DPM3.initModule()
+15:13:01,530 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/sim_uniax.cfg ...
+15:13:01,758 : INFO    : secop_test_log.x: registering module 'drv'
+15:13:01,758 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop.properties.SimBase_drv object at 0x10b799fd0> as drv (export=True)
+15:13:01,758 : DEBUG   : secop_test_log.x.drv: empty SimBase_drv.earlyInit()
+15:13:01,758 : INFO    : secop_test_log.x: registering module 'force'
+15:13:01,758 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.simdpm.DPM3 object at 0x10b88cc10> as force (export=True)
+15:13:01,758 : DEBUG   : secop_test_log.x.force: empty DPM3.earlyInit()
+15:13:01,759 : INFO    : secop_test_log.x: registering module 'res'
+15:13:01,759 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop.properties.SimBase_res object at 0x10bc03710> as res (export=True)
+15:13:01,759 : DEBUG   : secop_test_log.x.res: empty SimBase_res.earlyInit()
+15:13:01,759 : INFO    : secop_test_log.x: registering module 'T'
+15:13:01,759 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.softcal.Sensor object at 0x10b892450> as T (export=True)
+15:13:01,759 : DEBUG   : secop_test_log.x.T: empty Sensor.earlyInit()
+15:13:01,760 : DEBUG   : secop_test_log.x.force: empty DPM3.initModule()
+15:14:43,364 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/sim_uniax.cfg ...
+15:14:43,589 : INFO    : secop_test_log.x: registering module 'drv'
+15:14:43,589 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop.properties.SimBase_drv object at 0x1091c7c90> as drv (export=True)
+15:14:43,590 : DEBUG   : secop_test_log.x.drv: empty SimBase_drv.earlyInit()
+15:14:43,590 : INFO    : secop_test_log.x: registering module 'force'
+15:14:43,590 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.simdpm.DPM3 object at 0x10932a410> as force (export=True)
+15:14:43,590 : DEBUG   : secop_test_log.x.force: empty DPM3.earlyInit()
+15:14:43,590 : INFO    : secop_test_log.x: registering module 'res'
+15:14:43,590 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop.properties.SimBase_res object at 0x10969b750> as res (export=True)
+15:14:43,590 : DEBUG   : secop_test_log.x.res: empty SimBase_res.earlyInit()
+15:14:43,591 : INFO    : secop_test_log.x: registering module 'T'
+15:14:43,591 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.softcal.Sensor object at 0x10969bad0> as T (export=True)
+15:14:43,591 : DEBUG   : secop_test_log.x.T: empty Sensor.earlyInit()
+15:14:43,591 : DEBUG   : secop_test_log.x.force: empty DPM3.initModule()
+15:15:55,205 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('drv')
+15:15:55,206 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module drv -> OrderedDict([('value', {'datainfo': {'type': 'double'}, 'description': 'current value of the module', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('pollinterval', {'datainfo': {'max': 120.0, 'min': 0.1, 'type': 'double'}, 'description': 'sleeptime between polls', 'readonly': False}), ('target', {'datainfo': {'type': 'double'}, 'description': 'target value of the module', 'readonly': False}), ('stop', {'datainfo': {'type': 'command'}, 'description': 'cease driving, go to IDLE state'}), ('_speed', {'datainfo': {'type': 'double'}, 'description': 'extra_param: speed', 'readonly': True})])
+15:15:55,207 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('force')
+15:15:55,208 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module force -> OrderedDict([('value', {'datainfo': {'unit': 'N', 'type': 'double'}, 'description': 'current value of the module', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'BUSY': 300, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('pollinterval', {'datainfo': {'max': 120.0, 'min': 0.1, 'type': 'double'}, 'description': 'sleeptime between polls', 'readonly': False}), ('target', {'datainfo': {'unit': 'N', 'type': 'double'}, 'description': 'target value of the module', 'readonly': False}), ('stop', {'datainfo': {'type': 'command'}, 'description': 'cease driving, go to IDLE state'}), ('_digits', {'datainfo': {'max': 5, 'min': 0, 'type': 'int'}, 'description': 'number of digits for value', 'readonly': False}), ('_step', {'datainfo': {'unit': 'deg', 'type': 'double'}, 'description': 'maximum motor step', 'readonly': False}), ('_offset', {'datainfo': {'max': 100000.0, 'min': -100000.0, 'type': 'double'}, 'description': '', 'readonly': False}), ('_scale_factor', {'datainfo': {'max': 100000.0, 'min': -100000.0, 'unit': 'input_units/N', 'type': 'double'}, 'description': '', 'readonly': False}), ('_jitter', {'datainfo': {'unit': 'N', 'type': 'double'}, 'description': 'simulated jitter', 'readonly': False}), ('_hysteresis', {'datainfo': {'unit': 'deg', 'type': 'double'}, 'description': 'simulated hysteresis', 'readonly': False}), ('_friction', {'datainfo': {'unit': 'N/deg', 'type': 'double'}, 'description': 'friction', 'readonly': False}), ('_slope', {'datainfo': {'unit': 'N/deg', 'type': 'double'}, 'description': 'slope', 'readonly': False})])
+15:15:55,208 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('res')
+15:15:55,208 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module res -> OrderedDict([('value', {'datainfo': {'unit': 'Ohm', 'type': 'double'}, 'description': 'current value of the module', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('pollinterval', {'datainfo': {'max': 120.0, 'min': 0.1, 'type': 'double'}, 'description': 'sleeptime between polls', 'readonly': False}), ('_jitter', {'datainfo': {'type': 'double'}, 'description': 'extra_param: jitter', 'readonly': True})])
+15:15:55,209 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('T')
+15:15:55,209 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module T -> OrderedDict([('value', {'datainfo': {'unit': 'K', 'type': 'double'}, 'description': 'current value of the module', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('_calib', {'datainfo': {'type': 'string'}, 'description': 'calibration name', 'readonly': False}), ('_abs', {'datainfo': {'type': 'bool'}, 'description': 'True: take abs(raw) before calib', 'readonly': False})])
+15:17:49,751 : DEBUG   : secop_test_log.x.dispatcher: export_accessibles('drv')
+15:17:49,752 : DEBUG   : secop_test_log.x.dispatcher: list accessibles for module drv -> OrderedDict([('value', {'datainfo': {'type': 'double'}, 'description': 'current value of the module', 'readonly': True}), ('status', {'datainfo': {'type': 'tuple', 'members': [{'type': 'enum', 'members': {'DISABLED': 0, 'IDLE': 100, 'WARN': 200, 'UNSTABLE': 270, 'ERROR': 400, 'UNKNOWN': 401}}, {'type': 'string'}]}, 'description': 'current status of the module', 'readonly': True}), ('pollinterval', {'datainfo': {'max': 120.0, 'min': 0.1, 'type': 'double'}, 'description': 'sleeptime between polls', 'readonly': False}), ('target', {'datainfo': {'type': 'double'}, 'description': 'target value of the module', 'readonly': False}), ('stop', {'datainfo': {'type': 'command'}, 'description': 'cease driving, go to IDLE state'}), ('_speed', {'datainfo': {'type': 'double'}, 'description': 'extra_param: speed', 'readonly': True})])
+16:45:06,596 : DEBUG   : secop_test_log.x: Parse config file /Users/zolliker/switchdrive/gitpsi/frappy/cfg/sim_uniax.cfg ...
+16:45:07,048 : INFO    : secop_test_log.x: registering module 'drv'
+16:45:07,048 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop.properties.SimBase_drv object at 0x1077fbc90> as drv (export=True)
+16:45:07,048 : DEBUG   : secop_test_log.x.drv: empty SimBase_drv.earlyInit()
+16:45:07,049 : INFO    : secop_test_log.x: registering module 'force'
+16:45:07,049 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.simdpm.DPM3 object at 0x1078a4b90> as force (export=True)
+16:45:07,049 : DEBUG   : secop_test_log.x.force: empty DPM3.earlyInit()
+16:45:07,049 : INFO    : secop_test_log.x: registering module 'res'
+16:45:07,049 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop.properties.SimBase_res object at 0x107be7e90> as res (export=True)
+16:45:07,050 : DEBUG   : secop_test_log.x.res: empty SimBase_res.earlyInit()
+16:45:07,050 : INFO    : secop_test_log.x: registering module 'T'
+16:45:07,050 : DEBUG   : secop_test_log.x.dispatcher: registering module <secop_psi.softcal.Sensor object at 0x107bf1190> as T (export=True)
+16:45:07,050 : DEBUG   : secop_test_log.x.T: empty Sensor.earlyInit()
+16:45:07,051 : DEBUG   : secop_test_log.x.force: empty DPM3.initModule()

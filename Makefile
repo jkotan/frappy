@@ -3,18 +3,12 @@
 
 all: clean doc
 
-# Make spawns a new shell for each command.
-# Save each PID in temporary file
-# sleep in order for "test" to have started reliably
 demo:
-	@rm -f frappydemo.PID || true
-	@{ bin/frappy-server -q demo & echo $$! >> frappydemo.PID; }
-	@{ bin/frappy-server -q test & echo $$! >> frappydemo.PID; }
-	@{ bin/frappy-server -q cryo & echo $$! >> frappydemo.PID; }
-	@sleep 0.2 
-	@bin/frappy-gui localhost:10767 localhost:10768 localhost:10769
-	@cat frappydemo.PID | xargs kill || true
-	@rm frappydemo.PID
+	@bin/secop-server -q demo &
+	@bin/secop-server -q test &
+	@bin/secop-server -q cryo &
+	@bin/secop-gui localhost:10767 localhost:10768 localhost:10769
+	@ps aux|grep [s]ecop-server|awk '{print $$2}'|xargs kill
 
 build:
 	python3 setup.py build
@@ -38,18 +32,18 @@ test-verbose:
 	python3 $(shell which pytest) -v test -s
 
 test-coverage:
-	python3 $(shell which pytest) -v test --cov=frappy
+	python3 $(shell which pytest) -v test --cov=secop
 
 doc:
 	$(MAKE) -C doc html
 
 lint:
-	pylint -f colorized -r n --rcfile=.pylintrc frappy frappy_* test
+	pylint -j 0 -f colorized -r n --rcfile=.pylintrc secop secop_* test
 
 isort:
 	@find test -name '*.py' -print0 | xargs -0 isort -e -m 2 -w 80 -ns __init__.py
-	@find frappy -name '*.py' -print0 | xargs -0 isort -e -m 2 -w 80 -ns __init__.py
-	@find . -wholename './frappy_*.py' -print0 | xargs -0 isort -e -m 2 -w 80 -ns __init__.py
+	@find secop -name '*.py' -print0 | xargs -0 isort -e -m 2 -w 80 -ns __init__.py
+	@find . -wholename './secop_*.py' -print0 | xargs -0 isort -e -m 2 -w 80 -ns __init__.py
 
 release-patch:
 	MODE="patch" $(MAKE) release
@@ -61,8 +55,8 @@ release-major:
 	MODE="major" $(MAKE) release
 
 release:
-	ssh jenkins.admin.frm2.tum.de -p 29417 build -v -s -p GERRIT_PROJECT=$(shell git config --get remote.origin.url | rev | cut -d '/' -f -2 | rev) -p ARCH=all -p MODE=$(MODE) ReleasePipeline
+	ssh jenkinsng.admin.frm2 -p 29417 build -v -s -p GERRIT_PROJECT=$(shell git config --get remote.origin.url | rev | cut -d '/' -f -3 | rev) -p ARCH=all -p MODE=$(MODE) ReleasePipeline
 
 
 build-pkg:
-	debocker build --image docker.ictrl.frm2.tum.de:5443/mlzbase/buster
+	debocker build --image jenkinsng.admin.frm2:5000/mlzbase/buster
